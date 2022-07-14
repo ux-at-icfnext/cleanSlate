@@ -1,0 +1,35 @@
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    .card{
+        margin: 10px;
+        padding: 10px;
+        width:300px;
+        height: auto;
+        border: 5px solid $gray-90;
+        border-radius: 25px;
+        h4, p, a{
+            text-align: center;
+        }
+        //mobile
+        @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+            width: 100%;
+        }
+    }
+    //mobile
+    @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}
+.read-more{
+    background-color: $gray-90;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    &:hover{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,24 @@
+  -
+    title: "Styles"
+    url: "/styles/"
+    categories: "styles"
+  -
+    title: "Patterns"
+    url: "/patterns/"
+    categories: "patterns"
+  -
+    title: "Templates"
+    url: "/templates/"
+    categories: "templates"
+  -
+    title: "Guidance"
+    url: "/guidance/"
+    categories: "guidance"
+  -
+    title: "Prototype"
+    url: "/prototype/"
+    categories: "prototype"
+  -
+    title: "About"
+    url: "/about/"
+    categories: "about"

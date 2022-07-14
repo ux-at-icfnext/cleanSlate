@@ -1,0 +1,103 @@
+---
+layout: left-rail
+---
+<h1>{{ page.title }}</h1>
+
+<h4>Contents:</h4>
+<ul>
+    {% if page.htmlpath or page.designimg %}
+        <li><a href="#design">Design</a></li>
+    {% endif %}
+    {% if page.description %}
+        <li><a href="#desc">Description</a></li>
+    {% endif %}
+    {% if page.specification or page.schema %}
+        <li><a href="#specs">Specifications</a></li>
+    {% endif %}
+    {% if page.htmlpath or page.csspath %}
+        <li><a href="#code">Code Examples</a></li>
+    {% endif %}
+</ul>
+
+
+{% if page.htmlpath %}
+    <a name="design"></a>
+    <div class="design-preview">
+        {% include {{ page.htmlpath | liquify }} %}
+    </div>
+{% elsif  page.designimg %}
+    <a name="design"></a>
+    <div class="design-preview">
+        <img src="{{ page.designimg }}">
+    </div>
+{% endif %}
+
+
+
+{% if page.description %}
+    <a name="#desc"></a>
+    <h3>Description</h3>
+    {{ page.description | markdownify }}
+{% endif %}
+
+{% if page.specification or page.schema %}
+    <a name="#specs"></a>
+    <h3>Specifications</h3>
+    {% if page.specification %}
+        {{ page.specification | markdownify}}
+    {% endif %}
+{% endif %}
+
+
+
+{% if page.schema %}
+    <table>
+        <thead>
+            <tr>
+                <th>field name</th>
+                <th>field type</th>
+                <th>class name</th>
+                <th>required</th>
+                <th>content rules</th>
+                <th>example content</th>
+                <th>notes</th>
+            </tr>
+        </thead>
+        {% for spec in page.schema %}
+            <tr>
+                <td>{{ spec.fieldname }} </td>
+                <td>{{ spec.type }}</td>
+                <td>{{ spec.class }}</td>
+                <td>{{ spec.required }}</td>
+                <td>{{ spec.content }}</td>
+                <td>{{ spec.example }}</td>
+                <td>{{ spec.notes }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endif %}
+
+<div class="page-content">{{ page.content }}</div>
+
+{% if page.htmlpath or page.csspath %}
+    <a name="#code"></a>
+    <h3>Code Examples</h3>
+{% endif %}
+
+{% if page.htmlpath %}
+       {% highlight html %} 
+            {% include {{ page.htmlpath | liquify }} %}
+        {% endhighlight %}
+{% endif %}
+
+
+{% if page.csspath %}
+       {% highlight css %} 
+            {% include {{ page.csspath | liquify }} %}
+        {% endhighlight %}
+{% endif %}
+
+
+{% if page.parent %}
+   <p class="margin-20"> <a href="/{{page.parent}}"> <i class="fas fa-arrow-left"></i> Return to pattern parent</a></p>
+{% endif %}

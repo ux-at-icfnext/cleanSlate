@@ -1,0 +1,41 @@
+.header-container{
+    display: flex;
+    background-color: $header-footer-background-color;
+    padding: 15px;
+    position: fixed;
+    min-height: 80px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.logo-title{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    @media (max-width: $grid-md-max){  //USWDS tablet large breakpoint (880px)
+        font-size: 12px;
+    }
+}
+.text-style{
+    color: $inkcolor;
+    text-decoration: none; 
+}
+.logo-header{
+    width: 150px;
+    height: 48px;
+    margin-top: 15px; 
+    @media (max-width: $grid-md-max){  //USWDS tablet large breakpoint (880px)
+        width: 100px;
+        height: 28px;
+        margin-top: 20px; 
+    }
+}
+.title{
+    text-decoration: none;
+    color: $inkcolor;
+    font-size: 28px;
+    &:hover{
+        cursor: pointer;
+    }
+}

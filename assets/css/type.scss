@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+$title-font: {{ site.data.type.title }};
+$body-font: {{ site.data.type.body }};
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $title-font;
+    a{
+        font-family: $title-font;
+        &:hover{
+            color: $inkcolor;
+            text-decoration: none;
+        }
+    }
+}
+p{
+    font-family: $body-font;
+}
+h1{
+    text-align: center;
+
+}
+
+a{
+    font-family: $body-font;
+    color: $inkcolor;
+    text-decoration: none;
+    &:hover {
+        color: $linkcolor;
+        text-decoration: underline;
+    }
+}
+ul{
+    font-family: $body-font;
+}
+ol{
+    font-family: $body-font;
+}
+
+// body {
+//     font-family: $body-font;
+//     font-size: 1rem;
+//     font-weight: 400;
+//     color: $inkcolor;
+//     line-height: 1.25rem;
+// }
+
+// h1, h2, h3, h4, h5, h6, p {
+//     padding: 0;
+//     margin: 0;
+// }
+// h1 {
+//     font-family: $title-font;
+//     font-size: 3rem;
+//     line-height: 3.5rem;
+//     @media (min-width: $grid-md-max){
+//         font-size: 4rem;
+//         line-height: 4.5rem;
+//     }
+//     margin: 2rem 0 2rem 0;
+// }
+
+// h2{
+//     font-family: $title-font;
+//     font-size: 2.75rem;
+//     line-height: 3rem;
+//     @media (min-width: $grid-md-max){
+//         font-size: 3.5rem;
+//         line-height: 3.75rem;
+//     }
+//     margin: 2rem 0 2rem 0;
+// }
+
+// h3 {
+//     font-family: $title-font;
+//     font-size: 2rem;
+//     line-height: 2.25rem;
+//     @media (min-width: $grid-md-max){
+//         font-size: 2.75rem;
+//         line-height: 3rem;
+//     }
+//     margin: 2rem 0 2rem 0;
+// }
+
+// h4 {
+//     font-family: $body-font;
+//     font-size: 1.5rem;
+//     font-weight: 700;
+//     line-height: 1.75rem;
+//     margin-bottom: 2rem;
+// }
+
+// .intro {
+//     font-family: $body-font;
+//     font-size: 1.25rem;
+//     font-weight: 700;
+//     line-height: 1.75rem;
+//     margin-bottom: 2rem;
+// }
+
+// p {
+//     max-width: 80px;
+//     margin-bottom: 1rem;
+// }
+
+// a {
+//     color: $linkcolor;
+//     text-decoration: underline;
+//     &:hover {
+//         color: $gray-50;
+//         text-decoration: none;
+//     }
+// }
+
+// .giant-text {
+// 	// this is deskstop size... needs mobile (used on typography page)
+//     font-size: 9.32rem;
+// 	line-height: 9.8rem;
+// }
+// .small-text {
+//     font-family: $body-font;
+//     font-size: .75rem;
+// }
+
+// .italic {
+//     font-style: italic;
+// }
+
+// ul, ol {
+//     font-family: $body-font;
+//     margin-left: 2rem;
+// }

@@ -1,0 +1,29 @@
+$grid-sm-min: 320px;
+$grid-sm-max: 480px;
+$grid-md-min: 640px;
+$grid-md-max: 880px;
+$grid-lg-min: 1024px;
+$grid-lg-max: 1200px;
+$grid-xl-max: 1400px;
+
+.container {
+    max-width: 98%;
+    margin: auto;
+    @media screen and (min-width: $grid-xl-max) {
+        max-width: 75%;
+    }
+}
+.content{
+    margin: 20px;
+    margin-top: 160px;  
+}
+.content-flex{
+    display: flex;  
+}
+.text{
+    width: 90%;
+    padding: 20px;
+}
+.full-text{
+    width: 100%;
+}

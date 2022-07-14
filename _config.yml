@@ -1,0 +1,38 @@
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "assets/img/icons"
+    values:
+      icon: true
+  - scope:
+      path: "" # an empty string means all files in the project
+      type: "pages"
+    values:
+      layout: default
+
+plugins:
+  - jekyll-last-modified-at
+  - jekyll-postcss
+  - jekyll-autoprefixer
+
+# Enable safe mode
+safe: safe
+
+whitelist:
+  - jekyll-last-modified-at
+  - liquify_filter.rb
+
+include:
+- _pages
+
+# Access snippet of a post's content 
+excerpt_separator: <!--more-->
+
+sass:
+  style: compressed
+  autoprefixer:
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%b-%d-%y'

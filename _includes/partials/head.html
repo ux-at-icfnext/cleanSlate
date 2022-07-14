@@ -1,0 +1,16 @@
+<head>
+    <title>
+        {% if page.url == "/" %}
+            {{ page.subtitle }}:
+        {% elsif page.title %}
+            {{ page.title }}:
+        {% endif %}
+        {% if site.data.config.sitetitle %}
+            {{ site.data.config.sitetitle }}
+        {% endif %} 
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type ="text/css"href="{{site.baseurl}}/assets/css/styles.css"></link>
+    <link rel="icon" href="/assets/img/icons/sample-favicon.jpeg">
+</head>

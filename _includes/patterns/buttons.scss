@@ -1,0 +1,50 @@
+//default functionality and style 
+#button-prototype{
+    width: 200px;
+    height: 50px;
+    border-radius: 2px;
+    margin: 0 auto;
+    &:hover{
+        opacity: 0.2;
+        cursor: pointer;
+    }
+
+}
+
+//classes that can be applied to modify the color of the button (editable by the user in the UI)
+.default-color{ 
+    background-color: black;
+    color: white;
+}
+.paper{
+    background-color: $papercolor;
+    color: $inkcolor;
+}
+.ink{
+    background-color: $inkcolor;
+    color: $inversecolor;
+}
+.inverse{
+    background-color: $inversecolor;
+    color: $inkcolor;
+}
+.primary{
+    background-color: $primarycolor;
+    color: $inversecolor;
+}
+.secondary{
+    background-color: $secondarycolor;
+    color: $inversecolor;
+}
+.accent{
+    background-color: $accentcolor;
+    color: $inkcolor;
+}
+.link{
+    background-color: $linkcolor;
+    color: $inversecolor;
+}
+.grays{
+    background-color: $grays;
+    color: $inversecolor;
+}
