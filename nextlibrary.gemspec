@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
     spec.name          = "Nex+ Library"
-    spec.version       = "0.1.0"
+    spec.version       = "1.0.0"
     spec.authors       = ["dara", "demars", "tiffany", "peyton"]
     spec.email         = ["dara.pressley@icfnext.com", "demars.berhe@icfnext.com", "tiffany.scott@icfnext.com", "peyton.stewart@icfnext.com"]
   
