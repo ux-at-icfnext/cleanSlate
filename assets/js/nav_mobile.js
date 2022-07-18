@@ -58,10 +58,14 @@ const mobileMenu = ()=>{
     document.querySelector("body").classList.toggle("scroll");   
 }
 //expand mobile menu when mobile menu icon or "Menu" text is selected
-mobileMenuLabel.addEventListener("click", mobileMenu);
+if(mobileMenuLabel){
+    mobileMenuLabel.addEventListener("click", mobileMenu);
+}
 
 //collapse mobile menu when exit icon or "Exit" text is selected
-exitMobileMenuLabel.addEventListener("click", mobileMenu);
+if(exitMobileMenuLabel){
+    exitMobileMenuLabel.addEventListener("click", mobileMenu);
+}
 
 // remove mobile menu when window has been resized to desktop mode
 window.addEventListener("resize", ()=>{
