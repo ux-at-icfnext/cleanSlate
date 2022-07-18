@@ -1,0 +1,13 @@
+{% if item.url == page.url %}
+    <a href="{{item.url}}">
+        <div class="current left-rail-item">
+            {{item.title}}
+        </div>
+    </a>
+{% else %}
+    <a href="{{item.url}}">
+        <div class="left-rail-item">
+            {{item.title}}
+        </div>
+    </a>
+{% endif %}

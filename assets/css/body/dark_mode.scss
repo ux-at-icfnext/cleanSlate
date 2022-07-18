@@ -3,9 +3,10 @@
     color: white;
     a{
         color: white;
-        &:hover{
-            color: white;
-        }
+    }
+    .title:hover{
+        color: white;
+
     }
     .left-rail-item, .left-rail-title{
         border-color: $gray-80;
@@ -19,7 +20,7 @@
     .menu-icon, .exit-button, .expand-mobile-nav, .collapse-mobile-nav, #light{
         fill: white;
     }
-    .left-nav-item:hover{
+    .left-rail-item:hover{
         color: black;
         text-decoration: underline;
         background-color: $gray-80;
@@ -50,15 +51,13 @@
     width: 20px;
     height: 20px;
     position: fixed;
-    top: 50;
+    top: 70;
     right: 10;
     &:hover{
         cursor: pointer;
     }
     @media (max-width: $grid-md-max){
-        top: 40;
+        top: 60;
         right: 70;
-        width: 25px;
-        height: 25px;
     }
 }

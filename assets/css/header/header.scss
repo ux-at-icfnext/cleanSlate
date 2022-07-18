@@ -8,34 +8,28 @@
     z-index: 1;
     top: 0;
 }
-
 .logo-title{
     display: flex;
-    justify-content: flex-start;
-    padding: 10px;
-    @media (max-width: $grid-md-max){  //USWDS tablet large breakpoint (880px)
-        font-size: 12px;
-    }
-}
-.text-style{
-    color: $inkcolor;
-    text-decoration: none; 
-}
-.logo-header{
-    width: 150px;
-    height: 48px;
-    margin-top: 15px; 
-    @media (max-width: $grid-md-max){  //USWDS tablet large breakpoint (880px)
-        width: 100px;
-        height: 28px;
-        margin-top: 20px; 
-    }
+    img{
+        height: 38px;
+        margin-top: 47px; 
+    } 
 }
 .title{
-    text-decoration: none;
-    color: $inkcolor;
-    font-size: 28px;
+    margin-top: 42px;
     &:hover{
         cursor: pointer;
+        color: $inkcolor;
     }
+    @media (max-width: $grid-md-max){  //USWDS tablet large breakpoint (880px)
+        margin-top: 48px; 
+    }
+    a{
+        text-decoration: none;
+        color: $inkcolor;
+        font-size: 28px;
+        @media (max-width: $grid-md-max){  //USWDS tablet large breakpoint (880px)
+            font-size: 25px; 
+        }
+    }  
 }

@@ -17,3 +17,15 @@ layout: left-rail
 <h3>Details</h3>
 <p>{{page.details}}</p>
 {{content | markdownify}}
+{% if page.type contains "sub-nav-item" %}
+    <div class="card-container">
+        {% if site.pages %} 
+        {% assign sortedCards = site.pages | sort: "title" %}
+            {% for item in sortedCards %}
+                {% if page.categories[1] == item.categories[1] and item.type contains "detail-page" %}
+                    {% include partials/card.html %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </div>    
+{% endif %}
