@@ -3,7 +3,7 @@ layout: template
 categories: [templates, template-page]
 type: [detail-page]
 title: Detail Page
-permalink: /templates/template-page/detail-page/
+permalink: /templates/template-page/detail-page-2-template-page/
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 design-file-xl: https://i.picsum.photos/id/1048/5616/3744.jpg?hmac=N5TZKe4gtmf4hU8xRs-zbS4diYiO009Jni7n50609zk
 design-file-xl-alt: Design File size xl image
