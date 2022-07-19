@@ -23,5 +23,5 @@ uswds.paths.dist.js = './assets/uswds/dist/js';
  * Add as many as you need
  */
  exports.init = uswds.init; //initialize design system on the project; command: npx gulp init
- exports.copyAll = uswds.copyAll;
+ exports.copyAll = uswds.copyAll; // copy all files
  exports.compile = uswds.compile; // compile sass files; command: npx gulp compile
