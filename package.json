@@ -4,7 +4,7 @@
   "description": "1. Install ruby and ruby gems on local:     - Ruby 2.6.3     - Ruby Gem 3.0.3         - Recommendation: Install a ruby gems bundler that will allow for you to install the specific version of ruby needed for your project and manage ruby versions on your computer (ex. chruby and ruby-installer)             - Chruby and ruby-installer set-up documentation: https://mac.install.guide/ruby/12.html 2. Clone GitHub Repository      - git clone https://github.com/ux-at-icfnext/next.git     - cd PROJECT_NAME     - Within the project folder, run command \"bundle install\" to install the project gems and plug-ins  3. Start local server: - ./start.sh",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx gulp copyAll && npx gulp compile && bundle exec jekyll build"
   },
   "repository": {
     "type": "git",
