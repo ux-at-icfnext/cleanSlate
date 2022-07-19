@@ -10,7 +10,6 @@ if(darkIcon){
         localStorage.setItem("darkMode", "active");
     })
 }
-
 if(lightIcon){
     lightIcon.addEventListener("click",()=>{
         darkIcon.classList.remove("hidden");
@@ -18,7 +17,6 @@ if(lightIcon){
         page.classList.remove("dark-mode");
         localStorage.setItem("darkMode", "inactive");  
     })
-
 }
 if(darkIcon){
     if(localStorage.getItem("darkMode")== "active"){

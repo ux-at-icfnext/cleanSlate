@@ -31,8 +31,12 @@
             {% include partials/lib/footer.html %}
         {% endif %}
         <script src="https://kit.fontawesome.com/7f6845086e.js" crossorigin="anonymous"></script>
-        <script src="{{site.baseurl}}/assets/js/nav_mobile.js"></script>
-        <script src="{{site.baseurl}}/assets/js/template_img.js"></script>
-        <script src="{{site.baseurl}}/assets/js/dark_light_mode.js"></script>
+        {% if page.type contains "prototype" %}
+            <script src="{{site.baseurl}}/assets/uswds/dist/js/uswds.min.js"></script>
+        {% else %}
+            <script src="{{site.baseurl}}/assets/js/nav_mobile.js"></script>
+            <script src="{{site.baseurl}}/assets/js/template_img.js"></script>
+            <script src="{{site.baseurl}}/assets/js/dark_light_mode.js"></script>
+        {% endif %}
     </body>
 </html>
