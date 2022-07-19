@@ -18,6 +18,7 @@ Icon
 
 # Node modules
 node_modules/
+/assets/uswds
 
 # Thumbnails
 ._*
