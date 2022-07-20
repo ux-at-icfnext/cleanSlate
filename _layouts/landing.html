@@ -5,7 +5,7 @@ layout: full-width
     {% if site.pages %} 
         {% assign sortedCards = site.pages | sort: "title" %}
         {% for item in sortedCards %}
-            {% if page.categories[0] == "templates" or page.categories[0] == "prototype"  %}
+            {% if page.categories[0] == "templates" or page.categories[0] == "prototype" or page.categories[0] == "patterns" %}
                 {% if page.categories[0] == item.categories[0] and page.url != item.url and item.type contains "sub-nav-item" %}
                     {% include partials/card.html %}
                 {% endif %}
