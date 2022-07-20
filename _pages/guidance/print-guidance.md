@@ -5,12 +5,39 @@ title: Print Guidance
 type: [sub-nav-item]
 permalink: /guidance/print-guidance/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Interdum consectetur libero id faucibus. Volutpat odio facilisis mauris sit. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Consequat interdum varius sit amet.
 
-Eu turpis egestas pretium aenean pharetra. Consectetur a erat nam at lectus urna duis convallis convallis. Ultrices mi tempus imperdiet nulla malesuada. Egestas integer eget aliquet nibh praesent tristique. Neque viverra justo nec ultrices dui sapien eget. Amet justo donec enim diam vulputate ut pharetra. Amet consectetur adipiscing elit duis tristique sollicitudin nibh. Non quam lacus suspendisse faucibus interdum posuere. Risus in hendrerit gravida rutrum quisque non tellus. Erat velit scelerisque in dictum non consectetur a. Orci ac auctor augue mauris augue. Ultricies mi quis hendrerit dolor. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci. Facilisis mauris sit amet massa vitae. Donec massa sapien faucibus et molestie. Feugiat in ante metus dictum at tempor commodo. Ac ut consequat semper viverra nam libero justo. Id neque aliquam vestibulum morbi blandit cursus.
+## Overview 
+Website users are able to print pages using their browser's normal printing functionality. Guidelines related to the format of the information that prints out are included in this section. 
 
-Fringilla est ullamcorper eget nulla. Quis commodo odio aenean sed adipiscing diam donec. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Aliquam nulla facilisi cras fermentum odio eu. Sed nisi lacus sed viverra tellus in hac. Cras tincidunt lobortis feugiat vivamus at augue. Praesent tristique magna sit amet purus gravida. Adipiscing tristique risus nec feugiat in. Leo integer malesuada nunc vel. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Magnis dis parturient montes nascetur ridiculus mus mauris. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Varius vel pharetra vel turpis nunc eget. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Dictum sit amet justo donec.
+For the optimum user experience, the printed page should save as much paper as possible. Therefore the focus should be on printing the content of the page and not site details or web functionality. It should also preferably default print the page(s) in black and white rather than color, to save ink on users' printers.
 
-Risus feugiat in ante metus dictum. Tortor dignissim convallis aenean et tortor at risus. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Nunc faucibus a pellentesque sit amet porttitor. Tellus id interdum velit laoreet id donec ultrices tincidunt. Nunc mattis enim ut tellus elementum sagittis. Cursus in hac habitasse platea dictumst quisque sagittis purus. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Sit amet nisl purus in mollis nunc. Diam in arcu cursus euismod quis viverra.
+## Functionality & Specifications
 
-Diam in arcu cursus euismod quis viverra nibh cras. Sit amet cursus sit amet dictum sit amet justo. Convallis a cras semper auctor. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Enim facilisis gravida neque convallis a cras semper. Feugiat in ante metus dictum at tempor commodo ullamcorper a. Tortor aliquam nulla facilisi cras fermentum odio eu. Purus gravida quis blandit turpis cursus in hac. Urna nec tincidunt praesent semper feugiat nibh sed. Egestas congue quisque egestas diam in. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus. In vitae turpis massa sed elementum tempus egestas sed sed. Congue eu consequat ac felis. Risus quis varius quam quisque id diam vel. Pellentesque massa placerat duis ultricies lacus sed. Quis enim lobortis scelerisque fermentum dui. Tincidunt arcu non sodales neque sodales ut etiam. Libero enim sed faucibus turpis in eu mi bibendum. Platea dictumst quisque sagittis purus. Quam quisque id diam vel quam elementum.
+There are certain items that should **not** print, including full headers, full footers, left rail navigation, menus, breadcrumbs, Search box and button, or banners.
+
+For two or three column printing and article pages, print 1 column with (any chosen) right rail items printing beneath the content area.
+
+### Grid Margins around the content
+Default margin should be 1/2 inch
+
+### Text print font sizes
+- H1 | 28px
+- H2 | 18px
+- body text | 14px
+
+### Links
+If there are any links within the content, print the full URL after the linked item in parentheses and in blue; do not print related icons such as email boxes, arrows, etc.
+
+For example: [USWDS Design Principles](https://designsystem.digital.gov/design-principles/) ([https://designsystem.digital.gov/design-principles/](https://designsystem.digital.gov/design-principles/))
+
+_Note: There is no need to display external link icons on printed pages_
+
+
+### Background Colors
+If the web page has a background color, that background color should not be printed and instead the content print on a white background
+
+### Footers
+The footer should include:
+- Url/link of page being printed
+- Date Printed
+- Page number (if multiple pages)
