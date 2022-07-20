@@ -5,6 +5,10 @@ title: Typography Page
 type: [sub-nav-item]
 permalink: /styles/type/
 ---
+<hr/>
+<h2>Headers</h2>
+<hr/>
+
 <h1>H1 Header</h1>
 <h2>H2 Header</h2>
 <h3>H3 Header</h3>
@@ -12,8 +16,42 @@ permalink: /styles/type/
 <h5>H5 Header</h5>
 <h6>H6 Header</h6>
 
+<hr/>
+<h2>Text Size</h2>
+<hr/>
+
 <p>Paragraph Text</p>
+<p class="giant-text">Giant Text</p>
+<p class="small-text">Small Text</p>
+<p class="italic">Italics</p>
+<span class="intro">Intro:</span><p class="intro">Spicy jalapeno bacon ipsum dolor amet tri-tip venison boudin meatball alcatra. Shank andouille tongue porchetta flank pork spare ribs tenderloin short ribs pastrami sirloin ham ground round. Chicken brisket buffalo ball tip, turducken tri-tip chislic corned beef shank biltong tenderloin meatloaf alcatra shankle porchetta. Ball tip meatloaf picanha boudin, pastrami pork belly strip steak chuck pig capicola leberkas buffalo turducken jerky. Sirloin beef shoulder, venison salami ham hock jerky chicken chislic t-bone.</p>
+
+<hr/>
+<h2>Lists</h2>
+<hr/>
+
+<ul>
+	<li>Spicy jalapeno bacon ipsum dolor amet tri-tip venison boudin meatball alcatra</li>
+	<li>Shank andouille tongue porchetta flank pork spare ribs tenderloin short ribs pastrami sirloin ham ground round</li>
+	<li>Chicken brisket buffalo ball tip, turducken tri-tip chislic corned beef shank biltong tenderloin meatloaf alcatra shankle porchetta</li>
+	<li>Ball tip meatloaf picanha boudin, pastrami pork belly strip steak chuck pig capicola leberkas buffalo turducken jerky</li>
+	<li>Sirloin beef shoulder, venison salami ham hock jerky chicken chislic t-bone</li>
+</ul>
+<ol>
+	<li>Spicy jalapeno bacon ipsum dolor amet tri-tip venison boudin meatball alcatra</li>
+	<li>Shank andouille tongue porchetta flank pork spare ribs tenderloin short ribs pastrami sirloin ham ground round</li>
+	<li>Chicken brisket buffalo ball tip, turducken tri-tip chislic corned beef shank biltong tenderloin meatloaf alcatra shankle porchetta</li>
+	<li>Ball tip meatloaf picanha boudin, pastrami pork belly strip steak chuck pig capicola leberkas buffalo turducken jerky</li>
+	<li>Sirloin beef shoulder, venison salami ham hock jerky chicken chislic t-bone</li>
+</ol>
+
+<hr/>
+<h2>Fonts</h2>
+<hr/>
+
 <div>
+	<h4>Title font: {{ site.data.type.title }}</h4>
+	<p class="title-font">Spicy jalapeno bacon ipsum dolor amet tri-tip venison boudin meatball alcatra. Shank andouille tongue porchetta flank pork spare ribs tenderloin short ribs pastrami sirloin ham ground round. Chicken brisket buffalo ball tip, turducken tri-tip chislic corned beef shank biltong tenderloin meatloaf alcatra shankle porchetta. Ball tip meatloaf picanha boudin, pastrami pork belly strip steak chuck pig capicola leberkas buffalo turducken jerky. Sirloin beef shoulder, venison salami ham hock jerky chicken chislic t-bone.</p>
 	<div class="col-50">
 		<h2 class="title-font">{{ site.data.type.title }}<h2>
 		<p class="title-font">
@@ -27,8 +65,10 @@ permalink: /styles/type/
 		<p class="title-font">0 1 2 3 4 5 6 7 8 9</p>
 	</div>
 </div>
-
+<hr/>
 <div>
+	<h4>Body font: {{ site.data.type.body }}</h4>
+	<span class="body-font">Body Font:</span><p class="body-font">Spicy jalapeno bacon ipsum dolor amet tri-tip venison boudin meatball alcatra. Shank andouille tongue porchetta flank pork spare ribs tenderloin short ribs pastrami sirloin ham ground round. Chicken brisket buffalo ball tip, turducken tri-tip chislic corned beef shank biltong tenderloin meatloaf alcatra shankle porchetta. Ball tip meatloaf picanha boudin, pastrami pork belly strip steak chuck pig capicola leberkas buffalo turducken jerky. Sirloin beef shoulder, venison salami ham hock jerky chicken chislic t-bone.</p>
 	<div class="col-50">
 		<h2 class="body-font">{{ site.data.type.body }}<h2>
 		<p>
