@@ -1,12 +1,24 @@
 ---
-layout: left-rail
+layout: template
 categories: [patterns, patterns-page]
 title: Nested Pattern Page
 permalink: /patterns/patterns-page/nested-pattern-page/
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 type: [detail-page]
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+design-file-xl: https://i.picsum.photos/id/1048/5616/3744.jpg?hmac=N5TZKe4gtmf4hU8xRs-zbS4diYiO009Jni7n50609zk
+design-file-xl-alt: Design File size xl image
+design-file-lg: https://i.picsum.photos/id/1045/3936/2624.jpg?hmac=PMfAbC94Asle_jgeRYsj7zQHFabfTfsIwL247Ewetwc
+design-file-lg-alt: Design File size lg image
+design-file-md: https://i.picsum.photos/id/1052/4000/2667.jpg?hmac=VG0SPn0166Vw0hWeiJL4uVFbjGRcHnddwL4u0wpqL8Y
+design-file-md-alt: Design File size md image
+design-file-sm: https://i.picsum.photos/id/1053/3596/2393.jpg?hmac=shru06Q5TiVeHArvSrQdBwclhorTJwYGnprqLqaH0hk
+design-file-sm-alt: Design File size sm image
+details: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Interdum consectetur libero id faucibus. Volutpat odio facilisis mauris sit. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Consequat interdum varius sit amet.
+prototype-links:
 ---
+### Content
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Interdum consectetur libero id faucibus. Volutpat odio facilisis mauris sit. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Consequat interdum varius sit amet.
+
 Eu turpis egestas pretium aenean pharetra. Consectetur a erat nam at lectus urna duis convallis convallis. Ultrices mi tempus imperdiet nulla malesuada. Egestas integer eget aliquet nibh praesent tristique. Neque viverra justo nec ultrices dui sapien eget. Amet justo donec enim diam vulputate ut pharetra. Amet consectetur adipiscing elit duis tristique sollicitudin nibh. Non quam lacus suspendisse faucibus interdum posuere. Risus in hendrerit gravida rutrum quisque non tellus. Erat velit scelerisque in dictum non consectetur a. Orci ac auctor augue mauris augue. Ultricies mi quis hendrerit dolor. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci. Facilisis mauris sit amet massa vitae. Donec massa sapien faucibus et molestie. Feugiat in ante metus dictum at tempor commodo. Ac ut consequat semper viverra nam libero justo. Id neque aliquam vestibulum morbi blandit cursus.
 
 Fringilla est ullamcorper eget nulla. Quis commodo odio aenean sed adipiscing diam donec. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Aliquam nulla facilisi cras fermentum odio eu. Sed nisi lacus sed viverra tellus in hac. Cras tincidunt lobortis feugiat vivamus at augue. Praesent tristique magna sit amet purus gravida. Adipiscing tristique risus nec feugiat in. Leo integer malesuada nunc vel. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Magnis dis parturient montes nascetur ridiculus mus mauris. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Varius vel pharetra vel turpis nunc eget. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Dictum sit amet justo donec.
