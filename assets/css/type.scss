@@ -10,6 +10,12 @@ body {
     color: $inkcolor;
     line-height: 1.25rem;
 }
+.body-font{
+    font-family: $body-font;
+}
+.title-font{
+    font-family: $title-font;
+}
 
 h1, h2, h3, h4, h5, h6, p {
     padding: 0;
