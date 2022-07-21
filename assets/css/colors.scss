@@ -5,7 +5,7 @@ $primarycolor: {{ site.data.colors[3].value }};
 $secondarycolor: {{ site.data.colors[4].value }};
 $accentcolor: {{ site.data.colors[5].value }};
 $linkcolor: {{ site.data.colors[6].value }};
-$grays: {{ site.data.colors[7].value }};
+$grays: {{ site.data.colors[1].value }};
 
 $overlay-background-color: rgba(0,0,0,0.8);
 $header-footer-background-color: #f9f9f9;
@@ -37,3 +37,4 @@ $gray-30: tint($grays, 30);
 $gray-20: tint($grays, 20);
 $gray-10: tint($grays, 10);
 $gray-5: tint($grays, 5);
+

@@ -33,7 +33,6 @@ $grid-xl-max: 1400px;
     div{
         margin: 10px;
     }
-    
      //mobile
      @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
         flex-direction: column;

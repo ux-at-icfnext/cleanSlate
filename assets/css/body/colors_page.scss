@@ -1,0 +1,22 @@
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    //mobile
+    @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+        flex-direction: column;
+     } 
+}
+.color{
+    width: 50%;
+    @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+        width: 100%;
+     }
+    div{
+        width: 250px;
+        height: 150px;
+        margin: 10px 0;
+        @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+            width: 350px;    
+        }
+    }
+}
