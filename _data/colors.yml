@@ -12,8 +12,8 @@
   value: "#e5a000"
 - name: link
   value: "#005ea2"
-- name: grays
-  value: "#000000"
+# - name: grays
+#   value: "#000000"
   
 # paper: "#ffffff" 
 # ink: "#000000"

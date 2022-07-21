@@ -20,6 +20,9 @@
     .menu-icon, .exit-button, .expand-mobile-nav, .collapse-mobile-nav, #light, .icons{
         fill: white;
     }
+    .color div{
+        border: 1px solid $papercolor;
+    }
     .left-rail-item:hover{
         color: black;
         text-decoration: underline;

@@ -1,0 +1,12 @@
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+}
+.color{
+    margin: 10px;
+    div{
+        width: 150px;
+        height: 150px;
+        border: 1px solid $inkcolor;
+    }
+}
