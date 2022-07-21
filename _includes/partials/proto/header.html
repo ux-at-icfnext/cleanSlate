@@ -9,7 +9,7 @@
     </div>
     <nav aria-label="Primary navigation" class="usa-nav">
       <button class="usa-nav__close">
-        <img src="/assets/uswds/dist/img/usa-icons/close.svg" role="img" alt="Close" />
+        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
@@ -70,7 +70,7 @@
           />
           <button class="usa-button" type="submit">
             <img
-              src="/assets/uswds/dist/img/usa-icons-bg/search--white.svg"
+              src="/assets/img/usa-icons-bg/search--white.svg"
               class="usa-search__submit-icon"
               alt="Search"
             />
