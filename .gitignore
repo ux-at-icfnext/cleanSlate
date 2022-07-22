@@ -19,7 +19,9 @@ Icon
 # Node modules
 node_modules/
 /assets/img
-/assets/uswds
+/assets/fonts
+/assets/theme
+/assets/js
 
 # Thumbnails
 ._*
