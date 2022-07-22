@@ -1,8 +1,9 @@
 ---
 layout: left-rail
 ---
-<h1>{{ page.title }}</h1>
-
+{% if page.usa-link %}
+    <p class="intro">The following component is based on the from the USWDS. The information below shows how the component was customized to match our site brand. Please review the <a href="{{ page.usa-link}}">USWDS: {{ page.title }}</a> for more information on how to use this component.</p>
+{% endif %}
 <h4>Contents:</h4>
 <ul>
     {% if page.htmlpath or page.designimg %}
@@ -50,8 +51,8 @@ layout: left-rail
 
 
 
-{% if page.schema %}
-    <table>
+{% if page.spec %}
+    <table class="usa-table usa-table--stacked-header">
         <thead>
             <tr>
                 <th>field name</th>
@@ -63,9 +64,9 @@ layout: left-rail
                 <th>notes</th>
             </tr>
         </thead>
-        {% for spec in page.schema %}
+        {% for spec in page.spec %}
             <tr>
-                <td>{{ spec.fieldname }} </td>
+                <td>{{ spec.name }} </td>
                 <td>{{ spec.type }}</td>
                 <td>{{ spec.class }}</td>
                 <td>{{ spec.required }}</td>
