@@ -4,17 +4,31 @@ categories: [templates, sample-template-page]
 type: [detail-page]
 title: Test Detail Page
 permalink: /templates/sample-template-page/test-detail-page/
+
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
-design-file-xl: https://i.picsum.photos/id/1048/5616/3744.jpg?hmac=N5TZKe4gtmf4hU8xRs-zbS4diYiO009Jni7n50609zk
-design-file-xl-alt: Design File size xl image
-design-file-lg: https://i.picsum.photos/id/1045/3936/2624.jpg?hmac=PMfAbC94Asle_jgeRYsj7zQHFabfTfsIwL247Ewetwc
-design-file-lg-alt: Design File size lg image
-design-file-md: https://i.picsum.photos/id/1052/4000/2667.jpg?hmac=VG0SPn0166Vw0hWeiJL4uVFbjGRcHnddwL4u0wpqL8Y
-design-file-md-alt: Design File size md image
-design-file-sm: https://i.picsum.photos/id/1053/3596/2393.jpg?hmac=shru06Q5TiVeHArvSrQdBwclhorTJwYGnprqLqaH0hk
-design-file-sm-alt: Design File size sm image
+
+design-file:
+    - file: "https://i.picsum.photos/id/1048/5616/3744.jpg?hmac=N5TZKe4gtmf4hU8xRs-zbS4diYiO009Jni7n50609zk"
+      alt: Design File size xl image
+    - file: "https://i.picsum.photos/id/1045/3936/2624.jpg?hmac=PMfAbC94Asle_jgeRYsj7zQHFabfTfsIwL247Ewetwc"
+      alt: Design File size lg image
+    - file: " https://i.picsum.photos/id/1052/4000/2667.jpg?hmac=VG0SPn0166Vw0hWeiJL4uVFbjGRcHnddwL4u0wpqL8Y"
+      alt: Design File size md image
+    - file: "https://i.picsum.photos/id/1053/3596/2393.jpg?hmac=shru06Q5TiVeHArvSrQdBwclhorTJwYGnprqLqaH0hk"
+      alt: Design File size sm image
+
 details: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Interdum consectetur libero id faucibus. Volutpat odio facilisis mauris sit. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Consequat interdum varius sit amet.
-prototype-links:
+
+# specs:
+#    - name: Title
+#      type: h1
+#      authored: yes
+#      content: 80 characters max
+#      searchable: yes
+
+# prototype:
+#   -name:
+#    link:
 ---
 ### Content
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Interdum consectetur libero id faucibus. Volutpat odio facilisis mauris sit. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Consequat interdum varius sit amet.
