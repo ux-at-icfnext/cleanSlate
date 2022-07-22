@@ -3,12 +3,8 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: |
-      bundle install
-      npm run compile
-    command: |
-      bundle install
-      npm run compile
+  - init: npm install && npm run build 
+    command: bundle install && jekyll serve
 
 ports:
   - port: 8000
