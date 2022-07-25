@@ -1,9 +1,9 @@
 ---
 layout: pattern
 categories: [patterns, accordion]
-title: Accordion
-type: [sub-nav-item]
-permalink: /patterns/accordion/
+title: Bordered Accordion
+type: [detail-page]
+permalink: /patterns/accordion/accordion-bordered
 description: |
     An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
 
