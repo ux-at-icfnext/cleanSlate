@@ -1,13 +1,13 @@
 ---
 
 ---
+
 {% include_relative reset.scss %}
 {% include_relative grid.scss %}
 {% include_relative colors.scss %}
 {% include_relative type.scss %}
 {% include patterns/patterns.scss %}
 {% include_relative syntax.scss %}
-{% include_relative library.scss %}
 {% include_relative header/header.scss %}
 {% include_relative header/nav.scss %}
 {% include_relative footer/footer.scss %}
@@ -20,6 +20,10 @@
 {% include_relative body/colors_page.scss %}
 {% include_relative body/dark_mode.scss %}
 {% include_relative body/landing_layout/cards.scss %}
+{% include_relative body/pattern_layout/pattern.scss %}
 {% include_relative body/posts.scss %}
-{% include partials/proto/header.scss %}
+{% include_relative library.scss %}
+
+
+
 

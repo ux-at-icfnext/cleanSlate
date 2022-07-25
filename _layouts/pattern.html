@@ -1,7 +1,6 @@
 ---
 layout: left-rail
 ---
-<h1>{{ page.title }}</h1>
 
 <h4>Contents:</h4>
 <ul>
@@ -28,7 +27,7 @@ layout: left-rail
 {% elsif  page.designimg %}
     <a name="design"></a>
     <div class="design-preview">
-        <img src="{{ page.designimg }}">
+        <img src="{{ page.designimg }}" class="img">
     </div>
 {% endif %}
 
@@ -98,6 +97,11 @@ layout: left-rail
 {% endif %}
 
 
-{% if page.parent %}
+<!-- {% if page.parent %}
    <p class="margin-20"> <a href="/{{page.parent}}"> <i class="fas fa-arrow-left"></i> Return to pattern parent</a></p>
+{% endif %} -->
+{% if page.type contains "detail-page" %}
+   <p class="margin-20"> <a href="/patterns/{{page.categories[0]}}"> <i class="fas fa-arrow-left"></i> Return to pattern parent</a></p>
 {% endif %}
+
+

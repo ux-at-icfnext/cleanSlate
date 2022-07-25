@@ -1,9 +1,9 @@
-<div class="usa-overlay z-index"></div>
+<div class="usa-overlay"></div>
 <header class="usa-header usa-header--basic">
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo" id="-logo">
-        <em class="usa-logo__text"><a href="/" title="Home">Nex+</a></em>
+        <em class="usa-logo__text"><a href="/" title="Home">Home</a></em>
       </div>
       <button class="usa-menu-btn">Menu</button>
     </div>
@@ -18,20 +18,20 @@
             aria-expanded="false"
             aria-controls="basic-nav-section-one"
           >
-            <span>Current section</span>
+            <span>&lt;Current section&gt;</span>
           </button>
           <ul id="basic-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href="/styles/"><span>Styles Page</span></a>
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="/styles/buttons/"><span>Buttons</span></a>
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="/styles/colors/"><span>Colors</span></a>
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="/styles/icons/"><span>Icons</span></a>
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
           </ul>
         </li>
@@ -41,22 +41,22 @@
             aria-expanded="false"
             aria-controls="basic-nav-section-two"
           >
-            <span>About Nex+</span>
+            <span>&lt;Section&gt;</span>
           </button>
           <ul id="basic-nav-section-two" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href="/about/how-to-contribute-to-next/"><span>How to contribute to Nex+</span></a>
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="/about/how-to-use-next/"><span>How to use Nex+</span></a>
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="/about/how-to-get-next/"><span>How to get Nex+</span></a>
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a href="/prototype/" class="usa-nav-link"><span>Prototype-Home</span></a>
+          <a href="" class="usa-nav-link"><span>&lt;Simple link&gt;</span></a>
         </li>
       </ul>
       <section aria-label="Search component">
