@@ -1,0 +1,18 @@
+/*
+----------------------------------------
+USWDS with settings overrides
+----------------------------------------
+Uncomment the following lines and add a list of changed settings
+in the form $setting: value,
+----------------------------------------
+*/
+
+
+@use "uswds-core" with (
+
+    $theme-button-font-family: "code",
+    $theme-alert-font-family: "code",
+    $theme-header-font-family: "code",
+    $theme-card-header-typeset: "code",
+    
+);
