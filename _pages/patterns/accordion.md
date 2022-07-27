@@ -1,6 +1,6 @@
 ---
 layout: pattern
-categories: [patterns, patterns-page]
+categories: [patterns, accordion]
 title: Accordion
 type: [sub-nav-item]
 permalink: /patterns/accordion/
@@ -36,10 +36,17 @@ spec:
       content: 20 characters
       example: "Find out more"
       notes:
+accordion:
+  - title: Accordion item 1
+    content: accordion item 1 content
+  - title: Accordion item 2
+    content: accordion item 2 content
+  - title: Accordion item 3
+    content: accordion item 3 content
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
-# htmlpath:
-# csspath: 
+htmlpath: patterns/accordion/accordion-jk.md
+csspath: patterns/accordion/index.scss
 ---
