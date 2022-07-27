@@ -14,6 +14,13 @@ specification: |
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
-htmlpath: patterns/accordion/accordion-bordered.md
+accordion:
+  - title: Accordion item 1
+    content: accordion item 1 content
+  - title: Accordion item 2
+    content: accordion item 2 content
+  - title: Accordion item 3
+    content: accordion item 3 content
+htmlpath: patterns/accordion/accordion-bordered-jk.md
 csspath: patterns/accordion/index.scss
 ---

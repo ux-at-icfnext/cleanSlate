@@ -1,5 +1,4 @@
 
-<h3 class="site-preview-heading">Multiselectable</h3>
 <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
   <h4 class="usa-accordion__heading">
     <button

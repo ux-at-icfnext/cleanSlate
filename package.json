@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx gulp copyAll && npx gulp compile && bundle exec jekyll build",
-    "compile": "npx gulp copyAll && npx gulp compile && bundle exec jekyll serve --drafts --future --port 4000"
+    "compile": "npx gulp compile && bundle exec jekyll serve --drafts --future --port 4000"
   },
   "repository": {
     "type": "git",

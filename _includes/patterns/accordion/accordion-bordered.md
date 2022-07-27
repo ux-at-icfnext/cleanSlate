@@ -1,5 +1,4 @@
 
-<h3 class="site-preview-heading">Bordered</h3>
 <div class="usa-accordion usa-accordion--bordered">
   <h4 class="usa-accordion__heading">
     <button

@@ -1,5 +1,4 @@
 
-<h3 class="site-preview-heading">Borderless</h3>
 <div class="usa-accordion">
   <h4 class="usa-accordion__heading">
     <button

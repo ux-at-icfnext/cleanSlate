@@ -84,12 +84,12 @@ layout: left-rail
           <button
             class="usa-accordion__button"
             aria-expanded="false"
-            aria-controls="a1"
+            aria-controls="html-accordion"
           >
             HTML
           </button>
         </h4>
-        <div id="a1" class="usa-accordion__content usa-prose">
+        <div id="html-accordion" class="usa-accordion__content usa-prose">
           <p>
             {% highlight html %} 
                 {% include {{ page.htmlpath | liquify }} %}
@@ -105,12 +105,12 @@ layout: left-rail
       <button
         class="usa-accordion__button"
         aria-expanded="false"
-        aria-controls="a1"
+        aria-controls="css-accordion"
       >
         CSS
       </button>
     </h4>
-    <div id="a2" class="usa-accordion__content usa-prose">
+    <div id="css-accordion" class="usa-accordion__content usa-prose">
       <p>
         {% highlight css %} 
             {% include {{ page.csspath | liquify }} %}
