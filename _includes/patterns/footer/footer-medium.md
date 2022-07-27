@@ -1,4 +1,3 @@
-<h3 class="site-preview-heading" id="medium-footer">Medium footer</h3>
 
 <footer class="usa-footer">
   <div class="grid-container usa-footer__return-to-top">

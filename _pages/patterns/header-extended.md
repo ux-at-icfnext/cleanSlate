@@ -16,5 +16,5 @@ specification: |
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
 htmlpath: patterns/header/header-extended.md
-csspath: patterns/header/header.scss
+csspath: patterns/header/index.scss
 ---

@@ -33,23 +33,19 @@ layout: left-rail
     </div>
 {% endif %}
 
-
-
 {% if page.description %}
-    <a name="#desc"></a>
+    <a name="desc"></a>
     <h3>Description</h3>
     {{ page.description | markdownify }}
 {% endif %}
 
 {% if page.specification or page.schema %}
-    <a name="#specs"></a>
+    <a name="specs"></a>
     <h3>Specifications</h3>
     {% if page.specification %}
         {{ page.specification | markdownify}}
     {% endif %}
 {% endif %}
-
-
 
 {% if page.spec %}
     <table class="usa-table usa-table--stacked-header">
@@ -81,21 +77,47 @@ layout: left-rail
 <div class="page-content">{{ page.content }}</div>
 
 {% if page.htmlpath or page.csspath %}
-    <a name="#code"></a>
+    <a name="code"></a>
     <h3>Code Examples</h3>
+    <div class="usa-accordion">
+        <h4 class="usa-accordion__heading">
+          <button
+            class="usa-accordion__button"
+            aria-expanded="false"
+            aria-controls="a1"
+          >
+            HTML
+          </button>
+        </h4>
+        <div id="a1" class="usa-accordion__content usa-prose">
+          <p>
+            {% highlight html %} 
+                {% include {{ page.htmlpath | liquify }} %}
+            {% endhighlight %}
+          </p>
+        </div>
+    </div> 
 {% endif %}
-
-{% if page.htmlpath %}
-       {% highlight html %} 
-            {% include {{ page.htmlpath | liquify }} %}
-        {% endhighlight %}
-{% endif %}
-
-
+      
 {% if page.csspath %}
-       {% highlight css %} 
+<div class="usa-accordion">
+    <h4 class="usa-accordion__heading">
+      <button
+        class="usa-accordion__button"
+        aria-expanded="false"
+        aria-controls="a1"
+      >
+        CSS
+      </button>
+    </h4>
+    <div id="a1" class="usa-accordion__content usa-prose">
+      <p>
+        {% highlight css %} 
             {% include {{ page.csspath | liquify }} %}
         {% endhighlight %}
+      </p>
+    </div>
+</div>   
 {% endif %}
 
 
