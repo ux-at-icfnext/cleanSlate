@@ -19,6 +19,10 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
-
 @use "uswds-core" as *;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+.usa-card__heading {
+   color: green;
+   font-family: 'Pacifico', cursive;
+ }
