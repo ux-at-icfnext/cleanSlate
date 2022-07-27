@@ -1,0 +1,54 @@
+/*
+----------------------------------------
+USWDS with settings overrides
+----------------------------------------
+Uncomment the following lines and add a list of changed settings
+in the form $setting: value,
+----------------------------------------
+*/
+
+
+
+@use "uswds-core" with (
+    $theme-show-notifications: false,
+    // $theme-font-path: "./assets/fonts",
+    // Primary colors
+    // $theme-color-primary-family: 'green-50v',
+    // $theme-text-color: 'green-50v',
+    // $theme-card-border-color: 'green-50v',
+    // $theme-link-color: 'green-50v',
+//     $theme-typeface-tokens: (
+//     orbitron:(
+//         display-name: "Orbitron",
+//         cap-height: 364px
+//     )  
+// ),
+// $theme-font-type-sans: "orbitron",
+// $theme-font-sans-custom-stack: "Orbitron, sans-serif",
+// $theme-font-sans-custom-src:(
+//     dir: "oribitron/static",
+//     roman: (
+//         100: false,
+//         200: false,
+//         300: false,
+//         400: "Orbitron-Regular",
+//         500: "Orbitron-Medium",
+//         600: "Orbitron-SemiBold",
+//         700: 'Orbitron-Bold',
+//         800: "Orbitron-ExtraBold",
+//         900: "Orbitron-Black"
+//   ),
+//     italic: (
+//         100: false,
+//         200: false,
+//         300: false,
+//         400: false,
+//         500: false,
+//         600: false,
+//         700: false,
+//         800: false,
+//         900: false,
+//   ),
+// )
+)
+
