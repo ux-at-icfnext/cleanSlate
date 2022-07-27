@@ -64,6 +64,9 @@
  }
  // sub nav items only displayed in mobile view
  .nav-second-level-container{
+     ul{
+        max-width: 100%;
+     }
      @media(min-width: $grid-md-max){
          display: none;
      }
@@ -71,7 +74,7 @@
       @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
          ul{
              margin: 0;
-             padding: 0;
+             padding: 0;  
          }
          li{
              border-top: 1px solid $gray-80;
