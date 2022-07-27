@@ -110,7 +110,7 @@ layout: left-rail
         CSS
       </button>
     </h4>
-    <div id="a1" class="usa-accordion__content usa-prose">
+    <div id="a2" class="usa-accordion__content usa-prose">
       <p>
         {% highlight css %} 
             {% include {{ page.csspath | liquify }} %}
@@ -142,5 +142,3 @@ layout: left-rail
 {% if page.type contains "detail-page" %}
    <p class="margin-20"> <a href="/patterns/{{page.categories[1]}}"> <i class="fas fa-arrow-left"></i> Return to pattern parent</a></p>
 {% endif %}
-
-
