@@ -15,7 +15,8 @@ const uswds = require("@uswds/compile");
 // uswds.paths.dist.css = './assets/uswds/dist/css';
 uswds.paths.dist.css = './assets/css';
 uswds.paths.dist.fonts = './assets/fonts';
-uswds.paths.dist.theme = './assets/theme';
+uswds.paths.src.theme = './assets/css/theme'; // customized uswds components
+uswds.paths.dist.theme = './assets/theme'; // customized uswds components
 uswds.paths.dist.img = './assets/img';
 uswds.paths.dist.js = './assets/js';
 
