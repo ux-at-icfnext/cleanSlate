@@ -3,6 +3,7 @@ layout: pattern
 categories: [patterns, footer]
 title: Footer
 type: [sub-nav-item]
+variations: true
 permalink: /patterns/footer/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
