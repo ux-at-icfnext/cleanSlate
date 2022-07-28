@@ -13,7 +13,7 @@ alert:
     content: Test alert content
     link: /
     linkText: see link
-    type: info
+    type: success
     ### type options: warning, info, success, error
 #spec:
 
