@@ -125,8 +125,8 @@ layout: left-rail
    <p class="margin-20"> <a href="/{{page.parent}}"> <i class="fas fa-arrow-left"></i> Return to pattern parent</a></p>
 {% endif %} -->
 
-{% if page.type contains "sub-nav-item" %}
-<h4>Design Variations</h4>
+{% if page.type contains "sub-nav-item" and page.variations == true %}
+    <h4>Design Variations</h4>
     <div class="card-container">
         {% if site.pages %} 
         {% assign sortedCards = site.pages | sort: "title" %}

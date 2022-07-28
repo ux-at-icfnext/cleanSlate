@@ -4,6 +4,7 @@ categories: [patterns, character-count]
 title: Character count
 type: [sub-nav-item]
 permalink: /patterns/character-count/
+variations: false
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     
