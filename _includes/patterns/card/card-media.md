@@ -1,21 +1,17 @@
----
-layout: full-width
-title: ICF Nex+ Home
-subtitle: Home
----
 
-<h3>Patterns</h3>
-{% for page in site.pages %}
-    {% if page.categories contains "patterns" %}
-        <p><a href="{{ page.url }}" style="color:{{ site.data.colors[6].value }}">{{ page.title }}</a></p>
-    {% endif %}
-{% endfor %}
-<h3 class="site-preview-heading">Default card</h3>
 <ul class="usa-card-group">
   <li class="usa-card tablet:grid-col-4">
     <div class="usa-card__container">
       <div class="usa-card__header">
-        <h2 class="usa-card__heading">Card</h2>
+        <h2 class="usa-card__heading">Card with Media</h2>
+      </div>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img
+            src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg"
+            alt="A placeholder image"
+          />
+        </div>
       </div>
       <div class="usa-card__body">
         <p>
