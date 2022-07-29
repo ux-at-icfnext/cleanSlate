@@ -4,7 +4,8 @@ categories: [patterns, accordion]
 title: Accordion
 type: [sub-nav-item]
 permalink: /patterns/accordion/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+variations: true
+overview:  An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
 description: |
     An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
 
