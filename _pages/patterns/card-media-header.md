@@ -5,6 +5,7 @@ title: Card media with header
 type: [detail-page]
 permalink: /patterns/card/card-media-with-header
 description: |
+overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 
 usa-link: "https://designsystem.digital.gov/components/card/"
 specification: 
