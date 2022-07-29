@@ -1,12 +1,12 @@
-
-<ul class="usa-card-group">
+ 
+ <ul class="usa-card-group">
   {% for card in page.cards %}
-    <li class="usa-card tablet:grid-col-4 usa-card--header-first">
+    <li class="usa-card usa-card--flag {{card.class}}">
       <div class="usa-card__container">
         <div class="usa-card__header">
           <h2 class="usa-card__heading">{{card.title}}</h2>
         </div>
-      <div class="usa-card__media usa-card__media--exdent">
+      <div class="usa-card__media {{card.media-class}}">
         <div class="usa-card__img">
           <img
             src="{{card.img}}"
@@ -15,14 +15,12 @@
         </div>
       </div>
       <div class="usa-card__body">
-        <p>
-          {{card.content}}
-        </p>
+        <p> {{card.content}}</p>
       </div>
       <div class="usa-card__footer">
         <button class="usa-button">{{card.button}}</button>
       </div>
     </div>
   </li>
-  {% endfor %}
+{% endfor %}
 </ul>
