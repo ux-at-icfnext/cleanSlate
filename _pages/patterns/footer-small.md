@@ -1,9 +1,9 @@
 ---
 layout: pattern
 categories: [patterns, footer]
-title: Small Footer
+title: Small footer
 type: [detail-page]
-permalink: /patterns/footer/small-footer
+permalink: /patterns/footer/small-footer/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     

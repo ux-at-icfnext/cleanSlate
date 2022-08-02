@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, search]
 title: Big search
 type: [detail-page]
-permalink: /patterns/search/big-search
+permalink: /patterns/search/big-search/
 variations: true
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |

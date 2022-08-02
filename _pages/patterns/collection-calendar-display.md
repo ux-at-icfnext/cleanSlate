@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, collection]
 title: Calendar display collection
 type: [detail-page]
-permalink: /patterns/collection/collection-calendar-display
+permalink: /patterns/collection/collection-calendar-display/
 variations: true
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |

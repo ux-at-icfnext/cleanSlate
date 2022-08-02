@@ -1,9 +1,9 @@
 ---
 layout: pattern
 categories: [patterns, footer]
-title: Big Footer
+title: Big footer
 type: [detail-page]
-permalink: /patterns/footer/big-footer
+permalink: /patterns/footer/big-footer/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     

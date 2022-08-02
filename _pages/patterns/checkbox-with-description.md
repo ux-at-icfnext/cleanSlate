@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, checkbox]
 title: Checkbox with description
 type: [detail-page]
-permalink: /patterns/checkbox/checkbox-with-description
+permalink: /patterns/checkbox/checkbox-with-description/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     

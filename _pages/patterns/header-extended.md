@@ -1,9 +1,9 @@
 ---
 layout: pattern
 categories: [patterns, header]
-title: Extended Header
+title: Extended header
 type: [detail-page]
-permalink: /patterns/header/header-extended
+permalink: /patterns/header/extended-header/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     

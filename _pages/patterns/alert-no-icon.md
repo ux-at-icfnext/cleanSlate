@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, alert]
 title: Alert without icon
 type: [detail-page]
-permalink: /patterns/alert/alert-no-icon
+permalink: /patterns/alert/alert-no-icon/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     

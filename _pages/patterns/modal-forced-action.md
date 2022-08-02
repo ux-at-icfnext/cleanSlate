@@ -1,9 +1,9 @@
 ---
 layout: pattern
 categories: [patterns, modal]
-title: Forced action modal
+title: Modal with forced action
 type: [detail-page]
-permalink: /patterns/modal/modal-forced-action
+permalink: /patterns/modal/modal-forced-action/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     

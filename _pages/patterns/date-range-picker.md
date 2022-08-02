@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, date-picker]
 title: Date range picker
 type: [detail-page]
-permalink: /patterns/date-range-picker
+permalink: /patterns/date-range-picker/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     
