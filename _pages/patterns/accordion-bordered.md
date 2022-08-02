@@ -22,6 +22,6 @@ accordion:
     content: accordion item 2 content
   - title: Accordion item 3
     content: accordion item 3 content
-htmlpath: patterns/accordion/accordion-bordered-jk.md
+htmlpath: patterns/accordion/accordion-bordered.md
 csspath: patterns/accordion/index.scss
 ---

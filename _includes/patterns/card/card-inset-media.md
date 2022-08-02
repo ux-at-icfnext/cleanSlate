@@ -1,4 +1,7 @@
- <div class="usa-card__container">
+
+<ul class="usa-card-group">
+  <li class="usa-card tablet:grid-col-4">
+    <div class="usa-card__container">
       <div class="usa-card__header">
         <h2 class="usa-card__heading">Inset media</h2>
       </div>
@@ -23,3 +26,5 @@
         <button class="usa-button">Visit Florida Keys</button>
       </div>
     </div>
+  </li>
+</ul>
