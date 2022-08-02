@@ -1,6 +1,6 @@
  <ul class="usa-card-group">
- <li class="usa-card usa-card--flag desktop:grid-col-6 usa-card--media-right">
- <div class="usa-card__container">
+  <li class="usa-card usa-card--flag desktop:grid-col-6 usa-card--media-right">
+    <div class="usa-card__container">
       <div class="usa-card__header">
         <h2 class="usa-card__heading">Flag media right inset</h2>
       </div>
