@@ -1,7 +1,6 @@
 
-<div class="usa-alert usa-alert--error" role="alert">
+<div class="usa-alert usa-alert--info usa-alert--slim">
   <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Error status</h4>
     <p class="usa-alert__text">
       Lorem ipsum dolor sit amet,
       <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>

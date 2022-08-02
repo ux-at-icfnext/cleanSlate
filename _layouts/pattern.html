@@ -89,13 +89,21 @@ layout: left-rail
             </button>
         </h4>
     <div id="html-accordion" class="usa-accordion__content usa-prose">
+        {% if page.htmlexcerpt %}
+            <p>
+                {% highlight html %}
+                    {% include {{ page.htmlexcerpt | liquify }} %}
+                {% endhighlight %}
+            </p>
+        {% else %}
         <p>
             {% highlight html %} 
                 {% include {{ page.htmlpath | liquify }} %}
             {% endhighlight %}
         </p>
+        {% endif %}
     </div>
-    </div> 
+</div> 
 {% endif %}
       
 {% if page.csspath %}
