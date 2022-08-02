@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, card]
 title: Flag media right inset card
 type: [detail-page]
-permalink: /patterns/card/card-flag-media-right-inset
+permalink: /patterns/card/card-flag-media-right-inset/
 description: |
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 

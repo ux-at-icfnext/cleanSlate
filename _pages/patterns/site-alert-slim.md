@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, site-alert]
 title: Slim site alert
 type: [detail-page]
-permalink: /patterns/site-alert/site-alert-slim
+permalink: /patterns/site-alert/slim-site-alert/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     

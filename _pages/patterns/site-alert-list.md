@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, site-alert]
 title: Site alert with list
 type: [detail-page]
-permalink: /patterns/site-alert/site-alert-list
+permalink: /patterns/site-alert/site-alert-list/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
     

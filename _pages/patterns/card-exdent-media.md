@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, card]
 title: Card exdent media
 type: [detail-page]
-permalink: /patterns/card/card-exdent-media
+permalink: /patterns/card/card-exdent-media/
 description: |
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 
