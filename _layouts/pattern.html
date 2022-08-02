@@ -76,48 +76,46 @@ layout: left-rail
 
 <div class="page-content">{{ page.content }}</div>
 
-{% if page.htmlpath or page.csspath %}
+{% if page.htmlpath %}
     <a name="code"></a>
     <h3>Code Examples</h3>
     <div class="usa-accordion">
         <h4 class="usa-accordion__heading">
-          <button
+            <button
             class="usa-accordion__button"
             aria-expanded="false"
-            aria-controls="html-accordion"
-          >
-            HTML
-          </button>
+            aria-controls="html-accordion">
+                HTML 
+            </button>
         </h4>
-        <div id="html-accordion" class="usa-accordion__content usa-prose">
-          <p>
+    <div id="html-accordion" class="usa-accordion__content usa-prose">
+        <p>
             {% highlight html %} 
                 {% include {{ page.htmlpath | liquify }} %}
             {% endhighlight %}
-          </p>
-        </div>
+        </p>
+    </div>
     </div> 
 {% endif %}
       
 {% if page.csspath %}
-<div class="usa-accordion">
-    <h4 class="usa-accordion__heading">
-      <button
-        class="usa-accordion__button"
-        aria-expanded="false"
-        aria-controls="css-accordion"
-      >
-        CSS
-      </button>
-    </h4>
+    <div class="usa-accordion">
+        <h4 class="usa-accordion__heading">
+            <button
+            class="usa-accordion__button"
+            aria-expanded="false"
+            aria-controls="css-accordion">
+                CSS
+            </button>
+        </h4>
     <div id="css-accordion" class="usa-accordion__content usa-prose">
-      <p>
-        {% highlight css %} 
-            {% include {{ page.csspath | liquify }} %}
-        {% endhighlight %}
-      </p>
+        <p>
+            {% highlight css %} 
+                {% include {{ page.csspath | liquify }} %}
+            {% endhighlight %}
+        </p>
     </div>
-</div>   
+</div>
 {% endif %}
 
 
@@ -140,5 +138,5 @@ layout: left-rail
 {% endif %}
 
 {% if page.type contains "detail-page" %}
-   <p class="margin-20"> <a href="/patterns/{{page.categories[1]}}"> <i class="fas fa-arrow-left"></i> Return to pattern parent</a></p>
+   <p class="margin-20"> <a href="/patterns/{{page.categories[1]}}"><i class="fas fa-arrow-left"></i> Return to pattern parent</a></p>
 {% endif %}
