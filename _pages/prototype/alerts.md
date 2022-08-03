@@ -1,92 +1,17 @@
 ---
 layout: left-rail
 categories: [prototype]
-title: Sample Prototype Page- Alerts Component
+title: Alerts component
 type: [sub-nav-item, prototype]
 permalink: /prototype/alerts-component/
-description: Sample prototype page, alerts component
+description: Implementation of alert component design file
+overview: Implementation of alert component design file
+alert:
+    title: Success message
+    content: You have successfully created an account.
+    link: /
+    linkText: Confirm your email address.
+    type: success
+    ### type options: warning, info, success, error
 ---
-<h3 class="site-preview-heading">Default</h3>
-<section aria-label="Search component">
-  <form class="usa-search" role="search">
-    <label class="usa-sr-only" for="search-field">Search</label>
-    <input class="usa-input" id="search-field" type="search" name="search" />
-    <button class="usa-button" type="submit">
-      <span class="usa-search__submit-text">Search </span
-      ><img
-        src="/assets/img/usa-icons-bg/search--white.svg"
-        class="usa-search__submit-icon"
-        alt="Search"
-      />
-    </button>
-  </form>
-</section>
-<h3 class="site-preview-heading">Standard alerts</h3>
-
-<div class="usa-alert usa-alert--info">
-  <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Informative status</h4>
-    <p class="usa-alert__text">
-      Lorem ipsum dolor sit amet,
-      <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>
-      elit, sed do eiusmod.
-    </p>
-  </div>
-</div>
-
-<div class="usa-alert usa-alert--warning">
-  <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Warning status</h4>
-    <p class="usa-alert__text">
-      Lorem ipsum dolor sit amet,
-      <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>
-      elit, sed do eiusmod.
-    </p>
-  </div>
-</div>
-
-<div class="usa-alert usa-alert--error" role="alert">
-  <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Error status</h4>
-    <p class="usa-alert__text">
-      Lorem ipsum dolor sit amet,
-      <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>
-      elit, sed do eiusmod.
-    </p>
-  </div>
-</div>
-
-<div class="usa-alert usa-alert--success">
-  <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Success status</h4>
-    <p class="usa-alert__text">
-      Lorem ipsum dolor sit amet,
-      <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>
-      elit, sed do eiusmod.
-    </p>
-  </div>
-</div>
-
-<h3 class="site-preview-heading">Slim alert</h3>
-
-<div class="usa-alert usa-alert--info usa-alert--slim">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">
-      Lorem ipsum dolor sit amet,
-      <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>
-      elit, sed do eiusmod.
-    </p>
-  </div>
-</div>
-
-<h3 class="site-preview-heading">Alert with no icon</h3>
-
-<div class="usa-alert usa-alert--info usa-alert--no-icon">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">
-      Lorem ipsum dolor sit amet,
-      <a class="usa-link" href="javascript:void(0);">consectetur adipiscing</a>
-      elit, sed do eiusmod.
-    </p>
-  </div>
-</div>
+{% include patterns/alert/alert-jk.md %}

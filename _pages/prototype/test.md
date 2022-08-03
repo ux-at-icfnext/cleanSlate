@@ -4,7 +4,8 @@ categories: [prototype]
 title: Test prototype page
 type: [sub-nav-item, prototype]
 permalink: /prototype/test/
-description: test
+description: Test implementation of design files
+overview: Test implementation of design files
 alert:
     title: Success message
     content: You have successfully created an account.
