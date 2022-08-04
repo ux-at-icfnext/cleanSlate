@@ -103,4 +103,8 @@ ul, ol {
     margin-top: 2rem;
     margin-bottom: 2rem;
     max-width: 72ex;
+    ul, ol {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
