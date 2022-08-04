@@ -5,11 +5,11 @@ title: Bordered accordion
 type: [detail-page]
 permalink: /patterns/accordion/accordion-bordered/
 description: |
-    An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+    This variation of the accordion places a border around each open section. _For more information about how this component works, please read the specs for the [default accordion](/patterns/accordion/)._
+overview: This variation of the accordion places a border around each open section.
 
 usa-link: "https://designsystem.digital.gov/components/accordion/"
-specification: |
+
  
 
 ### Paths to view design and code... 
