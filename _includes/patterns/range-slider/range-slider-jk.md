@@ -1,6 +1,6 @@
 
 <form class="usa-form">
-  <label class="usa-label" for="usa-range">Range slider</label>
+  <label class="usa-label" for="usa-range">{{page.label}}</label>
   <input
     id="usa-range"
     class="usa-range"
