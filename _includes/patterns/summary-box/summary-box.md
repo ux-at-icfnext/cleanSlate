@@ -1,5 +1,4 @@
 
-<h3 class="site-preview-heading">Default</h3>
 <div
   class="usa-summary-box"
   role="region"
