@@ -16,6 +16,7 @@ checkbox:
   - title: Apple
   - title: Blueberries
   - title: Strawberries
+    disabled: true
   
 #spec:
 
