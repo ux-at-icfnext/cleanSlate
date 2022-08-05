@@ -17,6 +17,7 @@ checkbox:
     description: Select blueberries
   - title: Strawberries
     description: Select strawberries
+    disabled: true
 
 #spec:
 

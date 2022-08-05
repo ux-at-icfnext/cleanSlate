@@ -12,6 +12,9 @@
         type="checkbox"
         name="{{category}}"
         value="{{value}}"
+        {% if item.disabled %}
+            disabled="disabled"
+        {% endif %}
         />
         <label class="usa-checkbox__label" for="check-{{value}}">
             {{item.title}}
