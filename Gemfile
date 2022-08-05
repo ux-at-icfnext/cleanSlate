@@ -4,9 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/next/freeform" }
 
-gem "jekyll"
-
-gem "webrick"
+gem "jekyll", "~> 3.8.5"
 
 gem 'jekyll-autoprefixer'
 
