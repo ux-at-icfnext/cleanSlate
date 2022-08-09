@@ -4,7 +4,11 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/next/freeform" }
 
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 3.9"
+
+gem "webrick"
+
+gem "kramdown-parser-gfm"
 
 gem 'jekyll-autoprefixer'
 
