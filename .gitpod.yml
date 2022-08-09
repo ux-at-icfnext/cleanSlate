@@ -3,9 +3,21 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: npm install && npx gulp copyAll && npx gulp compile
-    command: bundle install && jekyll serve
+  - name: All the things
+    before: |
+      echo '' >> ~/.bashrc
+      echo '# Install Ruby Gems to /workspace/gems' >> ~/.bashrc
+      echo 'export GEM_HOME="/workspace/gems"' >> ~/.bashrc
+      echo 'export PATH="/workspace/gems/bin:$PATH"' >> ~/.bashrc
+  - init: >
+      npm install && npx gulp copyAll && npx gulp compile &&
+      source ~/.bashrc &&
+      gem install bundler &&
+      bundle install 
+    command: >
+      source ~/.bashrc &&
+      bundle exec jekyll serve --livereload
 
 ports:
-  - port: 8000
+  - port: 4000
     onOpen: open-browser
