@@ -4,8 +4,9 @@ categories: [patterns, button-group]
 title: Segmented button group
 type: [detail-page]
 permalink: /patterns/button-group/segmented-button-group/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: Segmented button groups display a set of discrete buttons in a row as a single element. 
 description: |
+  Segmented button groups display a set of discrete buttons in a row as a single element. For example, segmented buttons can be used as a switch between different views. This is variation of a [button group](/patterns/button-group) 
     
 usa-link: "https://designsystem.digital.gov/components/button-group/"
 specification: |
