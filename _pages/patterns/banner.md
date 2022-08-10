@@ -5,11 +5,13 @@ title: Banner
 type: [sub-nav-item]
 permalink: /patterns/banner/
 variations: false
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: The banner identifies official websites of government organizations in the United States. It also helps visitors understand how to tell that a website is both official and secure.
 description: |
+    The banner identifies official websites of government organizations in the United States. It also helps visitors understand how to tell that a website is both official and secure.
     
 usa-link: "https://designsystem.digital.gov/components/banner/"
 specification: |
+    Use the default responsive banner.
 
 #spec:
 

@@ -4,12 +4,16 @@ categories: [patterns, button-group]
 title: Button group
 type: [sub-nav-item]
 permalink: /patterns/button-group/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: A button group collects similar or related actions.
 variations: true
 description: |
+  A button group collects similar or related actions.
+  The default button group arranges each button as a separate element with a gap between them. On mobile devices, the buttons are arranged vertically. 
     
 usa-link: "https://designsystem.digital.gov/components/button-group/"
 specification: |
+  Button group contains multiple buttons.  In most cases only one should be primary. 
+  For more information about how individual buttons function - please see [buttons](/styles/buttons/)
 buttons:
   - text: Back
     url: /
@@ -25,7 +29,17 @@ inverse:
 segmented: 
 ### true -- implement segmented button group; blank -- implement default button group
 
-#spec:
+spec: 
+  - name: button-label
+    class: usa-button
+    required: true
+    type: text
+    content: 80 characters
+    example: "Continue"
+  - name: link
+    required: true
+    class: 
+    type: button action
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 

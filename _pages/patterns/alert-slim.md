@@ -4,8 +4,9 @@ categories: [patterns, alert]
 title: Slim alert
 type: [detail-page]
 permalink: /patterns/alert/alert-slim/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: Use this version of the alert with out a header
 description: |
+    This version of the alert does not use a header and so is ideal for using in small spaces, like on an error on a form. _see [Alert Pattern](/patterns/alert) for more information on how the alert component works._
     
 usa-link: "https://designsystem.digital.gov/components/alert/"
 specification: |
