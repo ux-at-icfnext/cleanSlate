@@ -13,7 +13,7 @@
         {{file.label}}
     </label>
     {% if file.desc %}
-      <span class="usa-hint" id="{{id}}">{{file.desc}}</span>
+      <span class="usa-hint" id="{{id}}-hint">{{file.desc}}</span>
     {% endif %}
     {% if file.error %}
       <span class="usa-error-message" id="{{id}}">{{file.error-message}}</span>
@@ -23,6 +23,9 @@
     class="usa-file-input"
     type="file"
     name="{{id}}"
+    {% if file.desc %}
+      aria-describedby="{{id}}-hint"
+    {% endif %}
     {% if file.upload == "multi" %}
       multiple="multiple"
     {% endif %}
