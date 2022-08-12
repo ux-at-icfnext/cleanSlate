@@ -1,6 +1,6 @@
  
  <ul class="usa-card-group">
-  <li class="usa-card usa-card--flag">
+  <li class="usa-card usa-card--flag  desktop:grid-col-6">
     <div class="usa-card__container">
       <div class="usa-card__header">
         <h2 class="usa-card__heading">Default flag</h2>
