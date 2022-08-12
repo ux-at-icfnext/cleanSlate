@@ -17,6 +17,17 @@ alert:
     linkText: see link
     type: success
     ### type options: warning, info, success, error
+yml: |
+  
+  alert:
+    content: Test alert content
+    link: /
+    linkText: see link
+    type: success
+    ### type options: warning, info, success, error
+jekyll: |
+
+  "{% include patterns/alert/alert-slim.md %}"
 #spec:
 
 ### Paths to view design and code... 
