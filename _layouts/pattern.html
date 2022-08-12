@@ -136,16 +136,21 @@ layout: left-rail
 
 {% if page.type contains "sub-nav-item" and page.variations == true %}
     <h3>Design Variations</h3>
-    <div class="card-container">
         {% if site.pages %} 
         {% assign sortedCards = site.pages | sort: "title" %}
             {% for item in sortedCards %}
                 {% if page.categories[1] == item.categories[1] and item.type contains "detail-page" %}
-                    {% include partials/card.html %}
+                    <div class="variations-wrapper">
+                        <div class="variations-content">
+                            <h4>{{ item.title }}</h4>
+                            <p>{{ item.overview }}</p>
+                            <p><a href="{{ item.permalink }}">View specification details</a></p>
+                        </div>
+                        <div class="variations-preview"> {% include {{ item.htmlpath }} %} </div>
+                    </div>
                 {% endif %}
             {% endfor %}
-        {% endif %}
-    </div>    
+        {% endif %} 
 {% endif %}
 
 {% if page.type contains "detail-page" %}

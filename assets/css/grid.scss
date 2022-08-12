@@ -47,3 +47,30 @@ $grid-xl-max: 1400px;
         }
      }
 }
+.variations-wrapper {
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    @media (min-width: $grid-md-max){
+        display: flex;
+    }
+
+}
+
+
+.variations-preview {
+    @media (min-width: 64em){
+        .desktop\:grid-col-6 {
+            flex: 0 1 auto;
+            width: 100%;
+        }
+    }
+}
+
+.variations-content {
+    @media (min-width: $grid-md-max){
+        width: 30%;
+        padding-right: 1rem;
+    }
+}
