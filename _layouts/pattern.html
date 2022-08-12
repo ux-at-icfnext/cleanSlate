@@ -73,8 +73,11 @@ layout: left-rail
         {% endfor %}
     </table>
 {% endif %}
-
-<div class="page-content">{{ page.content }}</div>
+{% highlight yml %}
+    {{ page.yml }}
+    {{ page.jekyll }}
+{% endhighlight yml %}
+<div class="page-content">{{ page.content | markdownify}}</div>
 
 {% if page.htmlpath %}
     <a name="code"></a>
