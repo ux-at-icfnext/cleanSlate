@@ -10,7 +10,29 @@ in the form $setting: value,
 
 
 @use "uswds-core" with (
-    $theme-show-notifications: false,
+//     $theme-show-notifications: false,
+//     $theme-column-gap-sm: 2,
+//     $theme-column-gap-md:               2,
+//     $theme-column-gap-lg:               3,
+//     $theme-column-gap-mobile:           2,
+//     $theme-column-gap-desktop:          4,
+//     $theme-grid-container-max-width:    'desktop',
+//     $theme-site-margins-breakpoint:     'desktop',
+//     $theme-site-margins-width:          4,
+//     $theme-site-margins-mobile-width:   2,
+//     $theme-utility-breakpoints: (
+//         'card': false,   // 160px
+//         'card-lg': false,   // 240px
+//         'mobile': false,   // 320px
+//         'mobile-lg': true,    // 480px
+//         'tablet': true,    // 640px
+//         'tablet-lg': false,   // 880px
+//         'desktop': true,    // 1024px
+//         'desktop-lg': false,   // 1200px
+//         'widescreen': false,   // 1400px
+// ),
+
+
     // $theme-font-path: "./assets/fonts",
     // Primary colors
     // $theme-color-primary-family: 'green-50v',
