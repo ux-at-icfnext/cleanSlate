@@ -30,8 +30,12 @@ $grid-xl-max: 1400px;
     display: flex;
     justify-content: space-between;
     div{
-        margin: 10px;
+        margin: 20px;
         width: 50%;
+        &:last-child{
+            border-left: 1px solid black;
+            padding-left: 40px;
+        }
     }
      //mobile
      @media (max-width: $grid-lg-min){ //USWDS tablet large breakpoint (880px)
@@ -39,6 +43,10 @@ $grid-xl-max: 1400px;
         div{
             margin: 0px;
             width: 100%;
+            &:last-child{
+                border-left: none;
+                padding-left: 0;
+            }
         }
      }
 }
