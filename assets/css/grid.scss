@@ -26,6 +26,23 @@ $grid-xl-max: 1400px;
 .content-flex{
     display: flex;  
 }
+.design-content-flex{
+    display: flex;
+    justify-content: space-between;
+    div{
+        margin: 10px;
+        width: 50%;
+    }
+     //mobile
+     @media (max-width: $grid-lg-min){ //USWDS tablet large breakpoint (880px)
+        flex-direction: column;
+        div{
+            margin: 0px;
+            width: 100%;
+        }
+     }
+}
+
 .text{
     width: 90%;
     padding: 20px;

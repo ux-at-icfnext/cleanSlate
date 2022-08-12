@@ -18,6 +18,9 @@ layout: left-rail
     {% if page.htmlpath or page.csspath %}
         <li><a href="#code">Code Examples</a></li>
     {% endif %}
+    {% if page.yml or page.jekyll %}
+    <li><a href="#designfile">Jekyll Design File</a></li>
+{% endif %}
 </ul>
 
 
@@ -73,10 +76,24 @@ layout: left-rail
         {% endfor %}
     </table>
 {% endif %}
-{% highlight yml %}
-    {{ page.yml }}
-    {{ page.jekyll }}
-{% endhighlight yml %}
+{% if page.yml %}
+<a name="designfile"></a>
+<h3>Jekyll Design File</h3>
+    <div class="design-content-flex"> 
+        <div>
+            <p>To implement Jekyll design files, include the following variables in the page front matter:</p>
+            {% highlight yml %}
+                {{ page.yml }}
+            {% endhighlight yml %}
+        </div>
+        <div class="center">
+            <p>To implement Jekyll design files, include the following in the markdown file: </p>
+            {% highlight yml %}
+                {{ page.jekyll }}
+            {% endhighlight yml %}
+        </div>
+    </div>  
+{% endif %}
 <div class="page-content">{{ page.content | markdownify}}</div>
 
 {% if page.htmlpath %}
