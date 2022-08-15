@@ -14,6 +14,14 @@ cards:
     button: Learn more about card 1
     img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
     alt: placeholder image
+yml: |
+  
+  cards:
+  - title: Card 1
+    content: card 1 content
+    button: Learn more about card 1
+    img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+    alt: placeholder image
 
 jekyll: |
 

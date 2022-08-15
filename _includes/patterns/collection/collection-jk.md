@@ -1,6 +1,6 @@
 
 <div class="grid-row grid-gap">
-  <div class=" {{page.collection-class | default: 'tablet:grid-col-6'}}">
+  <div class="tablet:grid-col-6">
     <h3 class="site-preview-heading margin-top-0">{{page.heading}}</h3>
     <ul class="usa-collection">
         {% for item in page.collection %}

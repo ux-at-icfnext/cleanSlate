@@ -55,12 +55,6 @@ yml: |
   - title: Card 1
     content: card 1 content
     button: Learn more about card 1
-  - title: Card 2
-    content: card 2 content
-    button: Learn more about card 2
-  - title: Card 3
-    content: card 3 content
-    button: Learn more about card 3
 
 jekyll: |
 

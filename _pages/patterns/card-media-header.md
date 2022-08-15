@@ -42,20 +42,6 @@ yml: |
     alt: placeholder image
     class: usa-card--header-first tablet:grid-col-4
     media-class: usa-card__media--exdent
-  - title: Card 2
-    content: card 2 content
-    button: Learn more about card 2
-    img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
-    alt: placeholder image
-    class: usa-card--header-first tablet:grid-col-4
-    media-class: usa-card__media--exdent
-  - title: Card 3
-    content: card 3 content
-    button: Learn more about card 3
-    img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
-    alt: placeholder image
-    class: usa-card--header-first tablet:grid-col-4
-    media-class: usa-card__media--exdent
 
 jekyll: |
 

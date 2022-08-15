@@ -20,14 +20,16 @@ checkbox:
     disabled: true
 yml: |
   
-  topic: Fruit
+  topic: Select any historical figure
   checkbox:
-  - title: Apple
-    description: Select apples
-  - title: Blueberries
-    description: Select blueberries
-  - title: Strawberries
-    description: Select strawberries
+  - title: Sojourner Truth
+    description: This is optional text that can be used to describe the label in more detail
+  - title: Frederick Douglass
+    description: This is optional text that can be used to describe the label in more detail
+  - title: Booker T. Washington
+    description: This is optional text that can be used to describe the label in more detail
+  - title: George Washington Carver
+    description: This is optional text that can be used to describe the label in more detail
     disabled: true
     ###true -- disable checkbox
 

@@ -19,11 +19,12 @@ checkbox:
     disabled: true
 yml: |
   
-  topic: Fruit
+  topic: Select any historical figure
   checkbox:
-   - title: Apple
-   - title: Blueberries
-   - title: Strawberries
+   - title: Sojourner Truth
+   - title: Frederick Douglass
+   - title: Booker T. Washington
+   - title: George Washington Carver
      disabled: true
       ###true -- disable checkbox
 
