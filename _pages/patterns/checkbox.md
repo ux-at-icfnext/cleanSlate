@@ -19,7 +19,20 @@ checkbox:
   - title: Blueberries
   - title: Strawberries
     disabled: true
+yml: |
   
+  topic: Select any historical figure
+  checkbox:
+   - title: Sojourner Truth
+   - title: Frederick Douglass
+   - title: Booker T. Washington
+   - title: George Washington Carver
+     disabled: true
+      ###true -- disable checkbox
+
+jekyll: |
+
+  "{% include patterns/checkbox/checkbox.md %}"
 #spec:
 
 ### Paths to view design and code... 

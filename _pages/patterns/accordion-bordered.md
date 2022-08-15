@@ -9,7 +9,18 @@ description: |
 overview: This variation of the accordion places a border around each open section.
 
 usa-link: "https://designsystem.digital.gov/components/accordion/"
+yml: |
+  
+  accordion:
+  - title: Accordion item 1
+    content: accordion item 1 content
+  - title: Accordion item 2
+    content: accordion item 2 content
+  - title: Accordion item 3
+    content: accordion item 3 content
+jekyll: |
 
+  "{% include patterns/accordion/accordion-bordered.md %}"
  
 
 ### Paths to view design and code... 

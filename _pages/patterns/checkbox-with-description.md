@@ -19,7 +19,24 @@ checkbox:
   - title: Strawberries
     description: Select strawberries
     disabled: true
+yml: |
+  
+  topic: Select any historical figure
+  checkbox:
+  - title: Sojourner Truth
+    description: This is optional text that can be used to describe the label in more detail
+  - title: Frederick Douglass
+    description: This is optional text that can be used to describe the label in more detail
+  - title: Booker T. Washington
+    description: This is optional text that can be used to describe the label in more detail
+  - title: George Washington Carver
+    description: This is optional text that can be used to describe the label in more detail
+    disabled: true
+    ###true -- disable checkbox
 
+jekyll: |
+
+  "{% include patterns/checkbox/checkbox-with-description.md %}"
 #spec:
 
 ### Paths to view design and code... 

@@ -49,6 +49,17 @@ spec:
       class: (icons are set in the base uswds-styles )
       required: true
       content: (icons live in the uswds images folder)
+yml: |
+  
+  alert:
+    content: Test alert content
+    link: /
+    linkText: see link
+    type: success
+    ### type options: warning, info, success, error
+jekyll: |
+
+  "{% include patterns/alert/alert.md %}"
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 

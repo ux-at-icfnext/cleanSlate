@@ -49,7 +49,16 @@ cards:
   - title: Card 3
     content: card 3 content
     button: Learn more about card 3
+yml: |
+  
+  cards:
+  - title: Card 1
+    content: card 1 content
+    button: Learn more about card 1
 
+jekyll: |
+
+  "{% include patterns/card/card.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
