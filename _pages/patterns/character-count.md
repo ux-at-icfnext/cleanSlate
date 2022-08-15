@@ -1,15 +1,15 @@
 ---
 layout: pattern
-categories: [patterns, character-count]
-title: Character count
-type: [sub-nav-item]
+categories: [patterns, text-input]
+title: Text input character count
+type: [detail-page]
 permalink: /patterns/character-count/
 variations: true
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
-description: |
+overview: Character count helps users know how much text they can enter when there is a limit on the number of characters.
+description: | 
+    Character count helps users know how much text they can enter when there is a limit on the number of characters.
     
 usa-link: "https://designsystem.digital.gov/components/character-count/"
-specification: |
 counter:
     title: Sample text input
     desc: Description of text input field

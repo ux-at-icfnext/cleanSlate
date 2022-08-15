@@ -4,11 +4,12 @@ categories: [patterns, checkbox]
 title: Checkbox with description
 type: [detail-page]
 permalink: /patterns/checkbox/checkbox-with-description/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
-description: |
+overview: Add descriptive text beneath the checkbox label.
+description: |  
+  This varation allows adding descriptive text beneath the checkbox label. Object can be mixed with the default [checkbox pattern](/patterns/checkbox/).
     
 usa-link: "https://designsystem.digital.gov/components/checkbox/"
-specification: |
+
 topic: Fruit
 checkbox:
   - title: Apple
