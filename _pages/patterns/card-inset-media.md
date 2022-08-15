@@ -5,7 +5,8 @@ title: Card inset media
 type: [detail-page]
 permalink: /patterns/card/card-inset-media/
 description: |
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+   This layout allows for an image with padding. For this layout use the  ```usa-card__media--inset```  on the media class. The example in the html below shows how to apply. _see more details on functionality on the [default card](/patterns/card) page_
+overview: This layout allows for an image with padding.
 
 usa-link: "https://designsystem.digital.gov/components/card/"
 specification: 

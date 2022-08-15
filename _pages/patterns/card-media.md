@@ -5,27 +5,14 @@ title: Card with media
 type: [detail-page]
 permalink: /patterns/card/card-with-media/
 description: |
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+  This layout allows for a full-width image at the top. For this layout use the ```.usa-card__media``` class. The example in the html below shows how to apply. _see more details on functionality on the [default card](/patterns/card) page_
+overview: This layout allows for a full-width image at the top. 
 
 usa-link: "https://designsystem.digital.gov/components/card/"
-specification: 
-spec:
 cards:
   - title: Card 1
     content: card 1 content
     button: Learn more about card 1
-    img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
-    alt: placeholder image
-    class: tablet:grid-col-4
-  - title: Card 2
-    content: card 2 content
-    button: Learn more about card 2
-    img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
-    alt: placeholder image
-    class: tablet:grid-col-4
-  - title: Card 3
-    content: card 3 content
-    button: Learn more about card 3
     img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
     alt: placeholder image
     class: tablet:grid-col-4
