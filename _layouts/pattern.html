@@ -18,6 +18,9 @@ layout: left-rail
     {% if page.htmlpath or page.csspath %}
         <li><a href="#code">Code Examples</a></li>
     {% endif %}
+    {% if page.yml or page.jekyll %}
+    <li><a href="#designfile">Jekyll Design File</a></li>
+{% endif %}
 </ul>
 
 
@@ -73,10 +76,24 @@ layout: left-rail
         {% endfor %}
     </table>
 {% endif %}
-{% highlight yml %}
-    {{ page.yml }}
-    {{ page.jekyll }}
-{% endhighlight yml %}
+{% if page.yml %}
+<a name="designfile"></a>
+<h3>Jekyll Design File</h3>
+    <div class="design-content-flex"> 
+        <div>
+            <p>To implement Jekyll design files, include the following variables in the page front matter:</p>
+            {% highlight yml %}
+                {{ page.yml }}
+            {% endhighlight yml %}
+        </div>
+        <div class="center">
+            <p>To implement Jekyll design files, include the following in the markdown file: </p>
+            {% highlight yml %}
+                {{ page.jekyll }}
+            {% endhighlight yml %}
+        </div>
+    </div>  
+{% endif %}
 <div class="page-content">{{ page.content | markdownify}}</div>
 
 {% if page.htmlpath %}
@@ -136,16 +153,21 @@ layout: left-rail
 
 {% if page.type contains "sub-nav-item" and page.variations == true %}
     <h3>Design Variations</h3>
-    <div class="card-container">
         {% if site.pages %} 
         {% assign sortedCards = site.pages | sort: "title" %}
             {% for item in sortedCards %}
                 {% if page.categories[1] == item.categories[1] and item.type contains "detail-page" %}
-                    {% include partials/card.html %}
+                    <div class="variations-wrapper">
+                        <div class="variations-content">
+                            <h4>{{ item.title }}</h4>
+                            <p>{{ item.overview }}</p>
+                            <p><a href="{{ item.permalink }}">View specification details</a></p>
+                        </div>
+                        <div class="variations-preview"> {% include {{ item.htmlpath }} %} </div>
+                    </div>
                 {% endif %}
             {% endfor %}
-        {% endif %}
-    </div>    
+        {% endif %} 
 {% endif %}
 
 {% if page.type contains "detail-page" %}
