@@ -40,7 +40,25 @@ spec:
     required: true
     class: 
     type: button action
+yml: |
+  
+    buttons:
+    - text: Back
+      url: /
+      style: secondary
+      ## style options: basic, outline, accent-col, accent-warm, base, inverse, secondary
+    - text: Next
+      url: /
+      style: accent-warm
+      ## style options: basic, outline, accent-col, accent-warm, gray, inverse, secondary
+    inverse:
+    ### options: true -- implement inverse style button group; blank -- default button group style
+    segmented: false
+    ### options: true -- implement segmented button group; blank -- implement default button group
 
+jekyll: |
+
+  "{% include patterns/button-group/button-group.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 

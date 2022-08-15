@@ -15,7 +15,19 @@ counter:
     count: 50
     type: textarea
     ### type options: textarea, input
+yml: |
+  
+  counter:
+    title: Sample text input
+    desc: Description of text input field
+    count: 50
+    ### character count limit
+    type: textarea
+    ### type options: textarea, input
 
+jekyll: |
+
+  "{% include patterns/character-count/character-count-textarea.md %}"
 #spec:
 
 ### Paths to view design and code... 

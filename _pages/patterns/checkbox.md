@@ -17,7 +17,19 @@ checkbox:
   - title: Blueberries
   - title: Strawberries
     disabled: true
+yml: |
   
+  topic: Fruit
+  checkbox:
+   - title: Apple
+   - title: Blueberries
+   - title: Strawberries
+     disabled: true
+      ###true -- disable checkbox
+
+jekyll: |
+
+  "{% include patterns/checkbox/checkbox.md %}"
 #spec:
 
 ### Paths to view design and code... 
