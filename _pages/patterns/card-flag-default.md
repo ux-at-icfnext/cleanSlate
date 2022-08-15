@@ -5,7 +5,8 @@ title: Default flag card
 type: [detail-page]
 permalink: /patterns/card/card-flag-default/
 description: |
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+  This "flag" card has the image positioned on the left . The example in the html below shows how to apply. To see an example with the image with padding, see the [right flag](/patterns/card/card-flag-media-right-inset/). _see more details on functionality on the [default card](/patterns/card) page_
+overview: This "flag" card has the image positioned on the left with the image at full height.
 
 usa-link: "https://designsystem.digital.gov/components/card/"
 cards:

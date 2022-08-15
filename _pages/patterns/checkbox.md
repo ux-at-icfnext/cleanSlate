@@ -5,11 +5,13 @@ title: Checkbox
 type: [sub-nav-item]
 variations: true
 permalink: /patterns/checkbox/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: Checkboxes allow users to select one or more options from a list.
 description: |
+  Checkboxes allow users to select one or more options from a list. Checkboxes are an easily understandable way to indicate that users can select one or more answers to a question or items from a list. They’re always followed by a label or instructions that clearly indicate what checking the box represents.”
     
 usa-link: "https://designsystem.digital.gov/components/checkbox/"
 specification: |
+  The default state should have nothing selected. OnClick/OnTap, checkbox goes between selected and unselected state.
 
 topic: Fruit
 checkbox:

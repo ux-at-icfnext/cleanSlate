@@ -1,7 +1,6 @@
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
-    <h3 class="site-preview-heading margin-top-0">Default</h3>
     <ul class="usa-collection">
         <li class="usa-collection__item">
             <div class="usa-collection__body">

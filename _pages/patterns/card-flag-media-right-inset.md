@@ -5,7 +5,8 @@ title: Flag media right inset card
 type: [detail-page]
 permalink: /patterns/card/card-flag-media-right-inset/
 description: |
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+  This "flag" card has the image positioned on the right using the ```usa-card--media-right``` . In this example the image has padding around it. This is achieved by ading the class ```.usa-card__media--inset``` . The example in the html below shows how to apply. To see an example with the image at full height, see the [default flag](/patterns/card/card-flag-default/). _see more details on functionality on the [default card](/patterns/card) page_
+overview: This "flag" card has the image positioned on the right and uses the option of having padding around the image.
 
 usa-link: "https://designsystem.digital.gov/components/card/"
 specification: 

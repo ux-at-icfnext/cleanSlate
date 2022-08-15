@@ -1,14 +1,15 @@
 ---
 layout: pattern
-categories: [patterns, character-count]
+categories: [patterns, text-input]
 title: Textarea character count
 type: [detail-page]
 permalink: /patterns/character-count/textarea-character-count/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: Character count helps users know how much text they can enter when there is a limit on the number of characters.
 description: |
+    Character count helps users know how much text they can enter when there is a limit on the number of characters. This functions just like the [text input](/patterns/character-count/) put works on text area fields.
     
 usa-link: "https://designsystem.digital.gov/components/character-count/"
-specification: |
+
 counter:
     title: Sample text input
     desc: Description of text input field
