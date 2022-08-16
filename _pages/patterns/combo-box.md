@@ -3,7 +3,6 @@ layout: pattern
 categories: [patterns, select]
 title: Combo box
 type: [detail-page]
-variations: true
 permalink: /patterns/combo-box/
 overview: This variation of the select box gives people the option to remove the object selected.
 description: |
