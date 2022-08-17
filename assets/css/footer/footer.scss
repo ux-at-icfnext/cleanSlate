@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     background-color: $header-footer-background-color;
+    padding: 25px 0 10px;
     margin-top: 20px;
     //mobile
     @media(max-width: 880px){ //USWDS tablet large breakpoint (880px)
