@@ -17,23 +17,3 @@ layout: full-width
         {% endfor %}
     {% endif %}
 </div>
-<!-- <div class="card-container">
-    {% if site.pages %} 
-        {% assign sortedCards = site.pages | sort: "title" %}
-        {% for item in sortedCards %}
-            {% if page.categories[1] == item.categories[1] %}
-                {% if item.type contains "detail-page" %}
-                    <div class="card">
-                        <h4>{{item.title}}</h4>
-                        <p>{{item.description}}</p>
-                        <p>
-                            <a href="{{item.url}}">
-                                <button class="read-more">Read More</button>
-                            </a>
-                        </p>
-                    </div>
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-    {% endif %}
-</div> -->
