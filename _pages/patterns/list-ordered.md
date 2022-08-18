@@ -20,7 +20,25 @@ list:
 - item: Ordered list item
 - item: Ordered list item
 ### list content 
+yml: |
+  
+    list-type: ordered
+    ### options: 
+        ### ordered
+        ### unordered
+    class: 
+    ### option:
+        ### usa-list--unstyled: remove component style
+    list:
+     - item: Ordered list item
+     - item: Ordered list item
+     - item: Ordered list item
+     - item: Ordered list item
+    ### list content 
 
+jekyll: |
+
+  "{% include patterns/list/list-ordered.md %}"
 #spec:
 
 ### Paths to view design and code... 

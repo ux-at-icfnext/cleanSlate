@@ -13,6 +13,15 @@ $grid-xl-max: 1400px;
         max-width: 75%;
     }
 }
+.code-examples, .design-preview{
+    .usa-accordion{
+        width: 70%;
+        //mobile
+     @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px) 
+        width: 100%;
+     }
+    }
+}
 .content{
     margin: 20px;
     margin-top: 160px;  
@@ -28,32 +37,32 @@ $grid-xl-max: 1400px;
 }
 .design-content-flex{
     display: flex;
-    justify-content: space-between;
-    div{
-        margin: 20px;
-        width: 50%;
-        &:last-child{
-            border-left: 1px solid black;
-            padding-left: 40px;
-        }
-    }
+    flex-direction: column;
+    width: 100%;
+    // div{
+    //     margin: 20px;
+    //     width: 50%;
+    //     &:last-child{
+    //         border-left: 1px solid black;
+    //         padding-left: 40px;
+    //     }
+    // }
      //mobile
-     @media (max-width: $grid-lg-min){ //USWDS tablet large breakpoint (880px)
-        flex-direction: column;
-        div{
-            margin: 0px;
-            width: 100%;
-            &:last-child{
-                border-left: none;
-                padding-left: 0;
-            }
-        }
-     }
+    //  @media (max-width: $grid-lg-min){ //USWDS tablet large breakpoint (880px) 
+    //     div{
+    //         margin: 0px;
+    //         width: 100%;
+    //         &:last-child{
+    //             border-left: none;
+    //             padding-left: 0;
+    //         }
+    //     }
+    //  }
 }
 
 .text{
     width: 90%;
-    padding: 20px;
+    padding: 20px; 
 }
 .full-text{
     width: 100%;

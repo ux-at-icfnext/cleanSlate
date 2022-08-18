@@ -8,7 +8,7 @@
     {{page.modal}}
     </a>
   <div
-    class="usa-modal"
+    class="usa-modal {{page.modal-type}}"
     id="example-modal"
     aria-labelledby="modal-heading"
     aria-describedby="modal-description"

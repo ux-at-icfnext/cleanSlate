@@ -20,6 +20,25 @@ list:
  - item: Unordered list item
  - item: Unordered list item
 ### list content 
+yml: |
+  
+    list-type: unordered
+    ### options: 
+        ### ordered
+        ### unordered
+    class: 
+    ### option:
+        ### usa-list--unstyled: remove component style
+    list:
+     - item: Unordered list item
+     - item: Unordered list item
+     - item: Unordered list item
+     - item: Unordered list item
+    ### list content 
+
+jekyll: |
+
+  "{% include patterns/list/list.md %}"
 
 #spec:
 

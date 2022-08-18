@@ -14,6 +14,17 @@ search: Search
 ### search button text
 search-type: 
 ### search bar type options: big, small
+yml: |
+  
+  search: Search
+  ### search button text
+  search-type: 
+    ### search bar type options: 
+        ### big
+        ### small
+jekyll: |
+
+  "{% include patterns/search/search.md %}"
 #spec:
 
 ### Paths to view design and code... 

@@ -19,6 +19,23 @@ modal-title: Are you sure you want to continue?
 modal-description: You have unsaved changes that will be lost.
 modal-button: Continue without saving
 modal-link: Go back
+
+yml: |
+  
+  modal-class: 
+  ### additional modal component style
+  modal-type: 
+  ### options:
+    ### usa-modal--lg: large modal
+  modal: Open default modal
+  modal-title: Are you sure you want to continue?
+  modal-description: You have unsaved changes that will be lost.
+  modal-button: Continue without saving
+  modal-link: Go back
+jekyll: |
+
+  "{% include patterns/modal/modal.md %}"
+
 #spec:
 
 ### Paths to view design and code... 

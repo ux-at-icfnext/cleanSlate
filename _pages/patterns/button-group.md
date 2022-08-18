@@ -46,15 +46,23 @@ yml: |
     - text: Back
       url: /
       style: secondary
-      ## style options: basic, outline, accent-col, accent-warm, base, inverse, secondary
+      ## style options: 
+        ### basic
+        ### outline
+        ### accent-col
+        ### accent-warm
+        ### base
+        ### inverse
+        ### secondary
     - text: Next
       url: /
       style: accent-warm
-      ## style options: basic, outline, accent-col, accent-warm, gray, inverse, secondary
     inverse:
-    ### options: true -- implement inverse style button group; blank -- default button group style
+    ### options: 
+      ### true -- implement inverse style button group
     segmented: false
-    ### options: true -- implement segmented button group; blank -- implement default button group
+    ### options: 
+      ### true -- implement segmented button group
 
 jekyll: |
 

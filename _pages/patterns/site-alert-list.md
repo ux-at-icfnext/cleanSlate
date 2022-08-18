@@ -16,13 +16,37 @@ alert-color: emergency
 ### options: emergency, info
 alert-title: Alert message with list
 alert-list:
-  - text: Site alert message
+  - text: Alert message, and 
+    linkText: a link.
     link: /
-    linkText: click link to learn more
-  - text: Another site alert message
+  - text: Alert message, and 
+    linkText: another link.
+    link: / 
+yml: |
+  
+  alert-type: list
+  ### options: 
+    ### slim
+    ### no-header
+    ### no-icon
+    ### list
+  alert-color: emergency
+  ### options: 
+    ### emergency
+    ### info
+  alert-title: Alert message with list
+  alert-list:
+  - text: Alert message, and
+    linkText: a link. 
     link: /
-    linkText: click link to learn more
+  - text: Alert message, and 
+    linkText: another link.
+    link: /
+    
 
+jekyll: |
+
+  "{% include patterns/site-alert/site-alert-no-header.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 

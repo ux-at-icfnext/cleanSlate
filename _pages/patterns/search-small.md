@@ -12,8 +12,19 @@ usa-link: "https://designsystem.digital.gov/components/search/"
 specification: |
 search: Search
 ### search button text
-search-type: 
+search-type: small
 ### search bar type options: big, small
+yml: |
+  
+  search: Search
+  ### search button text
+  search-type: small
+  ### search bar type options: 
+    ### big
+    ### small
+jekyll: |
+
+  "{% include patterns/search/search-small.md %}"
 #spec:
 
 ### Paths to view design and code... 
