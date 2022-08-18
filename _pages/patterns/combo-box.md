@@ -28,7 +28,19 @@ list:
     - value: Spring
     - value: Summer
     - value: Fall
+yml: |
+  
+    label: Select a season
+    category: Season
+    list:
+        - value: Winter
+        - value: Spring
+        - value: Summer
+        - value: Fall
 
+jekyll: |
+
+  "{% include patterns/combo-box/combo-box.md %}"
 #spec:
 
 ### Paths to view design and code... 

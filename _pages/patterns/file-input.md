@@ -24,7 +24,34 @@ files:
    ### options: single, multi
    id: file-input-field
    ### id value for input field
+yml: |
+  
+  files:
+   - error: true
+   ### options:
+      ### true -- display error message style
+   error-message: Display a helpful error message
+   ### display file upload error message
+   label: Input accepts a single file
+   desc: Select any valid file
+   type: image/*
+   ### options:
+      ### .pdf
+      ### .txt
+      ### image/* (images wildcard -- accept all img file types)
+   disabled: 
+   ### options:
+      ### true -- disable file upload functionality
+   upload: multi
+   ### options: 
+      ### single
+      ### multi
+   id: file-input-field
+   ### id value for input field
 
+jekyll: |
+
+  "{% include patterns/file-input/file-input.md %}"
 #spec:
 
 ### Paths to view design and code... 

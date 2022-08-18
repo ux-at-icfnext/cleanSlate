@@ -15,6 +15,23 @@ text-type: success
 ### options: success (corresponding class: usa-input--success), error (corresponding class: usa-input--error), focus (corresponding class: usa-focus)
 class: usa-input--success
 ### options: usa-input--error , usa-input--success, usa-focus
+yml: |
+  
+  text-label: Text label
+  text-type: success 
+  ### text-type options: 
+    ### success (corresponding class: usa-input--success)
+    ### error (corresponding class: usa-input--error)
+    ### focus (corresponding class: usa-focus)
+  class: usa-input--success
+  ### class options: 
+    ### usa-input--error
+    ### usa-input--success 
+    ### usa-focus
+
+jekyll: |
+
+  "{% include patterns/text-input/textarea.md %}"
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 

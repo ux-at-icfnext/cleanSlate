@@ -24,7 +24,26 @@ summary-list:
  - text: Gather emergency supplies for your home and your car.
    linkText: Learn more.
    link: /
+yml: |
+  
+  summary-title: Key information
+  summary-list:
+   - text: If you are under a winter storm warning,
+   linkText: find shelter right away.
+   link: /
+  - text: Sign up for 
+   linkText: your community’s warning system.
+   link: /
+  - text: Learn the signs of, and basic treatments for, frostbite and hypothermia.
+   linkText: Learn more.
+   link: /
+  - text: Gather emergency supplies for your home and your car.
+   linkText: Learn more.
+   link: /
 
+jekyll: |
+
+  "{% include patterns/summary-box/summary-box.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 

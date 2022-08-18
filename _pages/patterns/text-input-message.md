@@ -21,6 +21,26 @@ text-message: Helpful error message
 ## if text input with error message component (text-type = error), enter error message
 class: usa-input--error
 ### options: usa-input--error , usa-input--success, usa-focus
+
+yml: |
+  
+  text-label: Text label
+  text-message: Helpful error message
+  text-type: error
+  ### text-type options: 
+    ### success (corresponding class: usa-input--success)
+    ### error (corresponding class: usa-input--error)
+    ### focus (corresponding class: usa-focus)
+  class: usa-input--success
+  ### class options: 
+    ### usa-input--error
+    ### usa-input--success 
+    ### usa-focus
+
+jekyll: |
+
+  "{% include patterns/text-input/text-input-message.md %}"
+
 htmlpath: patterns/text-input/text-input-message.md
 csspath: patterns/text-input/index.scss
 ---

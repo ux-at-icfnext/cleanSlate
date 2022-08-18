@@ -11,11 +11,28 @@ usa-link: "https://designsystem.digital.gov/components/modal/"
 specification: |
 modal-class:
 ### additional modal component style
+modal-type: 
+### if large modal include class usa-modal--lg in modal-type variable
 modal: Open modal with forced action
 modal-title: Your session will end soon
 modal-description: You’ve been inactive for too long Please choose to stay signed in or sign out. Otherwise, you’ll be signed out automatically in 5 minutes.
 modal-button: Yes, stay signed in
 modal-link: Sign out
+
+yml: |
+    
+    modal-class:
+    modal-type:
+    ### options:
+        ### usa-modal--lg: large modal
+    modal: Open modal with forced action
+    modal-title: Your session will end soon
+    modal-description: You’ve been inactive for too long Please choose to stay signed in or sign out. Otherwise, you’ll be signed out automatically in 5 minutes.
+    modal-button: Yes, stay signed in
+    modal-link: Sign out
+jekyll: |
+
+  "{% include patterns/modal/modal-forced-action.md %}"
 
 #spec:
 

@@ -6,7 +6,7 @@
 {% endif %}
     <div class="usa-alert">
       <div class="usa-alert__body">
-      {% if page.type != "no-header" or page.type != "slim" or page.type != "no-icon" %}
+      {% if page.alert-type == "" or page.alert-type == "list" %}
         <h3 class="usa-alert__heading">{{page.alert-title}}</h3>
       {% endif %}
       {% if page.alert-type == "list" %}
@@ -17,6 +17,9 @@
         </ul>
       {% else %}
         <p class="usa-alert__text">
+        {% if page.alert-type == "no-header" or page.alert-type == "slim" or page.alert-type == "no-icon" %}
+          <span class= "bold">{{page.alert-title}}</span>
+        {% endif %}
           {{page.alert-content}}
           <a class="usa-link" href="{{page.alert-link}}">{{page.alert-linkText}}</a>.
         </p>
