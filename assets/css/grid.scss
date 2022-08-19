@@ -39,31 +39,35 @@ $grid-xl-max: 1400px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    // div{
-    //     margin: 20px;
-    //     width: 50%;
-    //     &:last-child{
-    //         border-left: 1px solid black;
-    //         padding-left: 40px;
-    //     }
-    // }
-     //mobile
-    //  @media (max-width: $grid-lg-min){ //USWDS tablet large breakpoint (880px) 
-    //     div{
-    //         margin: 0px;
-    //         width: 100%;
-    //         &:last-child{
-    //             border-left: none;
-    //             padding-left: 0;
-    //         }
-    //     }
-    //  }
 }
 
 .text{
     width: 90%;
     padding: 20px; 
+    // position: relative;
+    // //mobile
+    // @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+    //    margin-top: 300px;
+        
+    //  }
 }
+// #markdown-toc, .toc-title{
+//     min-width: 25%;
+//     position: absolute;
+//     top: 50;
+//     right: 0;
+//     li{
+//         list-style-type: none;
+//         width: 20%;
+//     }
+//      //mobile
+//      @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
+//         top: -300;
+//         left: 0;
+
+//      }
+
+// }
 .full-text{
     width: 100%;
 }
