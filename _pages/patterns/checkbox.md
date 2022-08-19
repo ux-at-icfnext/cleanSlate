@@ -13,15 +13,15 @@ usa-link: "https://designsystem.digital.gov/components/checkbox/"
 specification: |
   The default state should have nothing selected. OnClick/OnTap, checkbox goes between selected and unselected state.
 
-topic: Fruit
+topic: Historical figure
 checkbox:
-  - title: Apple
-  - title: Blueberries
-  - title: Strawberries
+  - title: Sojourner Truth
+  - title: Frederick Douglass
+  - title: Booker T. Washington
     disabled: true
 yml: |
   
-  topic: Select any historical figure
+  topic: Historical figure
   checkbox:
    - title: Sojourner Truth
    - title: Frederick Douglass
