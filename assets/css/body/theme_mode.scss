@@ -12,8 +12,12 @@
 .dropdown{
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
+    padding: 5px;
     @media (max-width: $grid-md-max){
         flex-direction: row;
+        border-radius:  0;
+        padding: 0;
     }
 }
 #dark, #light, #custom{
