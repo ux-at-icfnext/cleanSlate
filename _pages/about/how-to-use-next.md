@@ -5,6 +5,9 @@ title: How to use Nex+
 permalink: /about/how-to-use-next/
 type: [sub-nav-item]
 ---
+<div  class="content-flex-toc" markdown="1">
+<div  markdown="1">
+
 ### Hello
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Interdum consectetur libero id faucibus. Volutpat odio facilisis mauris sit. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Consequat interdum varius sit amet.
 
@@ -17,8 +20,10 @@ Risus feugiat in ante metus dictum. Tortor dignissim convallis aenean et tortor 
 
 Diam in arcu cursus euismod quis viverra nibh cras. Sit amet cursus sit amet dictum sit amet justo. Convallis a cras semper auctor. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Enim facilisis gravida neque convallis a cras semper. Feugiat in ante metus dictum at tempor commodo ullamcorper a. Tortor aliquam nulla facilisi cras fermentum odio eu. Purus gravida quis blandit turpis cursus in hac. Urna nec tincidunt praesent semper feugiat nibh sed. Egestas congue quisque egestas diam in. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus. In vitae turpis massa sed elementum tempus egestas sed sed. Congue eu consequat ac felis. Risus quis varius quam quisque id diam vel. Pellentesque massa placerat duis ultricies lacus sed. Quis enim lobortis scelerisque fermentum dui. Tincidunt arcu non sodales neque sodales ut etiam. Libero enim sed faucibus turpis in eu mi bibendum. Platea dictumst quisque sagittis purus. Quam quisque id diam vel quam elementum.
 
-<h4 class="toc-title">What's on this page:</h4>
-* toc
+</div>
+ <div  markdown="1">
+ <h4 class="toc-title">What's on this page:</h4>
+* TOC
 {:toc}
-
-
+</div>
+</div>
