@@ -1,0 +1,24 @@
+---
+layout: left-rail
+categories: [about]
+title: How to implement brand style
+permalink: /about/how-to-implement-brand-style/
+type: [sub-nav-item]
+---
+Apply custom brand style across the pattern library. 
+
+### How to add custom brand style:
+1. Navigate to the custom stylesheet:
+> /assets/css/brand.scss
+
+2. Include component specific styles inside the "custom-theme" class.
+
+``` css
+    .custom-theme{
+        background-color: pink;
+}
+```
+
+### How to apply custom brand style:
+Select "Brand" in the theme drop-down menu.
+
