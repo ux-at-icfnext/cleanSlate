@@ -3,10 +3,10 @@ const mode = document.getElementById("mode");
 const modeItems = document.getElementById("mode-items");
 const darkIconDropdown = document.getElementById("dark-mode-dropdown-item");
 const lightIconDropdown = document.getElementById("light-mode-dropdown-item");
-const brandIconDropdown = document.getElementById("custom-mode-dropdown-item");
+const customIconDropdown = document.getElementById("custom-mode-dropdown-item");
 const dark = document.getElementById("dark");
 const light = document.getElementById("light");
-const brand = document.getElementById("custom");
+const custom = document.getElementById("custom");
 
 mode.addEventListener("click",()=>{
     modeItems.classList.toggle("hidden");
@@ -16,19 +16,19 @@ const applyMode = mode =>{
     if(mode == "darkMode"){
         dark.classList.remove("hidden");
         light.classList.add("hidden");
-        brand.classList.add("hidden");
+        custom.classList.add("hidden");
         page.classList.remove("custom-theme");
         page.classList.add("dark-mode");
     } else if(mode == "lightMode"){
         dark.classList.add("hidden");
         light.classList.remove("hidden");
-        brand.classList.add("hidden");
+        custom.classList.add("hidden");
         page.classList.remove("dark-mode");
         page.classList.remove("custom-theme");
     } else if(mode == "customMode"){
         dark.classList.add("hidden");
         light.classList.add("hidden");
-        brand.classList.remove("hidden");
+        custom.classList.remove("hidden");
         page.classList.remove("dark-mode");
         page.classList.add("custom-theme");
     }
@@ -50,7 +50,7 @@ lightIconDropdown.addEventListener("click",()=>{
     setLocalStorage("inactive", "active", "inactive");
 })
 
-brandIconDropdown.addEventListener("click",()=>{
+customIconDropdown.addEventListener("click",()=>{
     applyMode("customMode");
     setLocalStorage("inactive", "inactive", "active");
 })
