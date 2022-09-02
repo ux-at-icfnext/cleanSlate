@@ -8,7 +8,11 @@ type: [sub-nav-item]
 Apply custom brand style across the pattern library. 
 
 ### How to add custom brand style:
-Navigate to /assets/css/brand.scss and include component-specific styles inside "custom-theme" class.
+1. Navigate to the custom stylesheet:
+> /assets/css/brand.scss
+
+2. Include component specific styles inside the "custom-theme" class.
+
 ``` css
     .custom-theme{
         background-color: pink;
@@ -16,5 +20,5 @@ Navigate to /assets/css/brand.scss and include component-specific styles inside 
 ```
 
 ### How to apply custom brand style:
-Select "brand" in theme drop-down.
+Select "Brand" in the theme drop-down menu.
 
