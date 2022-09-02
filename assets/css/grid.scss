@@ -50,30 +50,7 @@ $grid-xl-max: 1400px;
 .text{
     width: 90%;
     padding: 20px; 
-    // position: relative;
-    // //mobile
-    // @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
-    //    margin-top: 300px;
-        
-    //  }
 }
-// #markdown-toc, .toc-title{
-//     min-width: 25%;
-//     position: absolute;
-//     top: 50;
-//     right: 0;
-//     li{
-//         list-style-type: none;
-//         width: 20%;
-//     }
-//      //mobile
-//      @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
-//         top: -300;
-//         left: 0;
-
-//      }
-
-// }
 .full-text{
     width: 100%;
 }
