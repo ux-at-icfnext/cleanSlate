@@ -1,9 +1,9 @@
 const page = document.querySelector("body");
 const mode = document.getElementById("mode");
 const modeItems = document.getElementById("mode-items");
-const darkIcon = document.getElementById("dark-mode");
-const lightIcon = document.getElementById("light-mode");
-const brandIcon = document.getElementById("custom-mode");
+const darkIconDropdown = document.getElementById("dark-mode-dropdown-item");
+const lightIconDropdown = document.getElementById("light-mode-dropdown-item");
+const brandIconDropdown = document.getElementById("custom-mode-dropdown-item");
 const dark = document.getElementById("dark");
 const light = document.getElementById("light");
 const brand = document.getElementById("custom");
@@ -40,17 +40,17 @@ const setLocalStorage = (darkMode, lightMode, customMode) => {
     localStorage.setItem("customMode", customMode);
 }
 
-darkIcon.addEventListener("click",()=>{
+darkIconDropdown.addEventListener("click",()=>{
     applyMode("darkMode");
     setLocalStorage("active", "inactive", "inactive");
 })
 
-lightIcon.addEventListener("click",()=>{
+lightIconDropdown.addEventListener("click",()=>{
     applyMode("lightMode");
     setLocalStorage("inactive", "active", "inactive");
 })
 
-brandIcon.addEventListener("click",()=>{
+brandIconDropdown.addEventListener("click",()=>{
     applyMode("customMode");
     setLocalStorage("inactive", "inactive", "active");
 })
