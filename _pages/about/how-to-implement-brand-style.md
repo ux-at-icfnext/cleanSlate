@@ -10,7 +10,7 @@ type: [sub-nav-item]
 
 Apply custom brand style across the pattern library. 
 
-### How to add custom brand style:
+### How to add custom brand style
 1. Navigate to the custom stylesheet:
 > /assets/css/brand.scss
 
@@ -22,7 +22,7 @@ Apply custom brand style across the pattern library.
 }
 ```
 
-### How to apply custom brand style:
+### How to apply custom brand style
 Select "Brand" in the theme drop-down menu.
 
 </div>
