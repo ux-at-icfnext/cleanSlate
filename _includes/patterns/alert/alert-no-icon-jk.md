@@ -1,5 +1,5 @@
 
-{% assign type = page.alert.type | downcase %}
+{% assign type = page.alert.type | downcase | replace " ", "" %}
 {% if type == "error" %}
   <div class="usa-alert usa-alert--{{type}} usa-alert--no-icon" role="alert">
     <div class="usa-alert__body">

@@ -17,7 +17,7 @@ alert-color: info
 ### options: emergency, info
 alert-title: Short alert message
 alert-content: Additional context and followup information including
-alert-linkText: a link.
+alert-linkText: a link
 alert-link: /
 yml: |
   
@@ -33,7 +33,7 @@ yml: |
     ### info
   alert-title: Short alert message
   alert-content: Additional context and followup information including
-  alert-linkText: a link.
+  alert-linkText: a link
   alert-link: /
 
 jekyll: |

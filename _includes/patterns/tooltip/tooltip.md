@@ -1,0 +1,44 @@
+
+<h3 class="site-preview-heading">Standard tooltip</h3>
+<div class="padding-8">
+  <div class="margin-4">
+    <button
+      type="button"
+      class="usa-button usa-tooltip"
+      data-position="top"
+      title="Top"
+    >
+      Show on top
+    </button>
+  </div>
+  <div class="margin-4">
+    <button
+      type="button"
+      class="usa-button usa-tooltip"
+      data-position="right"
+      title="Right"
+    >
+      Show on right
+    </button>
+  </div>
+  <div class="margin-4">
+    <button
+      type="button"
+      class="usa-button usa-tooltip"
+      data-position="left"
+      title="Left"
+    >
+      Show on left
+    </button>
+  </div>
+  <div class="margin-4">
+    <button
+      type="button"
+      class="usa-button usa-tooltip"
+      data-position="bottom"
+      title="Bottom"
+    >
+      Show on bottom
+    </button>
+  </div>
+</div>

@@ -1,6 +1,16 @@
 .dark-mode{
     background-color: $dark-mode-background-color;
     color: white;
+    .usa-card__container{
+        background-color: $dark-mode-background-color;
+        color: white;
+    }
+    #mode-items{
+        background-color: $dark-mode-background-color;
+        @media (max-width: $grid-md-max){
+            color: white;
+        }
+    }
     a{
         color: white;
     }
@@ -49,18 +59,12 @@
             text-decoration: underline;
         }
     }
-}
-#dark, #light{
-    width: 20px;
-    height: 20px;
-    position: fixed;
-    top: 70;
-    right: 10;
-    &:hover{
-        cursor: pointer;
-    }
-    @media (max-width: $grid-md-max){
-        top: 60;
-        right: 70;
-    }
+    #dark, #light, #star, #light-mode-dropdown-item, #dark-mode-dropdown-item, #custom-mode-dropdown-item{
+            fill: white;
+        svg{
+            fill: white;
+        }
+         }
+        
+    
 }

@@ -3,12 +3,22 @@ layout: pattern
 categories: [patterns, select]
 title: Select
 type: [sub-nav-item]
+variations: true
 permalink: /patterns/select/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: A select component allows users to choose one option from a dropdown menu. 
 description: |
+    A select component allows users to choose one option from a dropdown menu.
+
+    When to use the select box component:
+        - More than 15 options. When there are more than 15 choices in a drop-down list it can be hard to navigate with scrolling only. 
+        - Limited space. 
+        - Use a combo box for presenting options over radio or checkboxes when screen real estate is limited.    
     
 usa-link: "https://designsystem.digital.gov/components/select/"
 specification: |
+    - Onclick/OnTap of down arrow, system displays a list of options. 
+    - OnSelect of item, the item shows in the box as the chosen option and the list is closed.
+        - the selection replaces any option already in the box
 #spec:
 dropdown-title: Dropdown label
 dropdown-default: '- Select -'
