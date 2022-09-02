@@ -51,7 +51,8 @@ layout: left-rail
 {% endif %}
 
 {% if page.spec %}
-    <table class="usa-table usa-table--stacked-header">
+<div class="usa-table-container--scrollable" tabindex="0">
+    <table class="usa-table">
         <thead>
             <tr>
                 <th>field name</th>
@@ -75,6 +76,7 @@ layout: left-rail
             </tr>
         {% endfor %}
     </table>
+</div>
 {% endif %}
 {% if page.yml %}
 <a name="designfile"></a>

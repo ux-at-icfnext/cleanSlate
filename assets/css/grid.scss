@@ -35,29 +35,16 @@ $grid-xl-max: 1400px;
 .content-flex{
     display: flex;  
 }
+.content-flex-toc{
+    display: flex; 
+    @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px) 
+        flex-direction: column-reverse;
+     } 
+}
 .design-content-flex{
     display: flex;
     flex-direction: column;
     width: 100%;
-    // div{
-    //     margin: 20px;
-    //     width: 50%;
-    //     &:last-child{
-    //         border-left: 1px solid black;
-    //         padding-left: 40px;
-    //     }
-    // }
-     //mobile
-    //  @media (max-width: $grid-lg-min){ //USWDS tablet large breakpoint (880px) 
-    //     div{
-    //         margin: 0px;
-    //         width: 100%;
-    //         &:last-child{
-    //             border-left: none;
-    //             padding-left: 0;
-    //         }
-    //     }
-    //  }
 }
 
 .text{
