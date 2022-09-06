@@ -37,12 +37,6 @@
      height: 100%;
      z-index: 1;
  }
- .display{
-     display: block;
- }
- .hidden{
-     display: none;
- }
  //current page in the nav is highlighted in gray
  .current{
      color: $gray-50;
@@ -177,3 +171,9 @@
          animation: slide-left 500ms;
      }
  }
+ .display{
+    display: block;
+}
+ .hidden{
+    display: none;
+}
