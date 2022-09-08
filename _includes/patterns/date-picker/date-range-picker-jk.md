@@ -2,9 +2,9 @@
 <div class="usa-date-range-picker">
   <div class="usa-form-group">
     <label class="usa-label" id="event-date-start-label" for="event-date-start"
-      >{{page.start-label}}</label
+      >{{page.startLabel}}</label
     >
-    <div class="usa-hint" id="event-date-start-hint">{{page.start-date-description}}</div>
+    <div class="usa-hint" id="event-date-start-hint">{{page.startDateDescription}}</div>
     <div class="usa-date-picker">
       <input
         class="usa-input"
@@ -17,9 +17,9 @@
   </div>
   <div class="usa-form-group">
     <label class="usa-label" id="event-date-end-label" for="event-date-end"
-      >{{page.end-label}}</label
+      >{{page.endLabel}}</label
     >
-    <div class="usa-hint" id="event-date-end-hint">{{page.end-date-description}}</div>
+    <div class="usa-hint" id="event-date-end-hint">{{page.endDateDescription}}</div>
     <div class="usa-date-picker">
       <input
         class="usa-input"

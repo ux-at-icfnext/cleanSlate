@@ -10,9 +10,18 @@ description: |
     
 usa-link: "https://designsystem.digital.gov/components/date-picker"
 specification: |
-label: Appointment date
-date-description: mm/dd/yyyy
 #spec:
+label: Appointment date
+dateDescription: mm/dd/yyyy
+
+yml: |
+  
+    label: Appointment date
+    dateDescription: mm/dd/yyyy
+
+jekyll: |
+
+  "{% include patterns/date-picker/date-picker.md %}"
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
