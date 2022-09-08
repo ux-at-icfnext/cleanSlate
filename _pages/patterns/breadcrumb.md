@@ -27,6 +27,27 @@ breadcrumbs:
     current: true
     ### current page
 #spec:
+yml: |
+  
+  breadcrumbWrapping: true
+  ### options:
+    ### true
+    ### false/leave blank
+  breadcrumbs:
+    - text: Home
+      link: /
+    - text: Federal Contracting
+      link: /
+    - text: Contracting assistance programs
+      link: /
+    - text: Women-owned small business federal contracting program
+      link: /
+      current: true
+      ### current page
+
+jekyll: |
+
+  "{% include patterns/breadcrumb/breadcrumb.md %}"
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
