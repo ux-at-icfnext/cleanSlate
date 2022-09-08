@@ -3,7 +3,7 @@
   <label class="usa-label" id="appointment-date-label" for="appointment-date"
     >{{page.label}}</label
   >
-  <div class="usa-hint" id="appointment-date-hint">{{page.date-description}}</div>
+  <div class="usa-hint" id="appointment-date-hint">{{page.dateDescription}}</div>
   <div class="usa-date-picker">
     <input
       class="usa-input"

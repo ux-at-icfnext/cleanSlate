@@ -9,11 +9,22 @@ description: |
     
 usa-link: "https://designsystem.digital.gov/components/date-range-picker"
 specification: |
-start-label: Event start date
-start-date-description: mm/dd/yyyy
-end-label: Event end date
-end-date-description: mm/dd/yyyy
 #spec:
+startLabel: Event start date
+startDateDescription: mm/dd/yyyy
+endLabel: Event end date
+endDateDescription: mm/dd/yyyy
+
+yml: |
+  
+    startLabel: Event start date
+    startDateDescription: mm/dd/yyyy
+    endLabel: Event end date
+    endDateDescription: mm/dd/yyyy
+
+jekyll: |
+
+  "{% include patterns/date-picker/date-range-picker.md %}"
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
