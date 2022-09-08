@@ -11,21 +11,10 @@ description: |
 usa-link: "https://designsystem.digital.gov/components/breadcrumb/"
 specification: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
-breadcrumbWrapping: true
+breadcrumbWrapping: 
 ### options:
     ### true
     ### false/leave blank
-breadcrumbs:
-  - text: Home
-    link: /
-  - text: Federal Contracting
-    link: /
-  - text: Contracting assistance programs
-    link: /
-  - text: Women-owned small business federal contracting program
-    link: /
-    current: true
-    ### current page
 #spec:
 yml: |
   
@@ -33,17 +22,6 @@ yml: |
   ### options:
     ### true
     ### false/leave blank
-  breadcrumbs:
-    - text: Home
-      link: /
-    - text: Federal Contracting
-      link: /
-    - text: Contracting assistance programs
-      link: /
-    - text: Women-owned small business federal contracting program
-      link: /
-      current: true
-      ### current page
 
 jekyll: |
 
