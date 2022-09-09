@@ -18,8 +18,6 @@
     <input
       id="example-input-{{inputLabelType}}"
       class="usa-input"
-      pattern="[0-9]*"
-      inputmode="numeric"
     />
       {% if inputLabelType == "suffix" %}
         {% if page.inputLabelIcon %}
