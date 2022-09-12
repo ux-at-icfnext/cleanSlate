@@ -1,7 +1,7 @@
 .dark-mode{
     background-color: $dark-mode-background-color;
     color: white;
-    .usa-card__container{
+    .usa-card__container, .usa-accordion__content{
         background-color: $dark-mode-background-color;
         color: white;
     }
