@@ -10,28 +10,28 @@ description: |
 usa-link: "https://designsystem.digital.gov/components/site-alert/"
 specification: |
 #spec:
-siteAlertType: list
+site-alert-type: list
 ### options: slim, no-header, no-icon, list
-siteAlertColor: emergency
+site-alert-color: emergency
 ### options: emergency, info
-siteAlertTitle: Alert message with list
-siteAlertList:
+site-alert-title: Alert message with list
+site-alert-list:
   - text: Alert message, and  <a class="usa-link" href="/">a link</a> 
   - text: Alert message, and  <a class="usa-link" href="/">another link</a> 
 yml: |
   
-  siteAlertType: list
+  site-alert-type: list
   ### options: 
     ### slim
     ### no-header
     ### no-icon
     ### list
-  siteAlertColor: emergency
+  site-alert-color: emergency
   ### options: 
     ### emergency
     ### info
-  siteAlertTitle: Alert message with list
-  siteAlertList:
+  site-alert-title: Alert message with list
+  site-alert-list:
   - text: Alert message, and <a class="usa-link" href="/">a link</a>
   - text: Alert message, and  <a class="usa-link" href="/">another link</a>
     

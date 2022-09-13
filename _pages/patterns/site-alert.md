@@ -11,26 +11,26 @@ description: |
 usa-link: "https://designsystem.digital.gov/components/site-alert/"
 specification: |
 #spec:
-siteAlertType: 
+site-alert-type: 
 ### options: slim, no-header, no-icon, list
-siteAlertColor: info
+site-alert-color: info
 ### options: emergency, info
-siteAlertTitle: Short alert message
-siteAlertContent: Additional context and followup information including <a class="usa-link" href="/">a link</a>
+site-alert-title: Short alert message
+site-alert-content: Additional context and followup information including <a class="usa-link" href="/">a link</a>
 yml: |
   
-  siteAlertType: 
+  site-alert-type: 
   ### options: 
     ### slim
     ### no-header
     ### no-icon
     ### list
-  siteAlertColor: info
+  site-alert-color: info
   ### options: 
     ### emergency
     ### info
-  siteAlertTitle: Short alert message
-  siteAlertContent: Additional context and followup information including <a class="usa-link" href="/">a link</a>
+  site-alert-title: Short alert message
+  site-alert-content: Additional context and followup information including <a class="usa-link" href="/">a link</a>
 
 jekyll: |
 
