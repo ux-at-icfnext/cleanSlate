@@ -16,9 +16,7 @@ specification: |
     - **If** the alert is a **site wide** communication, consider using the [Site Alert](/patterns/site-alert) instead.
 alert:
     title: Test alert
-    content: Test alert content
-    link: /
-    linkText: see link
+    content: Test alert content <a class="usa-link" href="/">see link</a>
     type: success
     ### type options: warning, info, success, error
 spec:
@@ -52,9 +50,8 @@ spec:
 yml: |
   
   alert:
-    content: Test alert content
-    link: /
-    linkText: see link
+    title: Test alert
+    content: Test alert content <a class="usa-link" href="/">see link</a>
     type: success
     ### type options: warning, info, success, error
 jekyll: |
