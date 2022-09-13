@@ -10,43 +10,35 @@ description: |
 usa-link: "https://designsystem.digital.gov/components/site-alert/"
 specification: |
 #spec:
-alert-type: list
+siteAlertType: list
 ### options: slim, no-header, no-icon, list
-alert-color: emergency
+siteAlertColor: emergency
 ### options: emergency, info
-alert-title: Alert message with list
-alert-list:
-  - text: Alert message, and 
-    linkText: a link.
-    link: /
-  - text: Alert message, and 
-    linkText: another link.
-    link: / 
+siteAlertTitle: Alert message with list
+siteAlertList:
+  - text: Alert message, and  <a class="usa-link" href="/">a link</a> 
+  - text: Alert message, and  <a class="usa-link" href="/">another link</a> 
 yml: |
   
-  alert-type: list
+  siteAlertType: list
   ### options: 
     ### slim
     ### no-header
     ### no-icon
     ### list
-  alert-color: emergency
+  siteAlertColor: emergency
   ### options: 
     ### emergency
     ### info
-  alert-title: Alert message with list
-  alert-list:
-  - text: Alert message, and
-    linkText: a link. 
-    link: /
-  - text: Alert message, and 
-    linkText: another link.
-    link: /
+  siteAlertTitle: Alert message with list
+  siteAlertList:
+  - text: Alert message, and <a class="usa-link" href="/">a link</a>
+  - text: Alert message, and  <a class="usa-link" href="/">another link</a>
     
 
 jekyll: |
 
-  "{% include patterns/site-alert/site-alert-no-header.md %}"
+  "{% include patterns/site-alert/site-alert-list.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 

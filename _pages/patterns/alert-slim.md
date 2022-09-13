@@ -11,18 +11,13 @@ description: |
 usa-link: "https://designsystem.digital.gov/components/alert/"
 specification: |
 alert:
-    title: Test alert
-    content: Test alert content
-    link: /
-    linkText: see link
+    content: Test alert content <a class="usa-link" href="/">see link</a>
     type: success
     ### type options: warning, info, success, error
 yml: |
   
   alert:
-    content: Test alert content
-    link: /
-    linkText: see link
+    content: Test alert content <a class="usa-link" href="/">see link</a>
     type: success
     ### type options: warning, info, success, error
 jekyll: |
