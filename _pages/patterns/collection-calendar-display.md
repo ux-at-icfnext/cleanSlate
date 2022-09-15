@@ -5,11 +5,10 @@ title: Calendar display collection
 type: [detail-page]
 permalink: /patterns/collection/collection-calendar-display/
 variations: true
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: For items tied to a date, use the Calendar Display. 
 description: |
+  For items tied to a date, use the Calendar Display. This variation adds a calendar thumbnail to track the date. Perfect for event based designs. _see more details on functionality on the [default collection](/patterns/collection) page_
 usa-link: "https://designsystem.digital.gov/components/collection/"
-specification: 
-spec:
 heading: Calendar display collection
 collection:
   - title: Event 1

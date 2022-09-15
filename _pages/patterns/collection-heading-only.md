@@ -5,11 +5,10 @@ title: Heading only collection
 type: [detail-page]
 permalink: /patterns/collection/collection-heading-only/
 variations: true
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: When only a heading and link are needed, this variation of the component comes in handy for using the heading of the text as the link. 
 description: |
+  When only a heading and link are needed, this variation of the component comes in handy for using the heading of the text as the link. _see more details on functionality on the [default collection](/patterns/collection) page_
 usa-link: "https://designsystem.digital.gov/components/collection/"
-specification: 
-spec:
 heading: Heading only collection
 collection:
   - title: Event 1
