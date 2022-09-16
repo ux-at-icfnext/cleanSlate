@@ -10,8 +10,8 @@ description: |
     
 usa-link: "https://designsystem.digital.gov/components/pagination/"
 specification: |
-pagination-current: 3
-pagination-pages: 5
+pagination-current: 10
+pagination-pages: 24
 bounded: true
 ### options:
   ### true
@@ -19,8 +19,8 @@ bounded: true
 
 yml: |
   
-  pagination-current: 3
-  pagination-pages: 5
+  pagination-current: 10
+  pagination-pages: 24
   bounded: true
   ### options:
     ### true
