@@ -28,7 +28,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/paginationl/pagination.md %}"
+  "{% include patterns/pagination/pagination.md %}"
 
 #spec:
 
