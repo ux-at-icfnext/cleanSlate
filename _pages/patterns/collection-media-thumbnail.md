@@ -5,11 +5,10 @@ title: Media thumbnail collection
 type: [detail-page]
 permalink: /patterns/collection/collection-media-thumbnail/
 variations: true
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
-description: |
+overview: This variation of the collection component lets you add a media element to the list.  
+description: | 
+  This variation of the collection component lets you add a media element to the list. _see more details on functionality on the [default collection](/patterns/collection) page_
 usa-link: "https://designsystem.digital.gov/components/collection/"
-specification: 
-spec:
 heading: Media thumbnail collection
 collection:
   - title: Gears of Government President’s Award winners

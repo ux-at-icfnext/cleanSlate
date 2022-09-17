@@ -5,7 +5,7 @@ title: Collection
 type: [sub-nav-item]
 permalink: /patterns/collection/
 variations: true
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: A collection displays a compact list of multiple related items like articles or events. The list links each item to its original source. 
 description: |
   A collection displays a compact list of multiple related items like articles or events. The list links each item to its original source.
 
