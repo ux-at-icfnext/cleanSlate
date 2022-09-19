@@ -4,11 +4,12 @@ categories: [patterns, icon-list]
 title: Icon list
 type: [sub-nav-item]
 permalink: /patterns/icon-list/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: An icon list reinforces the meaning and visibility of individual list items with a leading icon. 
 description: |
+  An icon list reinforces the meaning and visibility of individual list items with a leading icon. Read more about [Icons](/patterns/icons)
     
 usa-link: "https://designsystem.digital.gov/components/icon-list/"
-specification: |
+# specification: |
 sectionTitle: Content title
 sectionDescription: Content description
 iconListSize: large
