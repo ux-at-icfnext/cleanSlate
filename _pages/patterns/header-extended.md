@@ -4,11 +4,14 @@ categories: [patterns, header]
 title: Extended header
 type: [detail-page]
 permalink: /patterns/header/extended-header/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: If more space is needed for the main menu, choose this extended header.
 description: |
+   This varation is for housing the list at the bottom of the header on larger breakpoints. The functionality remains the same.
     
 usa-link: "https://designsystem.digital.gov/components/header/"
 specification: |
+   _see the main [header pattern](/patterns/header) for specifications_
+
 
 #spec:
 
