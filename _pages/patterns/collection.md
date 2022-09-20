@@ -39,36 +39,28 @@ spec:
   - name: date
     class: usa-collection__calendar-date
     content: specifies calendar month and calendar day
-heading: Default Collection
 collection:
-  - title: Event 1
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque.
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque.
-    link: /
-    date: October 30, 2022
-     ### date format: Month, DD, YYYY - ex. September 20, 2022
+  - title: Women-owned small business dashboard
+    description: In honor of National Women’s Small Business Month, we’ve partnered with SBA’s Office of Government Contracting and Business Development and Office of Program Performance, Analysis, and Evaluation to highlight the Women-Owned Small Businesses (WOSBs) data dashboard!
+    link: https://trumpadministration.archives.performance.gov/sba-wosb-dashboard/
+    details: Constance Lu
+    month: 9
+    day: 30
+    year: 2020
     new-tag: true
-    tags: [PMA, OMB] 
-  - title: Event 2
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque.
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque.
-    link: /
-    date: September 30, 2022
-     ### date format: Month, DD, YYYY - ex. September 20, 2022
-    new-tag: true
-    tags: [PMA, OMB] 
+    tags: [SBA] 
 yml: |
   
-  heading: Default Collection
   collection:
-   - title: Event 1
-     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque.
-     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque.
-     link: /
-     date: October 30, 2022
-     ### date format: Month, DD, YYYY - ex. September 20, 2022
+   - title: Women-owned small business dashboard
+     description: In honor of National Women’s Small Business Month, we’ve partnered with SBA’s Office of Government Contracting and Business Development and Office of Program Performance, Analysis, and Evaluation to highlight the Women-Owned Small Businesses (WOSBs) data dashboard!
+     link: https://trumpadministration.archives.performance.gov/sba-wosb-dashboard/
+     details: Constance Lu
+     month: 9
+     day: 30
+     year: 2020
      new-tag: true
-     tags: [PMA, OMB] 
+     tags: [SBA] 
 
 jekyll: |
 

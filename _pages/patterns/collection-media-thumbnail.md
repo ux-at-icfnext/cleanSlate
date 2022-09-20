@@ -20,9 +20,34 @@ collection:
     img: https://trumpadministration.archives.performance.gov/img/GoG/GoG-logo.png
     alt: Gears of Government Awards - President's Award
     details: By Sondra Ainsworth and Constance Lu
+    month: 9
+    day: 30
+    year: 2020
     new-tag: true 
     ### true will display orange "New" tag
     tags: [PMA, OMB]
+yml: |
+  
+  collection:
+   - title: Gears of Government President’s Award winners
+     description: Today, the Administration announces the winners of the Gears of
+            Government President’s Award. This program recognizes the contributions
+            of individuals and teams across the federal workforce who make a
+            profound difference in the lives of the American people.
+     link: https://trumpadministration.archives.performance.gov/presidents-winners-press-release/
+     img: https://trumpadministration.archives.performance.gov/img/GoG/GoG-logo.png
+     alt: Gears of Government Awards - President's Award
+     details: By Sondra Ainsworth and Constance Lu
+     month: 9
+     day: 30
+     year: 2020
+     new-tag: true
+      ### true will display orange "New" tag
+     tags: [PMA, OMB] 
+
+jekyll: |
+
+  "{% include patterns/collection/collection-media-thumbnail.md %}"
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 

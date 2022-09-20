@@ -9,26 +9,27 @@ overview: For items tied to a date, use the Calendar Display.
 description: |
   For items tied to a date, use the Calendar Display. This variation adds a calendar thumbnail to track the date. Perfect for event based designs. _see more details on functionality on the [default collection](/patterns/collection) page_
 usa-link: "https://designsystem.digital.gov/components/collection/"
-heading: Calendar display collection
 collection:
-  - title: Event 1
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque.
-    month: Oct
-    ### abbreviated month: jan, feb, mar, apr, jun, jul, aug, sept, oct, nov, dec
-    day: 20
-    year: 2022
-    # time: 
-    link: /
-  - title: Event 2
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque.
-    month: Aug
+  - title: Gears of Government President’s Award winners
+    description: Today, the Administration announces the winners of the Gears of Government President’s Award. This program recognizes the contributions of individuals and teams across the federal workforce who make a profound difference in the lives of the American people.
+    month: 9
     day: 30
-    year: 2022
-    # time: 12:00:00+01:00
-    link: /
-    # date: 10/30/2022
-    ### date format: MM/DD/YYYY
+    year: 2020
+    link: https://trumpadministration.archives.performance.gov/presidents-winners-press-release/
+yml: |
+  
+  collection:
+   - title: Gears of Government President’s Award winners
+     description: Today, the Administration announces the winners of the Gears of Government President’s Award. This program recognizes the contributions of individuals and teams across the federal workforce who make a profound difference in the lives of the American people.
+     link: https://trumpadministration.archives.performance.gov/sba-wosb-dashboard/
+     month: 9
+     day: 30
+     year: 2020
+     link: https://trumpadministration.archives.performance.gov/presidents-winners-press-release/
 
+jekyll: |
+
+  "{% include patterns/collection/collection-calendar-display.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
