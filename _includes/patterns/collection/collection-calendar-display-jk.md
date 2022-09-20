@@ -9,7 +9,7 @@
             <span class="usa-collection__calendar-date-month">   
             {% case item.month %}
               {% when 1 %}
-                Jan
+              Jan
             {% when 2 %}
               Feb
             {% when 3 %}

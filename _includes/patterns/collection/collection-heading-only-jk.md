@@ -1,7 +1,6 @@
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
-    <h3 class="site-preview-heading">{{page.heading}}</h3>
     <ul class="usa-collection usa-collection--condensed">
     {% for item in page.collection %}
       <li class="usa-collection__item">
