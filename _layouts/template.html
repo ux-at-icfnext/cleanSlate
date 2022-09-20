@@ -7,7 +7,9 @@ layout: left-rail
 {% if page.design-file %}
 <div class="design-files">
     {% for design in page.design-file %}
-        <img src="{{ design.file}}" class="template-img" alt="design.alt">
+        <div class="template-img">
+            <img src="{{ design.file}}" alt="design.alt">
+        </div>
     {% endfor %}
 </div>
 <div class="expanded-img-container">
@@ -59,6 +61,24 @@ layout: left-rail
 
 {{content | markdownify}}
 {% if page.type contains "sub-nav-item" %}
+    {% if page.components %}
+        <h3>Components used in this template</h3>
+        {% assign sortedCards = page.components | sort: "title" %}
+        {% for component in sortedCards %}
+        <div class="variations-wrapper">
+            <div class="variations-content">
+                <h4>{{ component.title }}</h4>
+                <p>{{ component.overview }}</p>
+                <p><a href="{{ component.link }}">View specification details</a></p>
+            </div>
+            <div class="variations-preview"> {% include {{ component.htmlpath }} %} </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+{% endif %}
+
+{% if page.type contains "sub-nav-item" %}
+<h3>Template Variations</h3>
     <div class="card-container">
         {% if site.pages %} 
         {% assign sortedCards = site.pages | sort: "title" %}
@@ -70,3 +90,4 @@ layout: left-rail
         {% endif %}
     </div>    
 {% endif %}
+

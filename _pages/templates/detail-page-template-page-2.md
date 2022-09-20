@@ -1,9 +1,9 @@
 ---
 layout: template
-categories: [templates, template-page]
+categories: [templates, basic-page]
 type: [detail-page]
 title: Detail Page
-permalink: /templates/template-page/detail-page-2-template-page/
+permalink: /templates/basic-page/detail-page-2-template-page/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 
 design-file:

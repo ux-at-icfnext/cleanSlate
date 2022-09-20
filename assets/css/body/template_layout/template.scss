@@ -10,14 +10,18 @@
 }
 
 .template-img{
-    width: 25%;
+    max-width: 25%;
+    max-height: 400px;
+    overflow: hidden; 
     padding: 10px;
     &:hover{
         cursor: pointer;
     }
     //mobile
     @media (max-width: $grid-md-max){ //USWDS tablet large breakpoint (880px)
-        width: 80%;
+        max-width: 80%;
+        max-height: 100%;
+        overflow: visible;
         margin: 0 auto;
     }
 }

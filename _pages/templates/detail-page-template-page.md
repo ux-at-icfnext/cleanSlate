@@ -1,7 +1,7 @@
 ---
 layout: template
-categories: [templates, template-page]
-permalink: /templates/template-page/test-detail-page-template-page/
+categories: [templates, basic-page]
+permalink: /templates/basic-page/test-detail-page-template-page/
 type: [detail-page]
 title: Test Nested Template Page
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
