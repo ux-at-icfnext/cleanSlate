@@ -1,6 +1,6 @@
 ---
 layout: template
-categories: [templates, template-page]
+categories: [templates, basic-page]
 type: [sub-nav-item]
 title: Basic page 
 permalink: /templates/basic-page/

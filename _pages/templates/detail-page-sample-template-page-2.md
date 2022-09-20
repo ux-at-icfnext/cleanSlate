@@ -1,9 +1,9 @@
 ---
 layout: template
-categories: [templates, sample-template-page]
+categories: [templates, landing-page]
 type: [detail-page]
 title: Test Detail Page
-permalink: /templates/sample-template-page/test-detail-page/
+permalink: /templates/landing-page/test-detail-page/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 design-file:
     - file: "https://i.picsum.photos/id/1048/5616/3744.jpg?hmac=N5TZKe4gtmf4hU8xRs-zbS4diYiO009Jni7n50609zk"

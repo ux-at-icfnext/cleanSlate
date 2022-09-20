@@ -1,9 +1,9 @@
 ---
 layout: template
-categories: [templates, template-page]
+categories: [templates, basic-page]
 type: [detail-page]
 title: Another Test Detail Page
-permalink: /templates/template-page/another-test-detail-page/
+permalink: /templates/basic-page/another-test-detail-page/
 
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 

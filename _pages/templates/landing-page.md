@@ -1,6 +1,6 @@
 ---
 layout: template
-categories: [templates, sample-template-page]
+categories: [templates, landing-page]
 type: [sub-nav-item]
 title: Landing page 
 permalink: /templates/landing-page/
