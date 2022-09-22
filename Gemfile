@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/next/freeform" }
 
-gem "jekyll", "~> 3.9"
+gem "jekyll", "~> 4.0"
 
 gem "webrick"
 
