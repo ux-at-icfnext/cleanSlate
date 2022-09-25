@@ -4,11 +4,33 @@ categories: [patterns, file-input]
 title: File input
 type: [sub-nav-item]
 permalink: /patterns/file-input/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: File input allows users to attach one or multiple files.
 description: |
+   File input allows users to attach one or multiple files.
+   
+   When to use the file input component:
+   Documents are required. Ask users to provide files when it’s necessary." 
     
 usa-link: "https://designsystem.digital.gov/components/file-input/"
 specification: |
+   The file input box can be set to allow the following inputs:
+   - Single file upload
+   - multiple file upload
+   - Text or PDF only
+   - Image only
+
+   **Functionality**
+   - OnClick/OnTap of input, system displays file upload. User is able to navigate their system to select a file. 
+   - OR on drag and drop, the user is able to drop their file onto the input.
+   - On choosing file, system then displays the chosen file amd holds it in memory. The option to "change the file" appears
+   - If the user selects "change the file", the system unloads the file from memory and opens the system to navigate to a new file.
+   - On submission of form, the system saves the file to the chosen location.
+
+   NOTE: you can use the design above to try out this fuctionality
+
+   **Error State** is a user uploads a file that does not fit the established parameters... the system displays the error state and the form is not submitted.
+ 
+
 files:
  - error: true
     ### true -- display error message style; blank -- default file upload style

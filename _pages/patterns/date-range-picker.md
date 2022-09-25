@@ -4,11 +4,17 @@ categories: [patterns, date-picker]
 title: Date range picker
 type: [detail-page]
 permalink: /patterns/date-range-picker/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: The date range picker helps users select a range between two dates.
 description: |
+  The date range picker helps users select a range between two dates.
+
+  **When to use the date range picker component:**
+  Scheduling. When users need to schedule or record an event and benefit from the context of a calendar.
+  When the day of the week is important. When knowing the day of the week helps users choose a specific date.
     
 usa-link: "https://designsystem.digital.gov/components/date-range-picker"
 specification: |
+  *See [Date Picker](/patterns/date-picker/) for individual input functionality*
 #spec:
 startLabel: Event start date
 startDateDescription: mm/dd/yyyy

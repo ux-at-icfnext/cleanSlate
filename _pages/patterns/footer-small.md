@@ -4,11 +4,13 @@ categories: [patterns, footer]
 title: Small footer
 type: [detail-page]
 permalink: /patterns/footer/small-footer/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: Choose the small footer when there are only a few global links to house.
 description: |
-    
+    The small footer is a streamlined apporach that is great when there are not to many global links to house the the footer and no need for social links.
+
+    _For more information about footers at [footers](/patterns/footer)._
 usa-link: "https://designsystem.digital.gov/components/footer/"
-specification: |
+#specification: |
 
 #spec:
 

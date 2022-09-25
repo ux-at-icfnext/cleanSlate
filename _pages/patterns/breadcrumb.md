@@ -4,13 +4,15 @@ categories: [patterns, breadcrumb]
 title: Breadcrumb
 type: [sub-nav-item]
 permalink: /patterns/breadcrumb/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: A breadcrumb bar shows the location of the current page in the site structure.. 
 description: |
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+   A breadcrumb bar shows the location of the current page in the site structure. It's a path from the current page back to the home page, showing each level of organization in-between. Breadcrumbs allow a user to navigate “up” to a parent section instead of “Back” to the previous page. Use breadcrumbs to help users navigate and understand the organization of your site 
     
 usa-link: "https://designsystem.digital.gov/components/breadcrumb/"
 specification: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+   Use the default responsive breadcrumb. 
+    - The current page of the breadcrumb is not clickable
+    - Parent/Grandparent OnClick, system displays target page in current window. 
 breadcrumbWrapping: 
 ### options:
     ### true

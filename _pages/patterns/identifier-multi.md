@@ -4,11 +4,11 @@ categories: [patterns, identifier]
 title: Identifier with multiple parents and logos
 type: [detail-page]
 permalink: /patterns/identifier/identifier-multiple-parents-logos
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: For multiple parent organizations use this variation of the identifier. 
 description: |
-    
+    For multiple parent organizations use this variation of the identifier. This allows for the presentation of multiple parent logos and space in the text to add additional organizations. The about link shows only one main parent, but multiple about links can be added. _Read more about this compononet on the default [identifier](/patterns/identifier/) page.
 usa-link: "https://designsystem.digital.gov/components/identifier/"
-specification: |
+# specification: |
 
 #spec:
 
