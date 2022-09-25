@@ -4,12 +4,14 @@ categories: [patterns, list]
 title: List
 type: [sub-nav-item]
 permalink: /patterns/list/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: Unordered list help users to browse through content.
 variations: true
 description: |
+    Unordered list help users to browse through content.
     
 usa-link: "https://designsystem.digital.gov/components/list/"
 specification: |
+    List should be constained to no more than 80ex in width for usable reading. It is also reccommended to give 20px margin on all sides.
 list-type: unordered
 ### options: ordered, unordered
 class: 
