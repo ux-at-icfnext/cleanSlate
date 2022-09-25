@@ -5,11 +5,17 @@ title: Modal
 type: [sub-nav-item]
 permalink: /patterns/modal/
 variations: true
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: A modal disables page content and focuses the user’s attention on a single task or message.
 description: |
+  A modal prevents interaction with page content until the user completes an action or dismisses the modal. This intentionally interrupts the user’s workflow. Use modals sparingly to minimize unnecessary disruptions.
+
+  Modals should have a simple headline that explains its purpose. Use enough descriptive text to be clear what the user needs to do and why. Avoid using modals to display complex forms or large amounts of information.
     
 usa-link: "https://designsystem.digital.gov/components/modal/"
 specification: |
+  - Modal must contain a close button that must fit within the visible window space. 
+  - Items in the background must be disabled.
+  - Modal must contain a background area that allows modal content to be read.
 modal-class: 
 ### additional modal component style
 modal-type: 
