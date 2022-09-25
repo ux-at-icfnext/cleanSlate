@@ -6,7 +6,7 @@ type: [detail-page]
 permalink: /patterns/modal/modal-forced-action/
 overview: A forced modal required that action must be taken.
 description: |
-   A forced modal required that action must be taken. This is especially useful for a session ending or logout. _Read more about [modals](/patterns/modal/) by viewing the default pattern.
+   A forced modal required that action must be taken. This is especially useful for a session ending or logout. - This modal functions in the same way as the default modal ** except ** modal only closes through button interactions, not from clicking on the screen. _Read more about [modals](/patterns/modal/) by viewing the default pattern.
     
 usa-link: "https://designsystem.digital.gov/components/modal/"
 #specification: |

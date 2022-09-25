@@ -13,7 +13,10 @@ description: |
     
 usa-link: "https://designsystem.digital.gov/components/modal/"
 specification: |
-  - Modal must contain a close button that must fit within the visible window space. 
+  - OnClick/OnTap modal opens over window. 
+  - Modal should be no more than 95% of the screen width, making sure that the close button is in view
+  - On smaller devices modal needs to scroll if it falls below the screen fold. ** NOTE ** This behavior does not come with the default USWDS! 
+  - OnClick/OnTap of close button or outside of the modal window, modal closes.
   - Items in the background must be disabled.
   - Modal must contain a background area that allows modal content to be read.
 modal-class: 
