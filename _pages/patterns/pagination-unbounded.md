@@ -4,11 +4,12 @@ categories: [patterns, pagination]
 title: Unbounded pagination 
 type: [detail-page]
 permalink: /patterns/pagination/unbounded-pagination/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: In this variation, the last page is not shown.
 description: |
+  In this variation, the last page is not shown. _Read mores about the [pagination](/patterns/pagination/) pattern for how the component works.
     
 usa-link: "https://designsystem.digital.gov/components/pagination/"
-specification: |
+#specification: |
 pagination-current: 10
 pagination-pages: 24
 bounded: 

@@ -4,12 +4,18 @@ categories: [patterns, link]
 title: Link
 type: [sub-nav-item]
 permalink: /patterns/link/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
-description: |
+overview: Use links to help users navigate around the site or externally.
+#description: |
     
 usa-link: "https://designsystem.digital.gov/components/link/"
 specification: |
-
+   - Identify external links throughout content
+   - Provide required notification for nonfederal external links
+   - Use unique meaningful text
+   - Indicate nonpublic links that require authentication
+   - Show file type and size in MB or KB for nonHTML content, all uppercase, comma for separator 
+   - Encode email and phone links
+   - Identify jump links in body text
 #spec:
 
 ### Paths to view design and code... 

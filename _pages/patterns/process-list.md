@@ -4,12 +4,28 @@ categories: [patterns, process-list]
 title: Process list
 type: [sub-nav-item]
 permalink: /patterns/process-list/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: A process list displays the steps or stages of important instructions or processes.
 description: |
+  A process list displays the steps or stages of important instructions or processes. Use process lists to create a clear hierarchy and help users easily differentiate between individual steps or stages in a process.
     
 usa-link: "https://designsystem.digital.gov/components/process-list/"
 specification: |
-#spec:
+  A process list should include between three and ten steps to prevent it from getting too unwieldy or confusing. 
+
+  The body of each list item can be used to display additional rich text content including HTML, images, and other components like buttons, images, simple lists, links, and tables.
+spec:
+  - name: title
+    class: usa-process-list
+    required: true
+    type: h3
+    content: 80 characters
+    example: "Cats are really cool dudes"
+  - name: body
+    class: usa-classname
+    type: text
+    required: true
+    character: 140 characters
+    example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 

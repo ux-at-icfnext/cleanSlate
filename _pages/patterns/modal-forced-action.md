@@ -4,11 +4,12 @@ categories: [patterns, modal]
 title: Modal with forced action
 type: [detail-page]
 permalink: /patterns/modal/modal-forced-action/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: A forced modal required that action must be taken.
 description: |
+   A forced modal required that action must be taken. This is especially useful for a session ending or logout. - This modal functions in the same way as the default modal ** except ** modal only closes through button interactions, not from clicking on the screen. _Read more about [modals](/patterns/modal/) by viewing the default pattern.
     
 usa-link: "https://designsystem.digital.gov/components/modal/"
-specification: |
+#specification: |
 modal-class:
 ### additional modal component style
 modal-type: 
