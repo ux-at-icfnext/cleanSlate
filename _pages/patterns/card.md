@@ -16,7 +16,7 @@ specification: |
   OnClick/OnTap of card system displays destination in current window 
   OnHover display hover state 
 spec: 
-  - fname: title
+  - name: title
     class: usa-card__heading
     required: true
     type: customizable heading level 
