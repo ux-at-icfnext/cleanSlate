@@ -10,7 +10,7 @@
     "set-up": "npm run install-uswds-fonts && npm run install-uswds-js && npm run install-uswds-img",
     "install-uswds-fonts": "rsync -avr node_modules/@uswds/uswds/dist/ assets/uswds --exclude=/*.md --exclude=/*.zip --exclude=/css --exclude=/scss --exclude=/theme --exclude=/js --exclude=/img",
     "install-uswds-js": "rsync -avr node_modules/@uswds/uswds/dist/ assets/uswds --exclude=/*.md --exclude=/*.zip --exclude=/css --exclude=/scss --exclude=/theme --exclude=/fonts --exclude=/img",
-    "install-uswds-img": "rsync -avr node_modules/@uswds/uswds/dist/ assets/uswds --exclude=/*.md --exclude=/*.zip --exclude=/css --exclude=/scss --exclude=/theme --exclude=/fonts --exclude=/js"
+    "install-uswds-img": "rsync -avr node_modules/@uswds/uswds/dist/ assets --exclude=/*.md --exclude=/*.zip --exclude=/css --exclude=/scss --exclude=/theme --exclude=/fonts --exclude=/js"
   },
   "repository": {
     "type": "git",

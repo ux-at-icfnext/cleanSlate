@@ -9,7 +9,7 @@ in the form $setting: value,
 @use "uswds-core" with(
     $theme-show-notifications: false,
     $theme-show-compile-warnings: false,
-    $theme-image-path: "../uswds/img",
+    $theme-image-path: "../img",
     $theme-font-path: "../uswds/fonts"
     
     // $theme-utility-breakpoints: (
