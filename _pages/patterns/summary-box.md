@@ -12,18 +12,10 @@ specification: |
 #spec:
 summary-title: Key information
 summary-list:
- - text: If you are under a winter storm warning,
-   linkText: find shelter right away.
-   link: /
- - text: Sign up for 
-   linkText: your community’s warning system.
-   link: /
- - text: Learn the signs of, and basic treatments for, frostbite and hypothermia.
-   linkText: Learn more.
-   link: /
- - text: Gather emergency supplies for your home and your car.
-   linkText: Learn more.
-   link: /
+ - item: If you are under a winter storm warning, <a href="/" class="usa-summary-box__link">find shelter right away.</a> 
+ - item: Sign up for <a href="/" class="usa-summary-box__link">your community’s warning system.</a>
+ - item: Learn the signs of, and basic treatments for, <a href="/"  class="usa-summary-box__link">frostbite</a> and <a href="/" class="usa-summary-box__link">hypothermia.</a>
+ - item: Gather emergency supplies for your <a href="/" class="usa-summary-box__link">home</a> and your <a href="/" class="usa-summary-box__link">car.</a>
 yml: |
   
   summary-title: Key information
