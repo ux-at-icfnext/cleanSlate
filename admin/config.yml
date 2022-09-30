@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: {{https://github.com/ux-at-icfnext/next}} # Path to your GitHub repository
+  netlify.configure({'site_id': https://nextlibrary.netlify.app/);
+  # optional, defaults to master
+  branch: main
+
+media_folder: "assets/icons"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "_posts/"
+    fields:
+      - { name: Title }
+	# collection arrays go here
