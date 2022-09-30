@@ -4,11 +4,14 @@ categories: [patterns, footer]
 title: Big footer
 type: [detail-page]
 permalink: /patterns/footer/big-footer/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: Choose the big footer for sites that need to have continued access to many global pages.
 description: |
+    The big footer is perfect for organizations that have a lot of links that need to have consistent access. It is recommended that the different user types be evaluated for the pathways they need from these links.
+    
+    _For more information about footers at [footers](/patterns/footer)._
     
 usa-link: "https://designsystem.digital.gov/components/footer/"
-specification: |
+#specification: |
 
 #spec:
 

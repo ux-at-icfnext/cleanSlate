@@ -4,11 +4,13 @@ categories: [patterns, list]
 title: Ordered list
 type: [detail-page]
 permalink: /patterns/link/ordered-list/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: Use an ordered list when you need to display text in some ranking, hierarchy, or series of steps.
 description: |
+    Use an ordered list when you need to display text in some ranking, hierarchy, or series of steps.
     
 usa-link: "https://designsystem.digital.gov/components/list/"
 specification: |
+    List should be constained to no more than 80ex in width for usable reading. It is also reccommended to give 20px margin on all sides.
 list-type: ordered
 ### options: ordered, unordered
 class: 

@@ -4,12 +4,14 @@ categories: [patterns, identifier]
 title: Identifier
 type: [sub-nav-item]
 permalink: /patterns/identifier/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: The identifier communicates a site’s parent agency and displays agency links required by federal laws and policies.
 variations: true
 description: |
+    The identifier communicates a site’s parent agency and displays agency links required by federal laws and policies. This component sits at the bottom of every page below the [footer](/patterns/footer).
     
 usa-link: "https://designsystem.digital.gov/components/identifier/"
 specification: |
+    OnClick/OnTap of links open in current window.
 
 #spec:
 
