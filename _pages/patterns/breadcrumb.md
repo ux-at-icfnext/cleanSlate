@@ -27,7 +27,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/breadcrumb/breadcrumb.md %}"
+  "{% include patterns/breadcrumb/breadcrumb-jk.md %}"
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 

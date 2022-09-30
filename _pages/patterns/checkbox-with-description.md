@@ -36,7 +36,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/checkbox/checkbox-with-description.md %}"
+  "{% include patterns/checkbox/checkbox-jk.md %}"
 #spec:
 
 ### Paths to view design and code... 

@@ -22,7 +22,7 @@ yml: |
     ### type options: warning, info, success, error
 jekyll: |
 
-  "{% include patterns/alert/alert-no-icon.md %}"
+  "{% include patterns/alert/alert-no-icon-jk.md %}"
 #spec:
 
 ### Paths to view design and code... 

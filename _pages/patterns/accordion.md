@@ -65,7 +65,7 @@ yml: |
     content: accordion item 3 content
 jekyll: |
 
-  "{% include patterns/accordion/accordion.md %}"
+  "{% include patterns/accordion/accordion-jk.md %}"
 
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 

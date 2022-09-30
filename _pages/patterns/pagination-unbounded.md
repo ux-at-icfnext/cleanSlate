@@ -27,7 +27,7 @@ yml: |
     ### false/leave blank
 jekyll: |
 
-  "{% include patterns/pagination/pagination-unbounded.md %}"
+  "{% include patterns/pagination/pagination-jk.md %}"
 
 #spec:
 

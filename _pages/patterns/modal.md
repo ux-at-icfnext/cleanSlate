@@ -43,7 +43,7 @@ yml: |
   modal-link: Go back
 jekyll: |
 
-  "{% include patterns/modal/modal.md %}"
+  "{% include patterns/modal/modal-jk.md %}"
 
 #spec:
 

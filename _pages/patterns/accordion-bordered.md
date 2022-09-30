@@ -20,7 +20,7 @@ yml: |
     content: accordion item 3 content
 jekyll: |
 
-  "{% include patterns/accordion/accordion-bordered.md %}"
+  "{% include patterns/accordion/accordion-bordered-jk.md %}"
  
 
 ### Paths to view design and code... 

@@ -40,7 +40,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/list/list-ordered.md %}"
+  "{% include patterns/list/list-jk.md %}"
 #spec:
 
 ### Paths to view design and code... 

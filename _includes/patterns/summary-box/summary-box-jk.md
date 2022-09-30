@@ -14,8 +14,7 @@
       <ul class="usa-list">
       {% for item in list %}
         <li>
-          {{item.text}}
-          <a class="usa-summary-box__link" href="{{item.link}}">{{item.linkText}}</a>
+          {{item.item}}
         </li>
         {% endfor %}
       </ul>

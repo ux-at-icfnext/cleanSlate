@@ -40,7 +40,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/list/list.md %}"
+  "{% include patterns/list/list-jk.md %}"
 
 #spec:
 

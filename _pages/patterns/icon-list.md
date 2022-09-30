@@ -48,7 +48,7 @@ yml: |
      ### options: true or false 
 jekyll: |
 
-  "{% include patterns/icon-list/icon-list.md %}"
+  "{% include patterns/icon-list/icon-list-jk.md %}"
 #spec:
 
 ### Paths to view design and code... 

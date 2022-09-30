@@ -39,7 +39,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/text-input/text-input-message.md %}"
+  "{% include patterns/text-input/text-input-jk.md %}"
 
 htmlpath: patterns/text-input/text-input-message.md
 csspath: patterns/text-input/index.scss

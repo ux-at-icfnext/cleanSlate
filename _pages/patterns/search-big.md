@@ -24,7 +24,7 @@ yml: |
     ### small
 jekyll: |
 
-  "{% include patterns/search/search-big.md %}"
+  "{% include patterns/search/search-jk.md %}"
 #spec:
 
 ### Paths to view design and code... 
