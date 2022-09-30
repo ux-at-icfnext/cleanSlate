@@ -70,7 +70,7 @@ yml: |
   
 jekyll: |
 
-  "{% include patterns/process-list/process-list.md %}"
+  "{% include patterns/process-list/process-list-jk.md %}"
 htmlpath: patterns/process-list/process-list.md
 csspath: patterns/process-list/index.scss
 ---

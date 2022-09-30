@@ -12,30 +12,22 @@ specification: |
 #spec:
 summary-title: Key information
 summary-list:
- - item: If you are under a winter storm warning, <a href="/" class="usa-summary-box__link">find shelter right away.</a> 
- - item: Sign up for <a href="/" class="usa-summary-box__link">your community’s warning system.</a>
- - item: Learn the signs of, and basic treatments for, <a href="/"  class="usa-summary-box__link">frostbite</a> and <a href="/" class="usa-summary-box__link">hypothermia.</a>
- - item: Gather emergency supplies for your <a href="/" class="usa-summary-box__link">home</a> and your <a href="/" class="usa-summary-box__link">car.</a>
+ - item: If you are under a winter storm warning, <a href="/" class="usa-summary-box__link">find shelter</a> right away. 
+ - item: Sign up for <a href="/" class="usa-summary-box__link">your community’s warning system</a>.
+ - item: Learn the signs of, and basic treatments for, <a href="/"  class="usa-summary-box__link">frostbite</a> and <a href="/" class="usa-summary-box__link">hypothermia</a>.
+ - item: Gather emergency supplies for your <a href="/" class="usa-summary-box__link">home</a> and your <a href="/" class="usa-summary-box__link">car</a>.
 yml: |
   
   summary-title: Key information
   summary-list:
-   - text: If you are under a winter storm warning,
-   linkText: find shelter right away.
-   link: /
-  - text: Sign up for 
-   linkText: your community’s warning system.
-   link: /
-  - text: Learn the signs of, and basic treatments for, frostbite and hypothermia.
-   linkText: Learn more.
-   link: /
-  - text: Gather emergency supplies for your home and your car.
-   linkText: Learn more.
-   link: /
+    - item: If you are under a winter storm warning, <a href="/" class="usa-summary-box__link">find shelter</a> right away. 
+    - item: Sign up for <a href="/" class="usa-summary-box__link">your community’s warning system</a>.
+    - item: Learn the signs of, and basic treatments for, <a href="/"  class="usa-summary-box__link">frostbite</a> and <a href="/" class="usa-summary-box__link">hypothermia</a>.
+    - item: Gather emergency supplies for your <a href="/" class="usa-summary-box__link">home</a> and your <a href="/" class="usa-summary-box__link">car</a>.
 
 jekyll: |
 
-  "{% include patterns/summary-box/summary-box.md %}"
+  "{% include patterns/summary-box/summary-box-jk.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 

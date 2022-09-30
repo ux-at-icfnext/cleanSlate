@@ -28,7 +28,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/character-count/character-count.md %}"
+  "{% include patterns/character-count/character-count-jk.md %}"
 
 #spec:
 

@@ -50,7 +50,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/button-group/button-group-segmented.md %}"
+  "{% include patterns/button-group/button-group-jk.md %}"
 #spec:
 
 ### Paths to view design and code... 

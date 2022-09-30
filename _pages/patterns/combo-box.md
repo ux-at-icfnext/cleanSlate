@@ -59,7 +59,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/combo-box/combo-box.md %}"
+  "{% include patterns/combo-box/combo-box-jk.md %}"
 #spec:
 
 ### Paths to view design and code... 

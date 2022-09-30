@@ -33,7 +33,7 @@ yml: |
     modal-link: Sign out
 jekyll: |
 
-  "{% include patterns/modal/modal-forced-action.md %}"
+  "{% include patterns/modal/modal-forced-action-jk.md %}"
 
 #spec:
 

@@ -73,7 +73,7 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/file-input/file-input.md %}"
+  "{% include patterns/file-input/file-input-jk.md %}"
 #spec:
 
 ### Paths to view design and code... 
