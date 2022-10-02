@@ -5,8 +5,9 @@ title: Search
 type: [sub-nav-item]
 permalink: /patterns/search/
 variations: true
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
+overview: Search allows users to search for specific content.
 description: |
+  Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation.
     
 usa-link: "https://designsystem.digital.gov/components/search/"
 specification: |
