@@ -11,7 +11,7 @@ collections:
   - name: patterns
     label: Pattern Pages
     label_singular: Pattern Page
-    folder: pages/patterns
+    folder: _pages/patterns/
     editor:
       preview: false
     fields:
