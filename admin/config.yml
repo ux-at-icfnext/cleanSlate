@@ -8,9 +8,14 @@ backend:
 media_folder: "assets/icons"
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "_posts/"
+  - name: patterns
+    label: Pattern Pages
+    label_singular: Pattern Page
+    folder: pages/patterns
+    editor:
+      preview: false
     fields:
-      - { name: Title }
-	# collection arrays go here
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Overview', name: 'overview', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
