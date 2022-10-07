@@ -113,17 +113,23 @@ layout: left-rail
         </h4>
     <div id="html-accordion" class="usa-accordion__content usa-prose">
         {% if page.htmlexcerpt %}
-            <p>
-                {% highlight html %}
-                    {% include {{ page.htmlexcerpt | liquify }} %}
-                {% endhighlight %}
-            </p>
+        <div class="flex-reverse">
+            {% highlight html %}
+                {% include {{ page.htmlexcerpt | liquify }} %}
+            {% endhighlight %}
+            <button class="usa-button copy-code-button">
+                Copy code to clipboard
+            </button>
+        </div>
         {% else %}
-        <p>
+        <div class="flex-reverse">
             {% highlight html %} 
                 {% include {{ page.htmlpath | liquify }} %}
             {% endhighlight %}
-        </p>
+            <button class="usa-button copy-code-button">
+                Copy code to clipboard
+            </button>
+        </div>
         {% endif %}
     </div>
 </div> 
@@ -140,11 +146,14 @@ layout: left-rail
             </button>
         </h4>
     <div id="css-accordion" class="usa-accordion__content usa-prose">
-        <p>
+        <div class="flex-reverse">
             {% highlight css %} 
-                {% include {{ page.csspath | liquify }} %}
+                {% include {{ page.csspath | liquify  }} %}
             {% endhighlight %}
-        </p>
+            <button class="usa-button copy-code-button">
+                Copy code to clipboard
+            </button>
+        </div>
     </div>
 </div>
 {% endif %}

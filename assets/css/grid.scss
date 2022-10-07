@@ -41,6 +41,10 @@ $grid-xl-max: 1400px;
         flex-direction: column-reverse;
      } 
 }
+.flex-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .design-content-flex{
     display: flex;
     flex-direction: column;
