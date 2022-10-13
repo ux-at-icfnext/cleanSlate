@@ -5,12 +5,24 @@ title: Site alert
 type: [sub-nav-item]
 permalink: /patterns/site-alert/
 variations: true
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
-description: |
+overview: A site alert communicates urgent sitewide information. 
+description: A site alert prominently displays critical, time-sensitive warnings or directions across every page so that users see it whenever they visit the site. Using the same site alert treatment across agencies helps create a consistent and predictable way for users to find urgent information across all government websites.
     
 usa-link: "https://designsystem.digital.gov/components/site-alert/"
 specification: |
-#spec:
+  We will be using the default search component. 
+spec: # example schema below .. repeat sets for as many fields as you have
+  - fieldname: title
+    class-name: usa-classname
+    required: true
+    type: h3
+    content: 80 characters
+    example: "Cats are really cool dudes"
+  - fieldname: body
+    class-name: usa-classname
+    type: text
+    character: 140 characters
+    example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
 site-alert-type: 
 ### options: slim, no-header, no-icon, list
 site-alert-color: info
