@@ -21,18 +21,15 @@ collections:
       - { label: "Test", name: "test", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string"}
       - { label: "Body", name: "body", widget: "markdown" }
-
-  # - name: patterns
-  #   label: Pattern Pages
-  #   label_singular: Pattern Page
-  #   folder: _pages/patterns/
-  #   editor:
-  #     preview: false
-  #   fields:
-  #     - { label: 'Title', name: 'title', widget: 'string' }
-  #     - { label: 'Description', name: 'description', widget: 'string' }
-  #     - { label: 'Overview', name: 'overview', widget: 'string' }
-  #     - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: patterns
+    label: Pattern Page
+    folder: _pages/patterns/
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: "Permalink", name: "permalink", widget: "string"}
+      - { label: 'Overview', name: 'overview', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
 
 
 
