@@ -17,6 +17,8 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "full-width" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" } 
+      - { label: "Overview", name: "overview", widget: "string" }
+      - { label: "Test", name: "test", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string"}
       - { label: "Body", name: "body", widget: "markdown" }
 
@@ -33,4 +35,4 @@ collections:
   #     - { label: 'Body', name: 'body', widget: 'markdown' }
 
 
-        # - { label: "Overview", name: "overview", widget: "string" }
+
