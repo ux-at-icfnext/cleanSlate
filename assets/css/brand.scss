@@ -1,3 +1,6 @@
 .custom-theme{
     background-color: pink;
+    .header-container, .footer-container, .usa-card__container, .design-content-flex .usa-accordion__content{
+        background-color: pink;
+    }  
 }
