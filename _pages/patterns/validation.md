@@ -4,12 +4,24 @@ categories: [patterns, validation]
 title: Validation
 type: [sub-nav-item]
 permalink: /patterns/validation/
-overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
-description: |
+overview: Stating validation requirements up front, with live feedback, means users won’t be left guessing.
+description: Stating validation requirements up front, with live feedback, means users won’t be left guessing.
     
 usa-link: "https://designsystem.digital.gov/components/validation/"
 specification: |
-#spec:
+  The validation component is intended primarily for usability, not as a robust security solution, since all the validation logic occurs on the client-side. The validation should be “mirrored” on the server-side for security purposes.
+spec: # example schema below .. repeat sets for as many fields as you have
+  - fieldname: title
+    class-name: usa-classname
+    required: true
+    type: h3
+    content: 80 characters
+    example: "Cats are really cool dudes"
+  - fieldname: body
+    class-name: usa-classname
+    type: text
+    character: 140 characters
+    example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
 legend: Enter a code
 validationTitle: Code requirements
 validationFieldText: Code
