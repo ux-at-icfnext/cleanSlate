@@ -1,4 +1,4 @@
-# nex+
+# Nex+ Pattern Library
 
 ## About:
 This basekit pattern library is built using Jekyll 4.0 built on the ruby gem 3.1.2 version. Node.js + Gulp are used to compile USWDS 3.0.
@@ -78,6 +78,6 @@ assets
     css -- custom library css
     js -- custom library js
     icons -- custom library images
-        **Note: Add custom images to this folder**
+        <strong>Note: Add custom images to this folder</strong>
     img -- uswds images 
     uswds -- fonts and js
