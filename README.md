@@ -13,15 +13,24 @@ This basekit pattern library is built using Jekyll 4.0 built on the ruby gem 3.1
     - Chruby and ruby-installer set-up documentation: https://mac.install.guide/ruby/12.html
 
 ## Install Library:
-1. Clone GitHub Repository
-    $ git clone https://github.com/ux-at-icfnext/next.git
-2. In your local directory, navigate to the pattern library folder
+Clone GitHub Repository
+
+    $ git clone https://github.com/ux-at-icfnext/next.git   
+    
+In your local directory, navigate to the pattern library folder
+    
     $ cd next
-3. Install project gems and plug-ins
+    
+Install project gems and plug-ins
+    
     $ bundle install
-4. Install node modules
-     $ npm install
-5. Initialize local environment, compile USWDS, and run local server
+    
+Install node modules
+    
+    $ npm install
+    
+Initialize local environment, compile USWDS, and run local server
+    
     $ npm run init
 
 ## Compile code:
