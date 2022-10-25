@@ -33,11 +33,13 @@ Note: /assets/img folder is uswds images folder that is installed during the env
 
 ## File Structure:
 _data
+
     colors.yml
     config.yml
     nav.yml
 
 _includes
+
     partials
         lib -- library structure components
         breadcrumbs.html
@@ -50,6 +52,7 @@ _includes
         patterns.scss -- imports all component styles in the patterns folder 
 
 _layouts -- page layouts
+
     default.html
     full-width.html
     left-rail.html
@@ -57,6 +60,7 @@ _layouts -- page layouts
     template.html
 
 _pages -- pattern library pages
+
     about
     guidance
     patterns
@@ -65,10 +69,12 @@ _pages -- pattern library pages
     templates
 
 admin -- NetlifyCMS set-up
+
     config.yml
     index.html
 
 assets
+
     css -- custom library css
     js -- custom library js
     icons -- custom library images
