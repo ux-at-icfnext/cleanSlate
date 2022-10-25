@@ -28,10 +28,10 @@ This basekit pattern library is built using Jekyll 4.0 built on the ruby gem 3.1
     $ npm run compile
 
 ## Adding images to the library:
-- Custom images should be added to the: 
-<br/>
-/assets/icons folder
-<br/>
+Custom images should be added to the: 
+    
+    /assets/icons folder
+
 Note: /assets/img folder is the uswds images folder installed during the environment initialization (step 4) -- any customization in the folder may be overwritten 
 
 ## File Structure:
