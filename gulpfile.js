@@ -13,10 +13,7 @@ const compilescss = () => {
             ]
         })
     )
-    .pipe(autoprefixer({
-        browsers: ['last 99 versions'],
-        cascade: false
-}))
+    .pipe(autoprefixer())
     .pipe(cssnano())
     .pipe(dest("assets/css"))
 }
