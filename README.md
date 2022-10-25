@@ -78,6 +78,6 @@ assets
     css -- custom library css
     js -- custom library js
     icons -- custom library images
-        <strong>Note: Add custom images to this folder</strong>
+        Note: Add custom images to this folder
     img -- uswds images 
     uswds -- fonts and js
