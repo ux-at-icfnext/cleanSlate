@@ -15,26 +15,27 @@ This basekit pattern library is built using Jekyll 4.0 built on the ruby gem 3.1
 ## Install Library:
 Clone GitHub Repository
 
-    $git clone https://github.com/ux-at-icfnext/next.git   
+    git clone https://github.com/ux-at-icfnext/next.git   
     
 In your local directory, navigate to the pattern library folder
     
-    $ cd next
+    cd next
     
 Install project gems and plug-ins
     
-    $ bundle install
+    bundle install
     
 Install node modules
     
-    $ npm install
+    npm install
     
 Initialize local environment, compile USWDS, and run local server
     
-    $ npm run init
+    npm run init
 
 ## Compile code:
-    $ npm run compile
+    
+    npm run compile
 
 ## Adding images to the library:
 Custom images should be added to the: 
