@@ -14,7 +14,7 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{title}}'
     create: true
     fields:
-      # - { label: "Layout", name: "layout", widget: "hidden", default: "full-width" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "full-width" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" } 
       - { label: "Overview", name: "overview", widget: "string" }
@@ -25,14 +25,15 @@ collections:
     label: Pattern Page
     folder: _pages/patterns/
     fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "pattern" }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: "Permalink", name: "permalink", widget: "string"}
   - name: templates
     label: Template Page
     folder: _pages/templates/
-    # slug: '{{categories[0]/{{categories[1]}}'
-    # create: true
+    slug: '{{categories[0]/{{categories[1]}}'
+    create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Categories', name: 'categories', widget: 'list' }
