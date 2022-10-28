@@ -28,6 +28,20 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: "Permalink", name: "permalink", widget: "string"}
-
+ - name: templates
+    label: Template Page
+    folder: _pages/templates/
+    # slug: '{{categories[0]/{{categories[1]}}'
+    # create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Categories', name: 'categories', widget: 'list' }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "template" }
+      # - { label: 'Type', name: 'type', widget: "hidden", default: "[sub-nav-item]"}
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: "Permalink", name: "permalink", widget: "string"}
+      - { label: "Spec", name: "spec", widget: "list", required: false }
+      - { label: "Design File", name: "design-file", widget: "list", required: false }
+      - { label: "Prototype", name: "prototype", widget: "list", required: false }
 
 
