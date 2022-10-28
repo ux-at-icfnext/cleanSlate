@@ -24,8 +24,8 @@ collections:
   - name: patterns
     label: Pattern Page
     folder: _pages/patterns/
-    slug: '{{categories[0]/{{categories[1]}}'
-    create: true
+    # slug: '{{categories[0]/{{categories[1]}}'
+    # create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
@@ -51,8 +51,8 @@ collections:
   - name: templates
     label: Template Page
     folder: _pages/templates/
-    slug: '{{categories[0]/{{categories[1]}}'
-    create: true
+    # slug: '{{categories[0]/{{categories[1]}}'
+    # create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Categories', name: 'categories', widget: 'list' }
