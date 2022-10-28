@@ -24,60 +24,10 @@ collections:
   - name: patterns
     label: Pattern Page
     folder: _pages/patterns/
-    # slug: '{{categories[0]/{{categories[1]}}'
-    # create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "pattern" }
-      - { label: 'Type', name: 'type', default: "[sub-nav-item]",  widget: "hidden" }
       - { label: "Permalink", name: "permalink", widget: "string"}
-      - { label: 'Variations', name: 'Variations', widget: 'boolean' }
-      - { label: "Specification", name: "specification", widget: "markdown", required: false}
-      - { label: "Spec", name: "spec", widget: "list", required: false}
-  # - name: patterns
-  #   label: Pattern Page - Design Variation
-  #   folder: _pages/patterns/
-  #   slug: '{{categories[0]/{{categories[1]}}/{{title}}'
-  #   create: true
-  #   fields:
-  #     - { label: 'Title', name: 'title', widget: 'string' }
-  #     - { label: 'Description', name: 'description', widget: 'string' }
-  #     - { label: "Layout", name: "layout", widget: "hidden", default: "pattern" }
-  #     - { label: 'Type', name: 'type', default: "[detail-page]",  widget: "hidden" }
-  #     - { label: "Permalink", name: "permalink", widget: "string"}
-  #     - { label: "Specification", name: "specification", widget: "markdown", required: false}
-  #     - { label: "Spec", name: "spec", widget: "list", required: false}
-  - name: templates
-    label: Template Page
-    folder: _pages/templates/
-    # slug: '{{categories[0]/{{categories[1]}}'
-    # create: true
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "template" }
-      - { label: 'Type', name: 'type', default: "[sub-nav-item]",  widget: "hidden" }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: "Permalink", name: "permalink", widget: "string"}
-      - { label: "Spec", name: "spec", widget: "list", required: false }
-      - { label: "Design File", name: "design-file", widget: "list", required: false }
-      - { label: "Prototype", name: "prototype", widget: "list", required: false }
-  # - name: templates
-  #   label: Template Page - Design Variation
-  #   folder: _pages/templates/
-  #   slug: '{{categories[0]/{{categories[1]}}/{{title}}'
-  #   create: true
-  #   fields:
-  #     - { label: 'Title', name: 'title', widget: 'string' }
-  #     - { label: 'Categories', name: 'categories', widget: 'list' }
-  #     - { label: "Layout", name: "layout", widget: "hidden", default: "template" }
-  #     - { label: 'Type', name: 'type', default: "[detail-page]",  widget: "hidden" }
-  #     - { label: 'Description', name: 'description', widget: 'string' }
-  #     - { label: "Permalink", name: "permalink", widget: "string"}
-  #     - { label: "Spec", name: "spec", widget: "list", required: false }
-  #     - { label: "Design File", name: "design-file", widget: "list", required: false }
-  #     - { label: "Prototype", name: "prototype", widget: "list", required: false }
 
 
 
