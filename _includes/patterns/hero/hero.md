@@ -1,5 +1,5 @@
 
-<section class="usa-hero"{% if page.hero.image %} style="background-image: url({{ page.hero.image }})"{% endif %} aria-label="Introduction";>
+<section class="usa-hero"{% if page.hero.image %} style="background-image: url({{ page.hero.image }})"{% endif %} aria-label="Introduction">
   <div class="grid-container">
     <div class="usa-hero__callout">
       {% if page.hero.callout %}
