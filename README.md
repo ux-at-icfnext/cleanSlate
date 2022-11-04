@@ -7,6 +7,7 @@ This basekit pattern library is built using Jekyll 4.0 built on the ruby gem 3.1
 ### Pre-Requisites
 - Node.js (version 16 or newer)
 - Ruby gem version 3.1.2
+- rsync
 
 ## How to install ruby 3.1.2:
  **Recommendation:** Install a ruby gems bundler that will allow for you to install the specific version of ruby needed for your project and manage ruby versions on your computer (ex. chruby and ruby-installer)
