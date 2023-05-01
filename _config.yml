@@ -12,7 +12,6 @@ defaults:
       layout: default
 
 plugins:
-  - jekyll-last-modified-at
   - jekyll-postcss
   - jekyll-autoprefixer
 

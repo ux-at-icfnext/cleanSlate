@@ -1,69 +1,37 @@
----
-layout: default
-title: ICF Nex+ Home
-subtitle: Home
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/assets/uswds/js/uswds-init.min.js" async></script>
+  <link rel="stylesheet" type ="text/css" href="/assets/css/styles.css"></link>
+    <!-- Include the identity widget -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
+  <link rel="icon" href="/assets/icons/sample-favicon.jpeg"></link>
+  <link rel="stylesheet" href="https://kit.fontawesome.com/71dbd15dc2.css" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hello World</h1>
 
-hero:
-  image: /assets/icons/hero.png
-  callout:
-    alt: "Welcome"
-    text: To the Nex+ Library
-  button:
-    href: /about/how-to-use-next/
-    text: Get Started
-  link:
-    text: Link to more about that priority
-    href: /link/
-  content: This library allows us to use the USWDS customized for our clients.
-
-tagline: Get your pattern library up and running quickly.
-intro: |
-  This system helps you to document your brand expression of the [U.S. Web Design System](https://designsystem.digital.gov/components/overview/) for your government clients. 
-
-  You will be able to maintain your functional and content specifications, while keeping track of your design changes to both out of box or custom components.
-
-graphics:
-  - image:
-      src: /assets/icons/icon-code.png
-      alt: ""
-    title: HTML/CSS based Library
-    description: Build a library that looks like your brand. And see elements and components as they will appear on your site.
-  - image:
-      src: /assets/icons/icon-team.png
-      alt: ""
-    title: Full team support
-    description: Get your designers and content authors involved with easy to edit Markdown files. While developers are presented with an easy structure to update code snippets.
-  - image:
-      src: /assets/icons/icon-org.png
-      alt: ""
-    title: Accessible to your whole organization
-    description: No need to worry about different contracts building out different web properties. This library can be hosted to be available for all to view and use.
-  - image:
-      src: /assets/icons/icon-web.png
-      alt: ""
-    title: Quick Design Prototypes
-    description: With your full library available, staging design prototypes is quick, allowing for ideation and approvals.
----
-
-{% include patterns/hero/hero.md %}
-
-{% if page.tagline and page.intro %}
-    <section class="grid-container usa-section">
-      <div class="grid-row grid-gap">
-        <div class="tablet:grid-col-4">
-          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">{{ page.tagline }}</h2>
+  <ul class="usa-card-group">
+    <li class="usa-card tablet:grid-col-4">
+      <div class="usa-card__container">
+        <div class="usa-card__header">
+          <h2 class="usa-card__heading">Card</h2>
         </div>
-        <div class="tablet:grid-col-8 usa-prose">
-          {{ page.intro | markdownify }}
+        <div class="usa-card__body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum
+            tenetur quo cupiditate, eaque qui officia recusandae.
+          </p>
+        </div>
+        <div class="usa-card__footer">
+          <button type="button" class="usa-button">Visit Florida Keys</button>
         </div>
       </div>
-    </section>
-{% endif %}
-
-{% include patterns/graphiclist/graphiclist.md %}
-
-<section class="grid-container usa-section">
-      <h4>Download this kit and get your library started today.</h4>
-      <p>Check out our <a href="/about/how-to-use-next/">documentation</a> on how to get your library started.</p>
-      <p><a href="/about/how-to-use-next/" class="usa-button usa-button--big">Get Started</a>
-</section>
+    </li>
+  </ul>
+</body>
+</html>
