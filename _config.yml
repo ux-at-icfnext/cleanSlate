@@ -14,6 +14,7 @@ defaults:
 plugins:
   - jekyll-postcss
   - jekyll-autoprefixer
+  - jekyll-toc
 
 # Enable safe mode
 safe: safe

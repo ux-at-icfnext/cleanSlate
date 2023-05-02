@@ -6,7 +6,7 @@ layout: left
 <h1>Hello World</h1>
 
   <ul class="usa-card-group">
-    <li class="usa-card tablet:grid-col-4">
+    <li class="usa-card desktop:grid-col-4">
       <div class="usa-card__container">
         <div class="usa-card__header">
           <h2 class="usa-card__heading">Card</h2>
@@ -25,7 +25,7 @@ layout: left
   </ul>
 </div>
 
-<div class="contents tablet:grid-col-3" markdown="1" >
+<div class="contents desktop:grid-col-3" markdown="1" >
   <h2>On this page</h2>
   * TOC
   {:toc}

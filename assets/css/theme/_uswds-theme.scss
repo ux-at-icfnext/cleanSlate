@@ -1,4 +1,3 @@
-/*
 ----------------------------------------
 USWDS with settings overrides
 ----------------------------------------
@@ -10,17 +9,21 @@ in the form $setting: value,
     $theme-show-notifications: false,
     $theme-show-compile-warnings: false,
     $theme-image-path: "../img",
-    $theme-font-path: "../uswds/fonts"
-    // $theme-utility-breakpoints: (
-    //             'card': false,   // 160px
-    //             'card-lg': false,   // 240px
-    //             'mobile': false,   // 320px
-    //             'mobile-lg': true,    // 480px
-    //             'tablet': true,    // 640px
-    //             'tablet-lg': false,   // 880px
-    //             'desktop': true,    // 1024px
-    //             'desktop-lg': false,   // 1200px
-    //             'widescreen': false,   // 1400px
-    //     ),
-
+    $theme-font-path: "../uswds/fonts",
+    $theme-banner-max-width: "widescreen",
+    $theme-header-max-width: "widescreen",
+    $theme-footer-max-width: "widescreen",
+    $theme-identifier-max-width: "widescreen",
+    $theme-grid-container-max-width: "desktop-lg",
+    $theme-utility-breakpoints: (
+                'card': false,   // 160px
+                'card-lg': false,   // 240px
+                'mobile': false,   // 320px
+                'mobile-lg': true,    // 480px
+                'tablet': true,    // 640px
+                'tablet-lg': true,   // 880px
+                'desktop': false,    // 1024px
+                'desktop-lg': true,   // 1200px
+                'widescreen': true,   // 1400px
+        ),
 );
