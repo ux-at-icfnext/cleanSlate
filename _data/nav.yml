@@ -1,0 +1,19 @@
+nav:
+  - title: Example Item
+    href: /
+  - title: Example with Sub
+    href: /
+    subnav:
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /
+  - title: '<i class="fa-solid fa-face-awesome"></i>  Example with icon'
+
+utls:
+  - title: Utility Nav Item
+    href: /
+  - title: Utility Nav Item
+    href: /

@@ -10,13 +10,21 @@
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
   <link rel="icon" href="/assets/icons/sample-favicon.jpeg"></link>
   <link rel="stylesheet" href="https://kit.fontawesome.com/71dbd15dc2.css" crossorigin="anonymous">
-  <title>Document</title>
+  <title>{{ page.title }}: {{ site.data.settings.sitename }}</title>
 </head>
 <body>
-  {% include patterns/header/header.md %}
+  {% include patterns/header/header-jk.md %}
   
   {{ content }}
   
   {% include patterns/footer/footer.md %}
+
+  
+  <script src="{{site.baseurl}}/assets/uswds/js/uswds.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/copy_to_clipboard.js"></script>
+  <script src="{{site.baseurl}}/assets/js/nav_mobile.js"></script>
+  <script src="{{site.baseurl}}/assets/js/template_img.js"></script>
+  <script src="{{site.baseurl}}/assets/js/theme_mode.js"></script>
+  <script src="{{site.baseurl}}/assets/js/cms.js"></script>
 </body>
 </html>

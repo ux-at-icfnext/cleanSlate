@@ -1,13 +1,13 @@
 
-<header class="usa-header usa-header--basic">
-  <div class="usa-nav-container">
-    <div class="usa-navbar">
-      <div class="usa-logo" id="-logo">
-        <em class="usa-logo__text"><a href="/" title="Home">Home</a></em>
-      </div>
-      <button type="button" class="usa-menu-btn">Menu</button>
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="-logo">
+      <em class="usa-logo__text"><a href="/" title="Home">Home</a></em>
     </div>
-    <nav aria-label="Primary navigation" class="usa-nav">
+    <button type="button" class="usa-menu-btn">Menu</button>
+  </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
       <button type="button" class="usa-nav__close">
         <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
@@ -17,11 +17,11 @@
             type="button"
             class="usa-accordion__button usa-nav__link usa-current"
             aria-expanded="false"
-            aria-controls="basic-nav-section-one"
+            aria-controls="extended-nav-section-one"
           >
             <span>&lt;Current section&gt;</span>
           </button>
-          <ul id="basic-nav-section-one" class="usa-nav__submenu">
+          <ul id="extended-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
@@ -41,11 +41,11 @@
             type="button"
             class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
-            aria-controls="basic-nav-section-two"
+            aria-controls="extended-nav-section-two"
           >
             <span>&lt;Section&gt;</span>
           </button>
-          <ul id="basic-nav-section-two" class="usa-nav__submenu">
+          <ul id="extended-nav-section-two" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
@@ -61,24 +61,27 @@
           <a href="" class="usa-nav-link"><span>&lt;Simple link&gt;</span></a>
         </li>
       </ul>
-      <section aria-label="Search component">
-        <form class="usa-search usa-search--small" role="search">
-          <label class="usa-sr-only" for="search-field">Search</label>
-          <input
-            class="usa-input"
-            id="search-field"
-            type="search"
-            name="search"
-          />
-          <button class="usa-button" type="submit">
-            <img
-              src="/assets/img/usa-icons-bg/search--white.svg"
-              class="usa-search__submit-icon"
-              alt="Search"
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links"></ul>
+        <section aria-label="Search component">
+          <form class="usa-search usa-search--small" role="search">
+            <label class="usa-sr-only" for="search-field">Search</label>
+            <input
+              class="usa-input"
+              id="search-field"
+              type="search"
+              name="search"
             />
-          </button>
-        </form>
-      </section>
-    </nav>
-  </div>
+            <button class="usa-button" type="submit">
+              <img
+                src="/assets/img/usa-icons-bg/search--white.svg"
+                class="usa-search__submit-icon"
+                alt="Search"
+              />
+            </button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </nav>
 </header>

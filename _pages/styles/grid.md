@@ -2,7 +2,8 @@
 layout: right
 title: Grid System
 permalink: /styles/grid
-type: styles
+section: Styles # initial cap required to make menu work
+#type: prototype
 summary: |
   Use our flexible grid system to structure website content. The grid is mobile-first, powered by flexbox, and based on a 12-column system.
 ---
