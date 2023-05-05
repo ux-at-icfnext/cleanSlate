@@ -8,11 +8,13 @@ summary: |
 
 alert:
   status: info
-  title: Header versions
-  content: There are multiple heading. Extra headings should be removed from the system, once you've chosen your version.
+  content: There are two headers. The extra header should be removed from the system, once you've chosen your version.
 
 htmlpath: patterns/header/header.md
 csspath: patterns/header/index.scss
+---
+## The Design
+{% include patterns/header/header-jk.md %}
 ---
 
 {% include patterns/alert/alert-jk.md content=page.alert %}
@@ -22,14 +24,20 @@ Please not that mega menus were not added to the library. Even though this patte
 ## Theme Settings
 These aspects of the header can be set within the theme settings.
 - __$theme-header-font-family__  _default: ui_
+{: .usa-list}
 - __$theme-header-logo-text-width__ _default: 33%_  Width of the logo text area at desktop width as a percentage of the total header width.
+{: .usa-list}
 - __$theme-header-max-width__ _default: destop_ Maximum width of the header.
+{: .usa-list}
 - __$theme-header-min-width__ _default: desktop_ - smallest breakpoint before showing mobile menu
+{: .usa-list}
 
 For this library we've set the `$theme-header-max-width` to "widescreen", to fit with our [Grid](/styles/grid) strategy.
 
 All other aspects to brand the header will have to be overwritten using CSS.
 
+## Search
+Please see the [search](/patterns/search) documentation for more information on how search works in the header
 
 ## Library & Prototyping
 The library and prototype use the same header which is set in the `_layouts/default.html` file. At default it's using the regular jekyll partial header, this can be updated to use the extended header by changing `header-jk.md` to `header-ext-jk.md`.

@@ -9,7 +9,7 @@
   <form class="usa-search {{ class }}" role="search">
     <label class="usa-sr-only" for="search-field">{{ search.label | default: "Search"  }}</label>
     <input class="usa-input" id="search-field" type="search" name="search" placeholder="{{ search.placeholder }}" />
-      <button class="usa-button" type="submit">
+      <button class="usa-button {{ search.btn-class }}" type="submit">
         {% if search.small != true %}<span class="usa-search__submit-text">{{ search.label | default: "Search"  }}</span
         >{% endif %}
         <img
