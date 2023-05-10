@@ -1,4 +1,13 @@
-- title: Styles
-  href: /styles
-- title: Patterns
-  href: /patterns
+nav:
+  - title: Styles
+    href: /styles
+  - title: Patterns
+    href: /patterns
+
+foot:
+  - title: Use ICF Nex+ Library
+    href: /about/how-to-use
+  - title: Get Nex+ Library
+    href: /about/how-to-get
+  - title: Contribute to ICF Nex+ Library
+    href: /about/how-to-contribute

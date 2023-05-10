@@ -1,7 +1,9 @@
 {% if page.type == "prototype" %}
   {% assign nav = site.data.nav.nav %}
+{% elsif include.settings == "prototype" %}
+  {% assign nav = site.data.nav.nav %}
 {% else %}
-  {% assign nav = site.data.lib-nav %}
+  {% assign nav = site.data.lib-nav.nav %}
 {% endif %}
 
 <header class="usa-header usa-header--basic">

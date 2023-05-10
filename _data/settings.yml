@@ -1,2 +1,9 @@
 sitename: ICF Nex+ Library
 sitelogo: /assets/images/sample-logo.png
+sitelogo-small: /assets/images/sample-logo-sm.png
+sitedomain: oursite.gov
+siteemail: info@oursite.gov
+sitephone: 800-555-1GOV
+agencycontent: Agency Contact Center
+parentagency: Parent Agency
+parentlogo: /assets/images/parent-sample-logo.svg

@@ -17,3 +17,41 @@ utls:
     href: /
   - title: Utility Nav Item
     href: /
+
+foot:
+  - title: Link Example
+    href: /
+    subnav:
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /
+  - title: Link Example
+    href: /
+    subnav:
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /
+  - title: Link Example
+    href: /
+    subnav:
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /
+  - title: Link Example
+    href: /
+    subnav:
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /
+      - title: Example Sub
+        href: /

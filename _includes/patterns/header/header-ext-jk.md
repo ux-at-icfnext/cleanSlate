@@ -1,8 +1,11 @@
 {% if page.type == "prototype" %}
   {% assign nav = site.data.nav.nav %}
   {% assign utls = site.data.nav.utls %}
+{% elsif include.settings == "prototype" %}
+  {% assign nav = site.data.nav.nav %}
+  {% assign utls = site.data.nav.utls %}
 {% else %}
-  {% assign nav = site.data.lib-nav %}
+  {% assign nav = site.data.lib-nav.nav %}
 {% endif %}
 
 <header class="usa-header usa-header--extended">

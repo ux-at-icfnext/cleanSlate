@@ -13,13 +13,16 @@ alert:
 htmlpath: patterns/header/header.md
 csspath: patterns/header/index.scss
 ---
+
+{{ page.summary }}
+
 ## The Design
-{% include patterns/header/header-jk.md %}
+{% include patterns/header/header-jk.md settings="prototype" %}
 ---
 
 {% include patterns/alert/alert-jk.md content=page.alert %}
 
-Please not that mega menus were not added to the library. Even though this pattern exist in the USWDS, megamenus have usability and accessiblity issues. They are also becoming old fashion. See more about this from [NNGroup](https://www.nngroup.com/articles/mega-menus-work-well/). However, if the solution for you web properity needs a mega menu, the code and specifications can be found on the [header spec](https://designsystem.digital.gov/components/header/) for the USDWS.  
+Please note that mega menus were not added to the library. Even though this pattern exist in the USWDS, megamenus have usability and accessiblity issues. They are also becoming old fashion. See more about this from [NNGroup](https://www.nngroup.com/articles/mega-menus-work-well/). However, if the solution for you web properity needs a mega menu, the code and specifications can be found on the [header spec](https://designsystem.digital.gov/components/header/) for the USDWS.  
 
 ## Theme Settings
 These aspects of the header can be set within the theme settings.
