@@ -55,3 +55,20 @@ foot:
         href: /
       - title: Example Sub
         href: /
+
+social:
+  - icon: /assets/img/usa-icons/facebook.svg
+    alt: "Facebook"
+    link: /
+  - icon: /assets/img/usa-icons/twitter.svg
+    alt: "Twitter"
+    link: /
+  - icon: /assets/img/usa-icons/youtube.svg
+    alt: "YouTube"
+    link: /
+  - icon: /assets/img/usa-icons/instagram.svg
+    alt: "Instagram"
+    link: /
+  - icon: /assets/img/usa-icons/rss_feed.svg
+    alt: "RSS"
+    link: /

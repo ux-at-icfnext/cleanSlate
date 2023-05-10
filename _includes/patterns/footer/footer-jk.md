@@ -1,8 +1,10 @@
 {% if page.type == "prototype" %}
   {% assign nav = site.data.nav.foot %}
+  {% assign soc = site.data.nav.social %}
   {% assign type = "prototype" %}
 {% elsif include.settings == "prototype" %}
   {% assign nav = site.data.nav.foot %}
+  {% assign soc = site.data.nav.social %}
   {% assign type = "prototype" %}
 {% else %}
   {% assign nav = site.data.lib-nav.foot %}
@@ -53,46 +55,16 @@
         {% if type != "prototype" %}<p>© 2022 ICF - All Rights Reserved</p>{% endif %}
         {% if type == "prototype" %}
           <div class="usa-footer__social-links grid-row grid-gap-1">
+          {% for s in soc %}
             <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
+              <a class="usa-social-link" href="{{ s.link }}"
                 ><img
                   class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/facebook.svg"
-                  alt="Facebook"
+                  src="{{ s.icon }}"
+                  alt="{{ s.alt }}"
               /></a>
             </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/twitter.svg"
-                  alt="Twitter"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/youtube.svg"
-                  alt="YouTube"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/instagram.svg"
-                  alt="Instagram"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/rss_feed.svg"
-                  alt="RSS"
-              /></a>
-            </div>
+            {% endfor %}
           </div>
           <p class="usa-footer__contact-heading">
             {{ site.data.settings.agencycontent }}
