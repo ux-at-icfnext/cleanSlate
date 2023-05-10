@@ -1,11 +1,17 @@
 ---
 layout: default
 ---
+{% if page.breadcrumb == false  %}
+
+{% endif %}
+
+{% unless page.breadcrumb == "off" %}
+{% include patterns/breadcrumb/breadcrumb-jk.md %}
+{% endunless %}
 <div class="grid-row grid-gap" >
   <div class="tablet:grid-col-3">left nav here</div>
   <div class="tablet:grid-col-fill">
     <h1>{{ page.title }}</h1>
     {{ content }}
   </div>
-
 </div>

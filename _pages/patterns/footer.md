@@ -4,12 +4,12 @@ title: Footer
 permalink: /patterns/footer
 section: Patterns # initial cap required to make menu work
 summary: |
-  A header helps users identify where they are and provides a quick, organized way to reach the main sections of a website.
+  A footer serves site visitors who arrive at the bottom of a page without finding what they want.
 
 alert:
   status: info
   content: There are three footers. The extra footers should be removed from the system, once you've chosen your version.
-
+  
 htmlpath: patterns/footer/footer.md
 csspath: patterns/footer/index.scss
 ---
