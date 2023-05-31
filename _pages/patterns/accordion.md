@@ -1,6 +1,6 @@
 ---
 layout: right
-title: Accodion
+title: Accordion
 permalink: /patterns/accordion
 section: Patterns # initial cap required to make menu work
 summary: |
