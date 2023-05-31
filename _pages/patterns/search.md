@@ -40,13 +40,13 @@ All other aspects of the search will have to be overwritten by the CSS. For inst
 ## Library & Prototyping
 
 To add search use the jekyll partial 
-{% highlight yml%}
+{% highlight liquid %}
   {{ page.jekyll }}
 {% endhighlight %}
 
 ### Search options:
 - To change options for search, place the array in the YML front matter and pass the options into the search with
-{% highlight yml%}
+{% highlight liquid %}
   {{ page.jekyll2 }}
 {% endhighlight %}
 
