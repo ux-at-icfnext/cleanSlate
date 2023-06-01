@@ -6,14 +6,14 @@ section: Patterns # initial cap required to make menu work
 summary: |
   Breadcrumbs provide secondary navigation to help users understand where they are in a website.
 
-htmlpath: patterns/breadcrumb/breadcrumb.md
+htmlpath: patterns/breadcrumb/breadcrumb-html.md
 csspath: patterns/breadcrumb/index.scss
 ---
 
 {{ page.summary }}
 
 ## The Design
-{% include patterns/breadcrumb/breadcrumb-jk.md %}
+{% include patterns/breadcrumb/breadcrumb.md %}
 ---
 
 ## Theme Settings
@@ -35,5 +35,5 @@ Add class `.usa-breadcrumb--wrap` to wrap the breadcrumb bar instead of truncati
 ## Library & Prototyping
 All pages in the library and prototype will have breadcrumbs automatically. Add `breadcrumb: "off"` to YML frontmatter to turn off. 
 - In most cases, breadcrumbs should be hidden on home page and some lading pages -- otherwise they should be on.
-- Add `breadwrap: true` to YML front matter to to on wrapping. (alternatively, this should be a global change... the `_includes/patterns/breadcrumb/breadcrumb-jk.md` can be updated.)
+- Add `breadwrap: true` to YML front matter to to on wrapping. (alternatively, this should be a global change... the `_includes/patterns/breadcrumb/breadcrumb.md` can be updated.)
 - If needed, a class can be assigned to the breadcrumb using `page.breadclass: MyClass` in the YML frontmatter. This allows for changing the styling, for example, on an image or backgroud color.

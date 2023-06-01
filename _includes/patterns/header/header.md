@@ -1,9 +1,21 @@
+{% if page.type == "prototype" %}
+  {% assign nav = site.data.nav.nav %}
+{% elsif include.settings == "prototype" %}
+  {% assign nav = site.data.nav.nav %}
+{% else %}
+  {% assign nav = site.data.lib-nav.nav %}
+{% endif %}
 
 <header class="usa-header usa-header--basic">
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo" id="-logo">
-        <em class="usa-logo__text"><a href="/" title="Home">Home</a></em>
+        <em class="usa-logo__text"><a href="/" title="Home">
+        {% if site.data.settings.sitelogo %}
+        <img src="{{site.data.settings.sitelogo}}" />
+        {% else %}
+        {{ site.data.settings.sitename }}
+        {% endif %} </a></em>
       </div>
       <button type="button" class="usa-menu-btn">Menu</button>
     </div>
@@ -12,73 +24,46 @@
         <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
+      {% for item in nav %}
         <li class="usa-nav__primary-item">
+        {% if item.subnav %}
+          {% if page.section == item.title or page.title == item.title %}
           <button
             type="button"
             class="usa-accordion__button usa-nav__link usa-current"
             aria-expanded="false"
             aria-controls="basic-nav-section-one"
+            onclick="window.location.href='{{ item.href }}';"
           >
-            <span>&lt;Current section&gt;</span>
-          </button>
-          <ul id="basic-nav-section-one" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-          </ul>
-        </li>
-        <li class="usa-nav__primary-item">
+          {% else %}
           <button
             type="button"
             class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
-            aria-controls="basic-nav-section-two"
+            aria-controls="basic-nav-section-one"
+            onclick="window.location.href='{{ item.href }}';"
           >
-            <span>&lt;Section&gt;</span>
+          {% endif %}
+            <a href="{{ item.href }}"><span>{{ item.title }}</span></a>
           </button>
-          <ul id="basic-nav-section-two" class="usa-nav__submenu">
+          <ul id="basic-nav-section-one" class="usa-nav__submenu">
+            {% for sub in item.subnav %}
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="{{ sub.href }}"><span>{{ sub.title }}</span></a>
             </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
+            {% endfor %}
           </ul>
+          {% else %}
+            {% if page.section == item.title or page.title == item.title %}
+            <a href="{{ item.href}}" class="usa-current">{{ item.title }}</a>
+            {% else %}
+            <a href="{{ item.href}}">{{ item.title }}</a>
+            {% endif %}
+          {% endif %}
         </li>
-        <li class="usa-nav__primary-item">
-          <a href="" class="usa-nav-link"><span>&lt;Simple link&gt;</span></a>
-        </li>
+        {% endfor %}
       </ul>
-      <section aria-label="Search component">
-        <form class="usa-search usa-search--small" role="search">
-          <label class="usa-sr-only" for="search-field">Search</label>
-          <input
-            class="usa-input"
-            id="search-field"
-            type="search"
-            name="search"
-          />
-          <button class="usa-button" type="submit">
-            <img
-              src="/assets/img/usa-icons-bg/search--white.svg"
-              class="usa-search__submit-icon"
-              alt="Search"
-            />
-          </button>
-        </form>
-      </section>
+      {% include patterns/search/search.md %}
     </nav>
   </div>
 </header>

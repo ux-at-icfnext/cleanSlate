@@ -6,7 +6,7 @@ section: Patterns # initial cap required to make menu work
 summary: |
   Banners identify official websites of government organizations in the United States. They also help visitors understand whether a website is official and secure.
 
-htmlpath: patterns/accordion/accordion.md
+htmlpath: patterns/accordion/accordion-html.md
 csspath: patterns/accordion/index.scss
 
 accordion:
@@ -19,15 +19,15 @@ accordion:
         And she went on planning to herself how she would manage it. ‘They must go by the carrier,’ she thought; ‘and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!
 
 jekyll: |
-  {% include patterns/accordion/accordion-jk.md content=page.accordion.content settings=page.accordion.settings %}
+  {% include patterns/accordion/accordion.md content=page.accordion.content settings=page.accordion.settings %}
 
-  Without settings - {% include patterns/accordion/accordion-jk.md content=page.accordion.content %}
+  Without settings - {% include patterns/accordion/accordion.md content=page.accordion.content %}
 
 ---
 {{ page.summary }}
 
 ## The Design
-{% include patterns/accordion/accordion-jk.md content=page.accordion.content %}
+{% include patterns/accordion/accordion.md content=page.accordion.content %}
 ---
 
 ## Theme Settings

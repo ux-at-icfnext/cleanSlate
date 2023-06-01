@@ -15,12 +15,12 @@
 </head>
 <body>
   {% if page.type == "prototype" %}{% include patterns/banner/banner.md %}{% endif %}
-  {% include patterns/header/header-jk.md %}
+  {% include patterns/header/header.md %}
   
   {{ content }}
   
-  {% include patterns/footer/footer-jk.md %}
-  {% if page.type == "prototype" %}{% include patterns/identifier/identifier-jk.md %}{% endif %}
+  {% include patterns/footer/footer.md %}
+  {% if page.type == "prototype" %}{% include patterns/identifier/identifier.md %}{% endif %}
   
   <script src="{{site.baseurl}}/assets/uswds/js/uswds.min.js"></script>
   <script src="{{site.baseurl}}/assets/js/copy_to_clipboard.js"></script>

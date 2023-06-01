@@ -6,24 +6,24 @@ section: Patterns # initial cap required to make menu work
 summary: |
   Search allows users an alternate pathway to content than through main navigation. This search widget is often used on header elements, or in page, to start the search journey. _See the [Search Results Template](/templates/search) - for more information on how search functions._
 
-htmlpath: patterns/header/header.md
+htmlpath: patterns/header/header-html.md
 csspath: patterns/header/index.scss
 
 jekyll: |
-  {% include patterns/search/search-jk.md %}
+  {% include patterns/search/search.md %}
 jekyll2: |
-  {% include patterns/search/search-jk.md content=myvariable %}
+  {% include patterns/search/search.md content=myvariable %}
 ---
 
 {{ page.summary | markdownify }}
 
 ## The Design
 default:
-{% include patterns/search/search-jk.md %}
+{% include patterns/search/search.md %}
 small:
-{% include patterns/search/search-jk.md content=page.searchsm %}
+{% include patterns/search/search.md content=page.searchsm %}
 large:
-{% include patterns/search/search-jk.md content=page.search %}
+{% include patterns/search/search.md content=page.search %}
 ---
 
 ## Theme Settings
@@ -50,7 +50,7 @@ To add search use the jekyll partial
   {{ page.jekyll2 }}
 {% endhighlight %}
 
-- For the search in the header, place the array in the `_layouts/default.hml` and then update the `_includes/patterns/header/header-jk.md` file to pass the varibles into the search.
+- For the search in the header, place the array in the `_layouts/default.hml` and then update the `_includes/patterns/header/header.md` file to pass the varibles into the search.
 
 ### Variable options:
 Add only items you want to change.

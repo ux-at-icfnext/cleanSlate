@@ -10,17 +10,17 @@ alert:
   status: info
   content: There are three footers. The extra footers should be removed from the system, once you've chosen your version.
   
-htmlpath: patterns/footer/footer.md
+htmlpath: patterns/footer/footer-html.md
 csspath: patterns/footer/index.scss
 ---
 
 {{ page.summary }}
 
 ## The Design
-{% include patterns/footer/footer-jk.md settings="prototype" %}
+{% include patterns/footer/footer.md settings="prototype" %}
 ---
 
-{% include patterns/alert/alert-jk.md content=page.alert %}
+{% include patterns/alert/alert.md content=page.alert %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.
@@ -31,6 +31,6 @@ For this library we've set the `$theme-footer-max-width` to "widescreen", to fit
 All other aspects to brand the footer will have to be overwritten using CSS.
 
 ## Library & Prototyping
-The library and prototype use the same footer which is set in the `_layouts/default.html` file. At default it's using the regular jekyll partial footer, this can be updated to use the extended header by changing `footer-jk.md` or `footer-small-jk` or `footer-ext-jk.md`.
+The library and prototype use the same footer which is set in the `_layouts/default.html` file. At default it's using the regular jekyll partial footer, this can be updated to use the extended header by changing `footer.md` or `footer-small` or `footer-ext.md`.
 
 The navigation for the library is in `_data/lib-nav.yml` and for the prototype in `_data/nav.yml`. Settings for the logo and site name are in the `_data/settings.yml` file.
