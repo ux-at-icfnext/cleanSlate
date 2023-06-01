@@ -1,12 +1,9 @@
 ---
 layout: default
 ---
-{% if page.breadcrumb == false  %}
-
-{% endif %}
 
 {% unless page.breadcrumb == "off" %}
-{% include patterns/breadcrumb/breadcrumb-jk.md %}
+{% include patterns/breadcrumb/breadcrumb.md %}
 {% endunless %}
 <div class="grid-row grid-gap" >
   <div class="tablet:grid-col-3">{% include patterns/sidenav/sidenav.md %}</div>

@@ -8,8 +8,8 @@
         <a href="" class="usa-identifier__logo"
           ><img
             class="usa-identifier__logo-img"
-            src="{{ site.data.settings.parentlogo }}"
-            alt="{{ site.data.settings.parentagency }} logo"
+            src="/assets/img/circle-gray-20.svg"
+            alt="&lt;Parent agency&gt; logo"
             role="img"
         /></a>
       </div>
@@ -17,9 +17,9 @@
         class="usa-identifier__identity"
         aria-label="Agency description,"
       >
-        <p class="usa-identifier__identity-domain">{{ site.data.settings.sitedomain }}</p>
+        <p class="usa-identifier__identity-domain">domain.gov</p>
         <p class="usa-identifier__identity-disclaimer">
-          An official website of the <a href=""> {{ site.data.settings.parentagency }}</a>
+          An official website of the <a href="">&lt;Parent agency&gt;</a>
         </p>
       </section>
     </div>
@@ -34,7 +34,7 @@
           <a
             href="javascript:void(0)"
             class="usa-identifier__required-link usa-link"
-            >About {{ site.data.settings.parentagency }}</a
+            >About &lt;Parent shortname&gt;</a
           >
         </li>
         <li class="usa-identifier__required-links-item">

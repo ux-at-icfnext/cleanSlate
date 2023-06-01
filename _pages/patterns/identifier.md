@@ -6,13 +6,13 @@ section: Patterns # initial cap required to make menu work
 summary: |
   The identifier communicates a site’s parent agency and displays agency links required by federal laws and policies.
 
-htmlpath: patterns/identifier/identifier.md
+htmlpath: patterns/identifier/identifier-html.md
 csspath: patterns/identifier/index.scss
 ---
 {{ page.summary }}
 
 ## The Design
-{% include patterns/identifier/identifier-jk.md %}
+{% include patterns/identifier/identifier.md %}
 ---
 
 ## Theme Settings
@@ -32,4 +32,4 @@ csspath: patterns/identifier/index.scss
 ## Library & Prototyping
 The banner patterns shows up automatically on pages that set the `type: prototype` in the YML front matter.
 - The values for the site, parent agency and logo can be changed in the `_data/settings.yml` file.
-- To edit the actual links ... use the `_includes/patterns/identifier/idenitifier-jk.md` file.
+- To edit the actual links ... use the `_includes/patterns/identifier/idenitifier.md` file.
