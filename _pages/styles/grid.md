@@ -13,10 +13,10 @@ The USWDS uses a flexible grid system which is mobile-first, powered by flexbox,
 ## Global grids
 
 - __.grid-container__ is used for controlling the width of content elements. This is controlled through `$theme-grid-container-max-width` in settings. We have left that unchanged for our design
-- __.usa-banner__ is used to controll the width of the banner. This is controlled through `$theme-banner-max-width`.
-- __.usa-header__ is used to controll the width of the header. This is controlled through `$theme-header-max-width`.
-- __.usa-footer__ is used to controll the width of the footer. This is controlled through `$theme-footer-max-width`.
-- __.usa-identifier__ is used to controll the width of the identifier. This is controlled through `$theme-identifier-max-width`.
+- __.usa-banner__ is used to control the width of the banner. This is controlled through `$theme-banner-max-width`.
+- __.usa-header__ is used to control the width of the header. This is controlled through `$theme-header-max-width`.
+- __.usa-footer__ is used to control the width of the footer. This is controlled through `$theme-footer-max-width`.
+- __.usa-identifier__ is used to control the width of the identifier. This is controlled through `$theme-identifier-max-width`.
 
 For this design the banner, header, footer and identifier have all be set to widescreen (1400px). The grid container uses the desktop-large(1200px).
 
