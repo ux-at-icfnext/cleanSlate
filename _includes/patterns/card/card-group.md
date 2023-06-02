@@ -15,7 +15,6 @@
     {% assign class-special=set.class_special %}
 {% endif %}
 
-{{ grid-special }}
 <div class="grid-container">
   {% if headings.title %}
   <div class="card-group_header"> 
