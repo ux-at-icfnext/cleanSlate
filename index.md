@@ -1,24 +1,39 @@
 ---
-layout: left
+layout: default
 breadcrumb: "off"
+
+card:
+  headings:
+    title: My Card Group
+    link: "/"
+    link_text: view more
+  settings:
+    grid_class: tablet:grid-col-3
+    special: true
+    grid_special: tablet:grid-col-12
+    class_special: usa-card--flag
+  list: 
+    - title: My cool card 1
+      media: "http://placekitten.com/200/200"
+      content: Lorem stuff that takes up a bunch of space that might be a few lines
+      link: "/"
+      link_text: Click Me
+    - title: My cool card 2
+      media: "http://placekitten.com/200/200"
+      content: Lorem stuff that takes up a bunch of space that might be a few lines
+      link: "/"
+      link_text: Click Me
+    - title: My cool card 3
+      media: "http://placekitten.com/200/200"
+      content: Lorem stuff that takes up a bunch of space that might be a few lines
+      link: "/"
+      link_text: Click Me
+    - title: My cool card 4
+      media: "http://placekitten.com/200/200"
+      content: Lorem stuff that takes up a bunch of space that might be a few lines
+      link: "/"
+      link_text: Click Me
 ---
 <h1>Hello World</h1>
 
-<ul class="usa-card-group">
-  <li class="usa-card desktop:grid-col-4">
-    <div class="usa-card__container">
-      <div class="usa-card__header">
-        <h2 class="usa-card__heading">Card</h2>
-      </div>
-      <div class="usa-card__body">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum
-          tenetur quo cupiditate, eaque qui officia recusandae.
-        </p>
-      </div>
-      <div class="usa-card__footer">
-        <button type="button" class="usa-button">Visit Florida Keys</button>
-      </div>
-    </div>
-  </li>
-</ul>
+{% include patterns/card/card-group.md headings=page.card.headings content=page.card.list settings=page.card.settings %}
