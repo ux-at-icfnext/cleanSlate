@@ -56,10 +56,10 @@ Settings are optional parameters that can be added to control styling and to set
 ### Content
 For authoring environments, it recommended that this is created as a list.
 
-| name | required |
-| title | <i class="fa-solid fa-check"></i> |
+| name |  |
+| title | <i class="fa-solid fa-check"></i> required |
 | header | *optional* - displays an h2 element over the accordion body content |
-| content | <i class="fa-solid fa-check"></i> |
+| content | <i class="fa-solid fa-check"></i> required |
 {: .usa-table }
 
 ### Front matter example
