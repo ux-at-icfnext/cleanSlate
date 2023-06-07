@@ -55,11 +55,18 @@
                 </p>
               </div>
             {% endif %}
-            {% if card.link %}
-            <!-- need to update with button group -->
-              <div class="usa-card__footer">
-                <a href="{{ card.link }}" class="usa-button">{{ card.link_text }}</a>
-              </div>
+            {% if card.btn %}
+            <div class="usa-card__footer">
+              <ul class="usa-button-group">
+                {% for btn in card.btn %}
+                <li class="usa-button-group__item">
+                  <a href="{{ btn.link }}" class="usa-button {{ btn.class }}"
+                    >{{ btn.text }}</a
+                  >
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
             {% endif %}
         </div>
       </li>
@@ -90,10 +97,9 @@
                 </p>
               </div>
             {% endif %}
-            {% if card.link %}
-            <!-- need to update with button group -->
+            {% if card.btn %}
               <div class="usa-card__footer">
-                <a href="{{ card.link }}" class="usa-button">{{ card.link_text }}</a>
+                {% include patterns/button/button.md content=card.btn%}
               </div>
             {% endif %}
         </div>

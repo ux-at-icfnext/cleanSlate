@@ -8,7 +8,7 @@ card:
     link: "/"
     link_text: view more
   settings:
-    grid_class: tablet:grid-col-3
+    grid_class: 
     special: true
     grid_special: tablet:grid-col-12
     class_special: usa-card--flag
@@ -16,23 +16,30 @@ card:
     - title: My cool card 1
       media: "http://placekitten.com/200/200"
       content: Lorem stuff that takes up a bunch of space that might be a few lines
-      link: "/"
-      link_text: Click Me
+      btn:
+        - link: "/"
+          text: Click Me
     - title: My cool card 2
       media: "http://placekitten.com/200/200"
       content: Lorem stuff that takes up a bunch of space that might be a few lines
-      link: "/"
-      link_text: Click Me
+      btn:
+        - link: "/"
+          text: Click Me
     - title: My cool card 3
       media: "http://placekitten.com/200/200"
       content: Lorem stuff that takes up a bunch of space that might be a few lines
-      link: "/"
-      link_text: Click Me
+      btn:
+        - link: "/"
+          text: Click Me
     - title: My cool card 4
       media: "http://placekitten.com/200/200"
       content: Lorem stuff that takes up a bunch of space that might be a few lines
-      link: "/"
-      link_text: Click Me
+      btn:
+        - link: "/"
+          text: Dont' Click Me
+          class: usa-button--outline
+        - link: "/"
+          text: Click Me
 ---
 <h1>Hello World</h1>
 
