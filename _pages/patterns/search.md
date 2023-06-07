@@ -26,9 +26,6 @@ large:
 {% include patterns/search/search.md content=page.search %}
 ---
 
-## Code Examples
-{% include partials/code-accordion.md %}
-
 ## Theme Settings
 These aspects of the search can be set within the theme settings.
 
@@ -39,6 +36,9 @@ These aspects of the search can be set within the theme settings.
 All other aspects of the search will have to be overwritten by the CSS. For instance color:
 - The color of the button is using the 'primary' color as is set up [buttons](/styles/buttons).
 - The easiest way to change the button is to add the button class for the additional button styles. So `class="usa-button"` becomes `class="usa-button usa-button--secondary"`
+
+## Code Examples
+{% include partials/code-accordion.md %}
 
 ## Library & Prototyping
 

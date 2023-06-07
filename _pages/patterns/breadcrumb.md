@@ -15,8 +15,6 @@ csspath: patterns/breadcrumb/index.scss
 ## The Design
 {% include patterns/breadcrumb/breadcrumb.md %}
 ---
-## Code Examples
-{% include partials/code-accordion.md %}
 
 ## Theme Settings
 - $theme-breadcrumb-background-color - The background color of the complete breadcrumb bar. Default uses body background color set in $theme-body-background-color.
@@ -33,6 +31,9 @@ All other aspects of breadcrumb can be controlled through CSS overrides.
 
 ## Variations
 Add class `.usa-breadcrumb--wrap` to wrap the breadcrumb bar instead of truncating.
+
+## Code Examples
+{% include partials/code-accordion.md %}
 
 ## Library & Prototyping
 All pages in the library and prototype will have breadcrumbs automatically. Add `breadcrumb: "off"` to YML frontmatter to turn off. 

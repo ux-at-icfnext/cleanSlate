@@ -30,9 +30,6 @@ jekyll: |
 {% include patterns/accordion/accordion.md content=page.accordion.content %}
 ---
 
-## Code Examples
-{% include partials/code-accordion.md %}
-
 ## Theme Settings
 - $theme-accordion-border-width - Border width of the bordered accordion.
 - $theme-accordion-border-color - Border color of the bordered accordion.
@@ -41,6 +38,8 @@ jekyll: |
 ## Variations
 Add class `.usa-accordion--bordered` to display a border around the content.
 
+## Code Examples
+{% include partials/code-accordion.md %}
 
 ## Library & Prototyping
 To implement accordion into the page you first need to create the content and settings. This can be done through the front matter or by using data files. (*read more about using data files and [Contentful](docs/contentful)*)
@@ -57,10 +56,10 @@ Settings are optional parameters that can be added to control styling and to set
 ### Content
 For authoring environments, it recommended that this is created as a list.
 
-| name | required |
-| title | <i class="fa-solid fa-check"></i> |
+| name |  |
+| title | <i class="fa-solid fa-check"></i> required |
 | header | *optional* - displays an h2 element over the accordion body content |
-| content | <i class="fa-solid fa-check"></i> |
+| content | <i class="fa-solid fa-check"></i> required |
 {: .usa-table }
 
 ### Front matter example
