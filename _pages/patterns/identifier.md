@@ -15,9 +15,6 @@ csspath: patterns/identifier/index.scss
 {% include patterns/identifier/identifier.md %}
 ---
 
-## Code Examples
-{% include partials/code-accordion.md %}
-
 ## Theme Settings
 - $theme-identifier-background-color - The background color of the identifier. Use a color of grade 80 or higher, darker than the section that precedes it.
 
@@ -31,6 +28,8 @@ csspath: patterns/identifier/index.scss
 
 - $theme-identifier-secondary-link-color - The color of the links in the required links section. This should be grade 20-30 in a gray family.
 
+## Code Examples
+{% include partials/code-accordion.md %}
 
 ## Library & Prototyping
 The banner patterns shows up automatically on pages that set the `type: prototype` in the YML front matter.

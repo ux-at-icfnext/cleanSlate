@@ -50,8 +50,6 @@ alert-noicon:
 {% include patterns/alert/alert.md content=page.alert-slim %}
 {% include patterns/alert/alert.md content=page.alert-noicon %}
 
-## Code Examples
-{% include partials/code-accordion.md %}
 
 ## Theme Settings
 - $theme-alert-bar-width - Width of the colored bar to the left of the alert.
@@ -71,6 +69,9 @@ alert-noicon:
 - .usa-alert--success - Display an success status alert.
 - .usa-alert--slim - Display a slimmer version of the alert.
 - .usa-alert--no-icon - Display an alert without an icon.
+
+## Code Examples
+{% include partials/code-accordion.md %}
 
 ## Library & Prototyping
 

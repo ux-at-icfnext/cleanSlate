@@ -22,9 +22,6 @@ csspath: patterns/footer/index.scss
 
 {% include patterns/alert/alert.md content=page.alert %}
 
-## Code Examples
-{% include partials/code-accordion.md %}
-
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.
 - $theme-footer-max-width - Maximum width of footer container.
@@ -32,6 +29,9 @@ csspath: patterns/footer/index.scss
 For this library we've set the `$theme-footer-max-width` to "widescreen", to fit with our [Grid](/styles/grid) strategy.
 
 All other aspects to brand the footer will have to be overwritten using CSS.
+
+## Code Examples
+{% include partials/code-accordion.md %}
 
 ## Library & Prototyping
 The library and prototype use the same footer which is set in the `_layouts/default.html` file. At default it's using the regular jekyll partial footer, this can be updated to use the extended header by changing `footer.md` or `footer-small` or `footer-ext.md`.

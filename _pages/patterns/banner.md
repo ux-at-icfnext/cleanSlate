@@ -15,9 +15,6 @@ csspath: patterns/banner/index.scss
 {% include patterns/banner/banner.md %}
 ---
 
-## Code Examples
-{% include partials/code-accordion.md %}
-
 ## Theme Settings
 - $theme-banner-background-color - Background color of the banner and its content.
 - $theme-banner-font-family - The font family of the banner.
@@ -27,6 +24,9 @@ csspath: patterns/banner/index.scss
 For this library we've set the `$theme-banner-max-width` to "widescreen", to fit with our [Grid](/styles/grid) strategy.
 
 Note: there is not need to change the html/content of the banner - just change to look & feel through Theme Settings and CSS to match the site brand.
+
+## Code Examples
+{% include partials/code-accordion.md %}
 
 ## Library & Prototyping
 The banner patterns shows up automatically on pages that set the `type: prototype` in the YML front matter.
