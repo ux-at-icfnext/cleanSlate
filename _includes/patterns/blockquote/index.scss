@@ -1,0 +1,25 @@
+blockquote{
+    margin-left: 10px;
+    border-left: 8px solid #E50E63;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Lora';
+    font-size: 21px;
+    ul{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+    ul li{
+        list-style-type: none;
+        color: #E50E63;
+    }
+    ul li:before {
+        content: '\2014';
+        position: absolute;
+        margin-left: -20px;
+      }
+}
