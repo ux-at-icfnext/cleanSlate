@@ -131,11 +131,10 @@
               </p>
             </div>
           {% endif %}
-          {% if card.link %}
-          <!-- need to update with button group -->
-            <div class="usa-card__footer">
-              <a href="{{ card.link }}" class="usa-button">{{ card.link_text }}</a>
-            </div>
+          {% if card.btn %}
+              <div class="usa-card__footer">
+                {% include patterns/button/button.md content=card.btn%}
+              </div>
           {% endif %}
       </div>
     </li>

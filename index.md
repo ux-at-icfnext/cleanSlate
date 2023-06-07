@@ -8,8 +8,8 @@ card:
     link: "/"
     link_text: view more
   settings:
-    grid_class: 
-    special: true
+    grid_class: tablet:grid-col-3
+    special: 
     grid_special: tablet:grid-col-12
     class_special: usa-card--flag
   list: 
