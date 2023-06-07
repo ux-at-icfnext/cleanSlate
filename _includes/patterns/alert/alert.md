@@ -11,14 +11,14 @@
 {% endif %}
 
 {% if alert.slim %}
-  {% assign slim == "usa-alert--slim" %}
+  {% assign slim="usa-alert--slim" %}
 {% endif %}
 
 {% if alert.noicon %}
-  {% assign icon == "usa-alert--no-icon" %}
+  {% assign icon="usa-alert--no-icon" %}
 {% endif %}
 
-<div class="usa-alert {{ status }} {{slim}} {{ icon }}">
+<div class="usa-alert {{ status }} {{ slim }} {{ icon }}">
   <div class="usa-alert__body">
     {% if alert.title %}
     <h4 class="usa-alert__heading">{{ alert.title }}</h4>
