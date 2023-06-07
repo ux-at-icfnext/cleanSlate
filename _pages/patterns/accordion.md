@@ -30,6 +30,9 @@ jekyll: |
 {% include patterns/accordion/accordion.md content=page.accordion.content %}
 ---
 
+## Code Examples
+{% include partials/code-accordion.md %}
+
 ## Theme Settings
 - $theme-accordion-border-width - Border width of the bordered accordion.
 - $theme-accordion-border-color - Border color of the bordered accordion.

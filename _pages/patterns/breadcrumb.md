@@ -15,6 +15,8 @@ csspath: patterns/breadcrumb/index.scss
 ## The Design
 {% include patterns/breadcrumb/breadcrumb.md %}
 ---
+## Code Examples
+{% include partials/code-accordion.md %}
 
 ## Theme Settings
 - $theme-breadcrumb-background-color - The background color of the complete breadcrumb bar. Default uses body background color set in $theme-body-background-color.

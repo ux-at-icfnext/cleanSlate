@@ -22,6 +22,9 @@ csspath: patterns/footer/index.scss
 
 {% include patterns/alert/alert.md content=page.alert %}
 
+## Code Examples
+{% include partials/code-accordion.md %}
+
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.
 - $theme-footer-max-width - Maximum width of footer container.

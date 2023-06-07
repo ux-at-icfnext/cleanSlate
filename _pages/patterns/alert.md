@@ -44,6 +44,7 @@ alert-noicon:
 {% include patterns/alert/alert.md content=page.alert-warn %}
 {% include patterns/alert/alert.md content=page.alert-error %}
 {% include patterns/alert/alert.md content=page.alert-success %}
+---
 
 ### Variations
 {% include patterns/alert/alert.md content=page.alert-slim %}
