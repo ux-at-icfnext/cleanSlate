@@ -24,6 +24,9 @@ csspath: patterns/header/index.scss
 
 Please note that mega menus were not added to the library. Even though this pattern exist in the USWDS, megamenus have usability and accessiblity issues. They are also becoming old fashion. See more about this from [NNGroup](https://www.nngroup.com/articles/mega-menus-work-well/). However, if the solution for you web properity needs a mega menu, the code and specifications can be found on the [header spec](https://designsystem.digital.gov/components/header/) for the USDWS.  
 
+## Code Examples
+{% include partials/code-accordion.md %}
+
 ## Theme Settings
 These aspects of the header can be set within the theme settings.
 - __$theme-header-font-family__  _default: ui_

@@ -26,6 +26,9 @@ large:
 {% include patterns/search/search.md content=page.search %}
 ---
 
+## Code Examples
+{% include partials/code-accordion.md %}
+
 ## Theme Settings
 These aspects of the search can be set within the theme settings.
 

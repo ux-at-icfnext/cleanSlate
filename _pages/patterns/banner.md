@@ -15,6 +15,9 @@ csspath: patterns/banner/index.scss
 {% include patterns/banner/banner.md %}
 ---
 
+## Code Examples
+{% include partials/code-accordion.md %}
+
 ## Theme Settings
 - $theme-banner-background-color - Background color of the banner and its content.
 - $theme-banner-font-family - The font family of the banner.
