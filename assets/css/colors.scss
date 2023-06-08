@@ -1,0 +1,11 @@
+---
+---
+
+
+{% for colors in site.data.color %}
+  .{{colors.token}} {
+    color: {{colors.value}};
+  }
+{% endfor %}
+
+

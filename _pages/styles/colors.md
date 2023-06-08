@@ -21,28 +21,9 @@ _See the [USWDS](https://designsystem.digital.gov/design-tokens/color/theme-toke
 ### Customize theme palette
 Set the theme palette by setting the values you want in the [theme settings file](/docs/themesettings). You can use either a [theme token](https://designsystem.digital.gov/design-tokens/color/system-tokens/#using-color-tokens-2) or a hex value.
 
-**Base**
 
-{% include partials/colors-table.md content=site.data.colors.base %}
+{% include partials/colors-table.md content=site.data.color %}
 
-
-**Ink**
-{% include partials/colors-table.md content=site.data.colors.ink %}
-
-**Primary**
-{% include partials/colors-table.md content=site.data.colors.primary %}
-
-**Secondary**
-{% include partials/colors-table.md content=site.data.colors.secondary %}
-
-**Accent Cool**
-{% include partials/colors-table.md content=site.data.colors.accent-cool %}
-
-**Accent Warm**
-{% include partials/colors-table.md content=site.data.colors.accent-warm %}
-
-**Emergency**
-{% include partials/colors-table.md content=site.data.colors.emergency %}
 
 ## Library & Prototype use
 Along with updating the [theme settings file](/docs/themesettings), please use the `site.data.colors.yml` file to update your colors. This will allow you to use color tokens in the css and also update this spec page with your chosen palatte.
