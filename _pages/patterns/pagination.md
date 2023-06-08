@@ -12,5 +12,5 @@ csspath: patterns/pagination/index.scss
 {{ page.summary }}
 
 ## The Design
-{% include patterns/pagination/pagination.md %}
+{% include patterns/pagination/pagination-html.md %}
 ---
