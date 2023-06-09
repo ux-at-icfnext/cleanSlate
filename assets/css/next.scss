@@ -1,6 +1,7 @@
 ---
 ---
 
-@use "_syntax";
-{% include patterns/patterns.scss %}
 
+{% include_relative _colors.scss %};
+{% include_relative _syntax.scss %};
+{% include patterns/patterns.scss %}

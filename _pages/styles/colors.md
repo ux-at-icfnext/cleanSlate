@@ -27,3 +27,32 @@ Set the theme palette by setting the values you want in the [theme settings file
 
 ## Library & Prototype use
 Along with updating the [theme settings file](/docs/themesettings), please use the `site.data.colors.yml` file to update your colors. This will allow you to use color tokens in the css and also update this spec page with your chosen palatte.
+
+Many patterns allow color application through the theme settings... and of course over all colors should be set that way. Using custom tokens or variables will help fill any gaps.
+
+**Tokens**
+Tokens are set up using this structure:
+- .my-color
+- .bg-my-color
+- .br-my-color
+- .br-block-my-color (top & bottom)
+- .br-bars-my-color (left & right)
+- .br-top-my-color
+- .br-left-my-color
+- .br-bottom-my-color
+- .br-right-my-color
+
+### Usage Example
+example using variable
+{% highlight css %}
+  .myclass {
+    background-color: $primary-dark;
+  }
+{% endhighlight %}
+
+example using token
+{% highlight scss %}
+  .myclass {
+    @extend .bg-accent-cool; 
+  }
+{% endhighlight %}

@@ -1,0 +1,47 @@
+---
+---
+
+// color utility classes
+{% for colors in site.data.color %}
+  .{{colors.token}} {
+    color: {{colors.value}};
+  }
+{% endfor %}
+
+{% for colors in site.data.color %}
+  .bg-{{colors.token}} {
+    background-color: {{colors.value}};
+  }
+{% endfor %}
+
+{% for colors in site.data.color %}
+  .br-{{colors.token}} {
+    border-color: {{colors.value}};
+  }
+  .br-block-{{colors.token}} {
+    border-top: {{colors.value}};
+    border-bottom: {{colors.value}};
+  }
+  .br-bars-{{colors.token}} {
+    border-left: {{colors.value}};
+    border-right: {{colors.value}};
+  }
+  .br-top-{{colors.token}} {
+    border-top: {{colors.value}};
+  }
+  .br-bottom-{{colors.token}} {
+    border-bottom: {{colors.value}};
+  }
+  .br-left-{{colors.token}} {
+    border-left: {{colors.value}};
+  }
+  .br-right-{{colors.token}} {
+    border-right: {{colors.value}};
+  }
+
+{% endfor %}
+
+// create color variables
+{% for colors in site.data.color %}
+  ${{colors.token}}: {{colors.value}};
+{% endfor %}
