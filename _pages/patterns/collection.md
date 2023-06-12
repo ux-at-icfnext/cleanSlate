@@ -4,7 +4,7 @@ title: Collection
 permalink: /patterns/collection
 section: Patterns # initial cap required to make menu work
 summary: |
-  Banners identify official websites of government organizations in the United States. They also help visitors understand whether a website is official and secure.
+  The following component is based on the from the USWDS. The information below shows how the component was customized to match our site brand. Please review the <a href="https://designsystem.digital.gov/components/collection/">USWDS: Collection</a> for more information on how to use this component.
 
 htmlpath: patterns/collection/collection-html.md
 csspath: patterns/collection/index.scss
@@ -31,3 +31,66 @@ jekyll: |
 ## The Design
 {% include patterns/collection/collection-html.md%}
 ---
+
+## Theme Settings
+- $theme-collection-font-family - Font family of the collection.
+- $theme-collection-header-typeset - Header typeset of the collection.
+
+## Variations
+Add class `.usa-collection--condensed` for a more condensed item presentation with less space between items.
+
+## Code Examples
+{% include partials/code-accordion.md %}
+
+## Library & Prototyping
+To implement collection into the page you first need to create the content and settings. This can be done through the front matter or by using data files. (*read more about using data files and [Contentful](docs/contentful)*)
+
+### Settings
+Settings are optional parameters that can be added to control styling and to set a reference. The reference is needed for using multiple groups if accordions on a page.
+
+| setting | value |
+| bordered | true/false (defaults to false)|
+| multiselect | true/false (defaults to false)|
+| ref | allows any letter (defaults to a)|
+{: .usa-table}
+
+### Content
+For authoring environments, it recommended that this is created as a list.
+
+| title | <i class="fa-solid fa-check"></i> required |
+| description | <i class="fa-solid fa-check"></i> required |
+| author | <i class="fa-solid fa-check"></i> required |
+| date | <i class="fa-solid fa-check"></i> required |
+| tags | <i class="fa-solid fa-check"></i> required |
+{: .usa-table }
+
+### Front matter example
+this example uses a multi-level array for using both content and settings. For settings, only add the items you want to change.
+{% highlight yaml %}
+collection:
+  settings:
+    bordered: true
+    multiselect: true
+    ref: "z"
+  list:
+    - title: Collection item 1
+      description: item 1 description
+      date: collection item 1 date
+      author: collection item 1 author
+      tags: collection item 1 tags
+    - title: Collection item 2
+      description: item 2 description
+      date: collection item 2 date
+      author: collection item 2 author
+      tags: collection item 2 tags
+    - title: Collection item 3
+      description: item 3 description
+      date: collection item 3 date
+      author: collection item 3 author
+      tags: collection item 3 tags
+{% endhighlight %}
+
+### Add pattern to page
+{% highlight liguid %}
+  {{ page.jekyll }}
+{% endhighlight %}
