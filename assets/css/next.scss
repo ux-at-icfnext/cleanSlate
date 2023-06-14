@@ -3,5 +3,6 @@
 
 
 {% include_relative _colors.scss %};
+{% include_relative _type.scss %};
 {% include_relative _syntax.scss %};
 {% include patterns/patterns.scss %}
