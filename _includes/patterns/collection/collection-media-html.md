@@ -1,4 +1,4 @@
-    <ul class="usa-collection">
+<ul class="usa-collection">
   <li class="usa-collection__item">
     <img
       class="usa-collection__img"
