@@ -1,0 +1,45 @@
+@font-face {
+  font-family: {{ site.data.type.base }} ;
+  src: url("{{ site.data.type.google_fonts }}");
+}
+
+
+/* allow h1 styles to be special */
+{% if site.data.type.h1 %}
+  h1 {
+    font-family: '{{ site.data.type.h1 }}', {{ site.data.type.h1-alt }};
+    {% if site.data.type.h1-style %}
+      font-style: {{ site.data.type.h1-style }};
+    {% endif %}
+    {% if  site.data.type.h1-weight  %}
+      font-weight: {{ site.data.type.h1-weight }};
+    {% endif %}
+  }
+{% else %}
+  h1 {
+    font-family: '{{ site.data.type.heading }}', {{ site.data.type.heading-alt }};
+    {% if site.data.type.heading-style %}
+      font-style: {{ site.data.type.heading-style }};
+    {% endif %}
+    {% if  site.data.type.heading-weight  %}
+      font-weight: {{ site.data.type.heading-weight }};
+    {% endif %}
+  }
+{% endif %}
+
+/* set h2-h6 styles since they don't automatically get .usa-prose, and so then don't pick up from the theme settings */
+h2, h3, h4, h5, h6 {
+  font-family: '{{ site.data.type.heading }}', {{ site.data.type.heading-alt }};
+  {% if site.data.type.heading-style %}
+    font-style: {{ site.data.type.heading-style }};
+  {% endif %}
+  {% if  site.data.type.heading-weight  %}
+    font-weight: {{ site.data.type.heading-weight }};
+  {% endif %}
+}
+
+/*
+it doesn't see .usa-prose :(
+h2, h3, h4, h5, h6 {
+  @extend .usa-prose;
+}*/
