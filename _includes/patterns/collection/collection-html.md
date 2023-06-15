@@ -1,13 +1,13 @@
 <ul class="usa-collection">
   <li class="usa-collection__item">
     <div class="usa-collection__body">
-      <h3 class="usa-collection__heading">
+      <span class="usa-collection__heading">
         <a
           class="usa-link"
           href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/"
           >Gears of Government President’s Award winners</a
         >
-      </h3>
+      </span>
       <p class="usa-collection__description">
         Today, the Administration announces the winners of the Gears of
         Government President’s Award. This program recognizes the contributions
@@ -31,13 +31,13 @@
   </li>
   <li class="usa-collection__item">
     <div class="usa-collection__body">
-      <h3 class="usa-collection__heading">
+      <span class="usa-collection__heading">
         <a
           class="usa-link"
           href="https://trumpadministration.archives.performance.gov/sba-wosb-dashboard/"
           >Women-owned small business dashboard</a
         >
-      </h3>
+      </span>
       <p class="usa-collection__description">
         In honor of National Women’s Small Business Month, we’ve partnered with
         SBA’s Office of Government Contracting and Business Development and
@@ -57,14 +57,14 @@
   </li>
   <li class="usa-collection__item">
     <div class="usa-collection__body">
-      <h3 class="usa-collection__heading">
+      <span class="usa-collection__heading">
         <a
           class="usa-link"
           href="https://trumpadministration.archives.performance.gov/September-2020-Updates-Show-Progress/"
           >September 2020 updates show progress on cross-agency and agency
           priority goals</a
         >
-      </h3>
+      </span>
       <p class="usa-collection__description">
         Today, we published progress updates for both Cross-Agency Priority
         (CAP) Goals and Agency Priority Goals (APGs) for the third quarter of

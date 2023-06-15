@@ -5,13 +5,13 @@
     {% for item in items %}
         <li class="usa-collection__item">
             <div class="usa-collection__body">
-            <h3 class="usa-collection__heading">
+            <span class="usa-collection__heading">
                 <a
                 class="usa-link"
                 href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/"
                 >{{item.title}}</a
                 >
-            </h3>
+            </span>
             <p class="usa-collection__description">
                 {{item.description}}
             </p>
