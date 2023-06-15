@@ -49,9 +49,7 @@ To implement collection into the page you first need to create the content and s
 Settings are optional parameters that can be added to control styling and to set a reference. The reference is needed for using multiple groups if accordions on a page.
 
 | setting | value |
-| bordered | true/false (defaults to false)|
-| multiselect | true/false (defaults to false)|
-| ref | allows any letter (defaults to a)|
+| condensed | true/false (defaults to false)|
 {: .usa-table}
 
 ### Content
@@ -69,9 +67,7 @@ this example uses a multi-level array for using both content and settings. For s
 {% highlight yaml %}
 collection:
   settings:
-    bordered: true
-    multiselect: true
-    ref: "z"
+    condensed: false
   list:
     - title: Collection item 1
       description: item 1 description
