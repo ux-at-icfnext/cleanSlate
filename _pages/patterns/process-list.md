@@ -4,7 +4,7 @@ title: Process List
 permalink: /patterns/process-list
 section: Patterns # initial cap required to make menu work
 summary: |
-  Pagination is navigation for paginated content. Please review the <a href="https://designsystem.digital.gov/components/pagination/">USWDS: Pagination</a> for more information on how to use this component.
+  A process list displays the steps or stages of important instructions or processes. Please review the <a href="https://designsystem.digital.gov/components/process-list/">USWDS: Process List/a> for more information on how to use this component.
 
 htmlpath: patterns/process-list/process-list-html.md
 csspath: patterns/process-list/index.scss
