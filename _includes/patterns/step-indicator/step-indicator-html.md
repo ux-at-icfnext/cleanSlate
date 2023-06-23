@@ -34,7 +34,7 @@
     </li>
   </ol>
   <div class="usa-step-indicator__header">
-    <h4 class="usa-step-indicator__heading">
+    <span class="usa-step-indicator__heading">
       <span class="usa-step-indicator__heading-counter"
         ><span class="usa-sr-only">Step</span>
         <span class="usa-step-indicator__current-step">3</span>
@@ -42,6 +42,6 @@
       ><span class="usa-step-indicator__heading-text"
         >Supporting documents</span
       >
-    </h4>
+    </span>
   </div>
 </div>
