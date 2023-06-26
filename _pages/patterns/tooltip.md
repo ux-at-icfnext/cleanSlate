@@ -4,22 +4,16 @@ title: Tooltip
 permalink: /patterns/tooltip
 section: Patterns # initial cap required to make menu work
 summary: |
-  A summary box highlights key information from a longer page or displays next steps. Please review the <a href="https://designsystem.digital.gov/components/summary-box/">USWDS: Summary Box</a> for more information on how to use this component.
+  A tooltip is a short descriptive message that appears when a user hovers or focuses on an element. Please review the <a href="https://designsystem.digital.gov/components/tooltip/">USWDS: Tool Tip</a> for more information on how to use this component.
 
 htmlpath: patterns/tooltip/tooltip-html.md
 csspath: patterns/tooltip/index.scss
 
-summary-box:
-  content:
-    - title: Summary Box Title
-      list:
-        - item: Detail List Text Goes Here
-        - item: Text
-        - item: Text
+position: right
+buttonText: Tool Tip Button
+text: right
 jekyll: |
-  {% include patterns/tooltip/tooltip.md content=page.tooltip.content settings=page.tooltip.settings %}
-
-  Without settings - {% include patterns/tooltip/tooltip.md content=page.tooltip.content %}
+  {% include patterns/tooltip/tooltip.md %}
 ---
 {{ page.summary }}
 
@@ -28,13 +22,9 @@ jekyll: |
 ---
 
 ## Theme Settings
-- $theme-summary-box-background-color - Background color of the Summary box.
-- $theme-summary-box-border-color - Color the border around the Summary box.
-- $theme-summary-box-border-width - Width of the border around the Summary box.
-- $theme-summary-box-border-radius - Border radius of the summary box.
-- $theme-summary-box-font-family  - Font family of the content text.
-- $theme-summary-box-link-color - Color of the links inside the content text. When set to “default”, links will get one of three values, based on contrast: $theme-link-color, $theme-link-reverse-color, or “ink”.
-- $theme-summary-box-text-color - Color of the content text. When set to “default”, text will get one of two values, based on contrast: $theme-text-reverse-color or $theme-text-color.
+- $theme-tooltip-background-color - Background color of tooltip.
+- $theme-tooltip-font-color - Text color of tooltip.
+- $theme-tooltip-font-size - Font size of tooltip.
 
 ## Variations
 None
