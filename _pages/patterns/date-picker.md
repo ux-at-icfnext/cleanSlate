@@ -9,7 +9,6 @@ summary: |
 htmlpath: patterns/date-picker/date-picker-html.md
 csspath: patterns/date-picker/index.scss
 
-icon: /assets/img/sprite.svg#credit_card
 label: Label
 
 jekyll: |
@@ -28,8 +27,7 @@ jekyll: |
 N/A
 
 ## Variations
-- usa-input-group--error - Displays an input group error state.
-- usa-input-group--[width] - Displays an input group at a specific width. Accepts 2xs (5ex), xs (9ex), sm or small (13ex), md or medium (20ex), lg (30ex), xl (40ex), and 2xl (50ex).
+N/A
 
 ## Code Examples
 {% include partials/code-accordion.md %}
