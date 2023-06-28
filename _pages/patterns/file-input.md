@@ -9,7 +9,6 @@ summary: |
 htmlpath: patterns/file-input/file-input-html.md
 csspath: patterns/file-input/index.scss
 
-name: file-input-single
 label: Label
 
 jekyll: |
