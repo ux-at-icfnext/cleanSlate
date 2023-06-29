@@ -4,12 +4,12 @@ title: Select
 permalink: /patterns/select
 section: Patterns # initial cap required to make menu work
 summary: |
-  A date picker helps users select a single date. Please review the <a href="https://designsystem.digital.gov/components/date-picker/">USWDS: Date Picker</a> for more information on how to use this component.
+  A select component allows users to choose one option from a temporary modal menu. Please review the <a href="https://designsystem.digital.gov/components/select/">USWDS: Select</a> for more information on how to use this component.
 
 htmlpath: patterns/select/select-html.md
 csspath: patterns/select/index.scss
 
-label: Label
+dropdown-label: Label
 select:
   content:
     - value: Value1
