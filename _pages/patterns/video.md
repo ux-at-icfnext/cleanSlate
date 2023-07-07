@@ -28,13 +28,10 @@ jekyll: |
 ---
 
 ## Theme Settings
-- $theme-modal-border-radius - The border radius of the modal window.
-- $theme-modal-default-max-width - Maximum width of default modal window.
-- $theme-modal-lg-max-width - Maximum width of large modal window.
-- $theme-modal-lg-content-max-width - Maximum width of content area within large modal window.
+N/A
 
 ## Variations
-- .usa-modal--lg - Add .usa-modal--lg to .usa-modal for a larger window and larger heading size on wider screens.
+N/A
 
 ## Code Examples
 {% include partials/code-accordion.md %}
