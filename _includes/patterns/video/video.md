@@ -10,6 +10,6 @@
     </div>
   </div>
   <div class="resource-info">
-    Transcript: <a href="{{ page.resource.transcript.url }}">{{ page.resource.episode_name}}</a> [PDF, 4kb] | Audio Description:  <a href="{{page.resource.transcript.url}}">{{ page.resource.episode_name}}</a> [PDF, 5kb]
+    Transcript: <a href="{{ page.resource.transcript_url }}">{{ page.resource.episode_name}}</a> [PDF, 4kb] | Audio Description:  <a href="{{page.resource.transcript_url}}">{{ page.resource.episode_name}}</a> [PDF, 5kb]
   </div>
 </div>
