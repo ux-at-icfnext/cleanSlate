@@ -24,7 +24,7 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
-{% include patterns/pdf-resource/pdf-resource.md %}
+{% include patterns/pdf-resource/pdf-resource-html.md %}
 ---
 
 ## Theme Settings

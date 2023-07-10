@@ -1,0 +1,11 @@
+.publication-info{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+.download{
+    display: block;
+    margin-bottom: 1rem;
+}
+.pub-details{
+    font-weight: bold;
+}

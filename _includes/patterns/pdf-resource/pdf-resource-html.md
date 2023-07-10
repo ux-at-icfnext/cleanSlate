@@ -1,22 +1,22 @@
 <div class="resource-group">
     <div class="publication-info grid-row grid-gap-lg">
-      <div class="desktop:grid-col-4"> <img src="{{ page.thumbnail_url }}" alt="{{ page.thumbnail_description }}" /></div>
+      <div class="desktop:grid-col-4"> <img src="https://placehold.co/200x400" alt="600x400 placeholder image" /></div>
       <div class="resources-body desktop:grid-col-8">
-          <p style="margin-bottom: 0.5rem;"><span class="pub-details">Series Title:</span> {{ page.series_title }}</p>
-          <p><span class="pub-details">Author(s):</span> {{ page.author }}</p>
-          <p><span class="pub-details">Year Published</span> {{ page.year_published }}</p>
-          {% if page.download_file_size %}
-            <span class="download">{%include patterns/button/button.md%}</span>
-          {% else page.download_language %}
-            <span class="download">{%include patterns/button/button.md%}</span>
-          {% endif %}
-          {% if page.order_online %}
-            <span class="download">{%include patterns/button/button.md%}</span>
-          {% endif %}
+          <p style="margin-bottom: 0.5rem;"><span class="pub-details">Series Title:</span> Prioritizing Youth Voice</p>
+          <p><span class="pub-details">Author(s):</span> Child Welfare Information Gateway</p>
+          <p><span class="pub-details">Year Published</span> 2021</p>
+            <span class="download">
+                <button type="button" class="usa-button">Download</button>
+            </span>
+            <span class="download">
+                <button type="button" class="usa-button">Download</button>
+            </span>
+            <span class="download">
+                <button type="button" class="usa-button">Download</button>
+            </span>
       </div>
     </div>
     <div class="body-content">
-      <p>{{page.body | markdownify}}</p>
+      <p>Body content shows after resource. Allows rich text</p>
     </div>
-  </div>
 </div>
