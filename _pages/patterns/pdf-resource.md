@@ -10,10 +10,16 @@ htmlpath: patterns/pdf-resource/pdf-resource-html.md
 csspath: patterns/pdf-resource/index.scss
 
 
-episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-episode_name: White Noise
-ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-transcript_url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+seires_title: Prioritizing Youth Voice
+author: Child Welfare Information Gateway
+year_published: 2021
+thumbnail_url: "https://placehold.co/200x400"
+thumbnail_description: "600x400 placeholder image"
+download_language: True
+pdf-resource:
+  content:
+    - btn: Download
+      text: English
 
 jekyll: |
   {% include patterns/pdf-resource/pdf-resource.md content=page.pdf-resource.content settings=page.pdf-resource.settings %}
@@ -24,7 +30,7 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
-{% include patterns/pdf-resource/pdf-resource-html.md %}
+{% include patterns/pdf-resource/pdf-resource.md content=page.pdf-resource.content %}
 ---
 
 ## Theme Settings

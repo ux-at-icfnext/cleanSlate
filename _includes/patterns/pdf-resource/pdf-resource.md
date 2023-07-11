@@ -18,5 +18,4 @@
     <div class="body-content">
       <p>{{page.body | markdownify}}</p>
     </div>
-  </div>
 </div>
