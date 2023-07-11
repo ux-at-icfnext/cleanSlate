@@ -19,7 +19,7 @@ download_language: True
 pdf-resource:
   content:
     - btn: Download
-      text: English
+      text: Download
 
 jekyll: |
   {% include patterns/pdf-resource/pdf-resource.md content=page.pdf-resource.content settings=page.pdf-resource.settings %}
