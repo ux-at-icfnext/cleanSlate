@@ -10,7 +10,7 @@ htmlpath: patterns/pdf-resource/pdf-resource-html.md
 csspath: patterns/pdf-resource/index.scss
 
 
-seires_title: Prioritizing Youth Voice
+series_title: Prioritizing Youth Voice
 author: Child Welfare Information Gateway
 year_published: 2021
 thumbnail_url: "https://placehold.co/200x400"
