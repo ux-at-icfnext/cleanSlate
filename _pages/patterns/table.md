@@ -70,3 +70,4 @@ jekyll: |
 
 ## The Design
 {% include patterns/table/table.md content=page.tables.content %}
+{% include patterns/table/table-scrollable-html.md content=page.tables.content %}
