@@ -1,8 +1,10 @@
+{% assign section = page.section | capitalize %}
 <ul class="usa-sidenav">
   <li class="usa-sidenav__item">
-    <a href="/{{ page.section }}">{{ page.section }}</a>
+    <a href="/{{ page.section }}">{{ section }}</a>
     {% for item in site.pages | sort: "title" %}
-    {% if page.section == item.section %}
+      {% assign sec = item.section | capitalize %}
+    {% if section == sec  %}
       <ul class="usa-sidenav__sublist">
           <li class="usa-sidenav__item class">
           {% if item.url == page.url %} 
