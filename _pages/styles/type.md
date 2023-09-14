@@ -2,7 +2,7 @@
 layout: right
 title: Typography
 permalink: /styles/type
-section: Styles # initial cap required to make menu work
+section: styles 
 ---
 
 ## Theme typography
